@@ -947,12 +947,9 @@
 		<question type="singleChoice"
 			link="http://livedocs.adobe.com/flex/3/html/help.html?content=mxmlcomponents_advanced_5.html"
 			feedback="A is correct.Interfaces are a type of class that you design to act as an outline for your components. When you write an interface, you provide only the names of public methods rather than any implementation. For example, if you define two methods in an interface and then implement that interface, the implementing class must provide implementations of those two methods."><![CDATA[which of the following statement is correct when class implements the interface]]></question>
-		<answer correct="y">all interface methods and parent class methods
-			of that interface should be implemented</answer>
-		<answer>only extended interface methods will be to be implemented
-		</answer>
-		<answer>only parent class methods of that interface can be implemented
-		</answer>
+		<answer correct="y">all interface methods and parent class methods of that interface should be implemented</answer>
+		<answer>only extended interface methods will be to be implemented</answer>
+		<answer>only parent class methods of that interface can be implemented</answer>
 		<answer>None of these above</answer>
 	</item>
 	<item id="349">

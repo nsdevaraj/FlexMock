@@ -132,10 +132,10 @@ package com.adams.quiz.model.vo
 			choiceArr =[];
 			for each(var obj:Object in item.answer as ArrayCollection){
 				if(obj.hasOwnProperty('correct')){
-					choiceArr.push(obj.value);
-					choices.addItem(obj.value);
+					choiceArr.push(obj.value+ '     ');
+					choices.addItem(obj.value+ '     ');
 				}else{
-					choices.addItem(obj);
+					choices.addItem(obj+ '     ');
 				}
 			}
 			menu = Utils.menuId;
