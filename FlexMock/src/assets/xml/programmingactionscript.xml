@@ -1045,8 +1045,7 @@ How do you access the name attribute of the myBooks instance by using E4X?]]></q
 		<question
 			feedback="D is correct. Your custom validator class must contain an override of the protected Validator.doValidation() method that takes a single argument, value, of type Object, and returns an Array of ValidationResult objects. You return one ValidationResult object for each field that the validator examines and that fails the validation."
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf68c0f-7ffb.html">The custom validator class must override which of the following
-			method of the Validator class?</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf68c0f-7ffb.html">The custom validator class must override which of the following method of the Validator class?</question>
 		<answer>handleResults()</answer>
 		<answer>validate()</answer>
 		<answer>validateAll()</answer>

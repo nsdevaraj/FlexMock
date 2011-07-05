@@ -27,6 +27,7 @@ package com.adams.quiz.model.vo
 		
 		private var _choices:ArrayCollection  = new ArrayCollection();;
 		private var _question:String;
+		private var _miniquestion:String;
 		private var _choiceArr:Array;
 		private var _chapter:int;
 		private var _menu:int;
@@ -35,6 +36,16 @@ package com.adams.quiz.model.vo
 			super();
 		}
 		
+		public function get miniquestion():String
+		{
+			return _miniquestion;
+		}
+
+		public function set miniquestion(value:String):void
+		{
+			_miniquestion = value;
+		}
+
 		public function get choices():ArrayCollection
 		{
 			return _choices;
@@ -127,6 +138,7 @@ package com.adams.quiz.model.vo
 		override public function fill(item:Object):void{
 			questionitemId = item.id;
 			question = item.question.value;
+			miniquestion = question.substr(0,70);
 			link = item.question.link;
 			feedback = item.question.feedback;
 			type = item.question.type;
