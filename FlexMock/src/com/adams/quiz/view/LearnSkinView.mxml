@@ -4,7 +4,7 @@
 		xmlns:mediators="com.adams.quiz.view.mediators.*" 
 		xmlns:components="com.adams.swizdao.views.components.*">	 
 	<s:Group width="100%" height="100%">
-		<s:VGroup id="answer" top="10">
+		<s:VGroup id="answer" top="10" left="0"  right="0">
 			<s:TextArea id="question" styleName="header"
 						width="100%" editable="false" selectable="false" />
 		</s:VGroup>

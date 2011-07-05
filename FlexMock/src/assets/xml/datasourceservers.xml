@@ -190,16 +190,14 @@
 	<item id="272">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ff2.html#WS2db454920e96a9e51e63e3d11c0bf69084-7e88"
-			feedback="True is correct. In ActionScript or an MXML tag, you cannot use hyphenated style property names, so you must use the camel-case version of the style property. For the style name in a style sheet, you cannot use a hyphenated name">True or False:In Cascading Stylesheet, the name of class selectors cannot inculde hyphenated style property names in
-			Actionscript and an MXML tag.</question>
+			feedback="True is correct. In ActionScript or an MXML tag, you cannot use hyphenated style property names, so you must use the camel-case version of the style property. For the style name in a style sheet, you cannot use a hyphenated name">True or False:In Cascading Stylesheet, the name of class selectors cannot inculde hyphenated style property names in Actionscript and an MXML tag.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="273">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ff2.html#WS2db454920e96a9e51e63e3d11c0bf62883-7fed"
-			feedback="True is correct. When you assign styles to a type selector, all subclasses of that selector’s type (the class) are affected by the styles. For example, if you create a type selector for Group, the styles are also applied to VGroup and HGroup instances because those classes are subclasses of Group.">True or False:When you assign styles to a type selector, all subclasses of that selector’s type (the class) are affected by the
-			styles.?</question>
+			feedback="True is correct. When you assign styles to a type selector, all subclasses of that selector’s type (the class) are affected by the styles. For example, if you create a type selector for Group, the styles are also applied to VGroup and HGroup instances because those classes are subclasses of Group.">True or False:When you assign styles to a type selector, all subclasses of that selector’s type (the class) are affected by the styles.?</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
@@ -224,8 +222,7 @@
 	<item id="276">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf65518-7ff9.html"
-			feedback="C, is correct. All chart controls, except the PieChart class, are subclasses of the CartesianChart class. Cartesian charts are charts that typically represent a set of data points in rectangular-shaped, two-dimensional space. The PieChart class is a subclass of the PolarChart class, which represents data in circular space.">All chart controls are subclasses of the CartesianChart
-			class,except one of the following chart class?</question>
+			feedback="C, is correct. All chart controls, except the PieChart class, are subclasses of the CartesianChart class. Cartesian charts are charts that typically represent a set of data points in rectangular-shaped, two-dimensional space. The PieChart class is a subclass of the PolarChart class, which represents data in circular space.">All chart controls are subclasses of the CartesianChart class,except one of the following chart class?</question>
 		<answer>PlotChart</answer>
 		<answer>HLOCChart</answer>
 		<answer correct="y">PieChart</answer>
@@ -234,8 +231,7 @@
 	<item id="277">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf65518-7ff2.html"
-			feedback="B, is correct. A LinearAxis class maps numeric data to the axis. You use the &lt;mx:LinearAxis> child tag of the &lt;mx:horizontalAxis> or &lt;mx:verticalAxis> tags to customize the range of values displayed along the axis, and to set the increment between the axis labels of the tick marks.">Which of the following class maps numeric data to the axis?
-		</question>
+			feedback="B, is correct. A LinearAxis class maps numeric data to the axis. You use the &lt;mx:LinearAxis> child tag of the &lt;mx:horizontalAxis> or &lt;mx:verticalAxis> tags to customize the range of values displayed along the axis, and to set the increment between the axis labels of the tick marks.">Which of the following class maps numeric data to the axis?</question>
 		<answer>CategoryAxis</answer>
 		<answer correct="y">LinearAxis</answer>
 		<answer>LogAxis</answer>
@@ -244,8 +240,7 @@
 	<item id="278">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc0.html#WS2db454920e96a9e51e63e3d11c0bf64c3d-7ff4"
-			feedback="C, is correct. Bidirectional, or two-way, data binding occurs when two objects act as the source and the destination for each other. When you modify the source property of either object, the destination property of the other object is updated.">When two objects act as the source and the destination for
-			each other. This process is called.?</question>
+			feedback="C, is correct. Bidirectional, or two-way, data binding occurs when two objects act as the source and the destination for each other. When you modify the source property of either object, the destination property of the other object is updated.">When two objects act as the source and the destination for each other. This process is called.?</question>
 		<answer>Single-Way Binding</answer>
 		<answer>Binding</answer>
 		<answer correct="y">Two-Way Binding</answer>
@@ -254,17 +249,14 @@
 	<item id="279">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf63825-7ff3.html"
-			feedback="True is correct. Spark skins can be loaded and unloaded at run time, and their properties can be bound to the style properties of the host component.">Spark skins can be loaded and unloaded at compile time, and
-			their properties can be bound to the style properties of the host
-			component.</question>
+			feedback="True is correct. Spark skins can be loaded and unloaded at run time, and their properties can be bound to the style properties of the host component.">Spark skins can be loaded and unloaded at compile time, and their properties can be bound to the style properties of the host component.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="280">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/mx/effects/easing/Bounce.html?filter_flex=4.1&amp;filter_flashplayer=10.1&amp;filter_air=2"
-			feedback="D, is correct. The Bounce class defines three easing functions to implement bounce motion with Flex effect classes.easeOut(),easeIn() and easeInOut().">Which of the following are the easing function for Bounce
-			class to implement bounce motion with flex effect classes?</question>
+			feedback="D, is correct. The Bounce class defines three easing functions to implement bounce motion with Flex effect classes.easeOut(),easeIn() and easeInOut().">Which of the following are the easing function for Bounce class to implement bounce motion with flex effect classes?</question>
 		<answer>easeOut</answer>
 		<answer>easeIn</answer>
 		<answer>easeInOut</answer>
