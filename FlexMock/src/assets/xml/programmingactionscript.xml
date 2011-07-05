@@ -237,8 +237,7 @@
 	<item id="185">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf68c0f-7ffb.html#WS2db454920e96a9e51e63e3d11c0bf68c0f-7ffc"
-			feedback="D is correct.isError is a Boolean value that indicates whether or not the result is an error. Set this property to true.">Which Boolean value that indicates whether or not the result
-			is an error.</question>
+			feedback="D is correct.isError is a Boolean value that indicates whether or not the result is an error. Set this property to true.">Which Boolean value that indicates whether or not the result is an error.</question>
 		<answer>errorMessage</answer>
 		<answer>errorCode</answer>
 		<answer>subField</answer>
@@ -247,8 +246,7 @@
 	<item id="187">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fd9.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7fc5"
-			feedback="C is correct.A property represents one of the pieces of data that are bundled together in an object. An example song object can have properties named artist and title; the MovieClip class has properties like rotation, x, width, and alpha.">which of the following characteristic represents one of the
-			pieces of data that are bundled together in an object?</question>
+			feedback="C is correct.A property represents one of the pieces of data that are bundled together in an object. An example song object can have properties named artist and title; the MovieClip class has properties like rotation, x, width, and alpha.">which of the following characteristic represents one of the pieces of data that are bundled together in an object?</question>
 		<answer>Methods</answer>
 		<answer>Events</answer>
 		<answer correct="y">Properties</answer>
@@ -257,25 +255,21 @@
 	<item id="188">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fd5.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7fb2"
-			feedback="True is correct.Accessors are a special cross between a method and a property. When you write the code to define the class, you write the accessor like a method. You can perform multiple actions rather than just reading or assigning a value, which is all you can do when you define a property. However, when you create an instance of your class, you treat the accessor like a property and use the name to read or assign the value.">Accessors are a special cross between a method and a
-			property. When you write the code to define the class, you write the
-			accessor like a method?</question>
+			feedback="True is correct.Accessors are a special cross between a method and a property. When you write the code to define the class, you write the accessor like a method. You can perform multiple actions rather than just reading or assigning a value, which is all you can do when you define a property. However, when you create an instance of your class, you treat the accessor like a property and use the name to read or assign the value.">Accessors are a special cross between a method and a property. When you write the code to define the class, you write the accessor like a method?</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="189">
 		<question type="tf"
 			link="http://livedocs.adobe.com/flex/3/langref/flash/display/Sprite.html"
-			feedback="False is correct.A Sprite object is similar to a movie clip, but does not have a timeline. Sprite is an appropriate base class for objects that do not require timelines. For example, Sprite would be a logical base class for user interface (UI) components that typically do not use the timeline.">True or False: A Sprite object is similar to a movie clip,
-			also having TimeLine.</question>
+			feedback="False is correct.A Sprite object is similar to a movie clip, but does not have a timeline. Sprite is an appropriate base class for objects that do not require timelines. For example, Sprite would be a logical base class for user interface (UI) components that typically do not use the timeline.">True or False: A Sprite object is similar to a movie clip, also having TimeLine.</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="190">
 		<question type="singleChoice"
 			link="http://livedocs.adobe.com/flex/3/langref/flash/display/Sprite.html"
-			feedback="B is correct.A Sprite object is similar to a movie clip, but does not have a timeline. Sprite is an appropriate base class for objects that do not require timelines. For example, Sprite would be a logical base class for user interface (UI) components that typically do not use the timeline.">Which of the following have an appropriate base class for
-			objects that do not require timelines?</question>
+			feedback="B is correct.A Sprite object is similar to a movie clip, but does not have a timeline. Sprite is an appropriate base class for objects that do not require timelines. For example, Sprite would be a logical base class for user interface (UI) components that typically do not use the timeline.">Which of the following have an appropriate base class for objects that do not require timelines?</question>
 		<answer>MovieClip</answer>
 		<answer correct="y">Sprite</answer>
 		<answer>FlexSprite</answer>
@@ -284,93 +278,63 @@
 	<item id="191">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/AS3LCR/Flash_10.0/XML.html#hasComplexContent()"
-			feedback="A is correct.false,true,true,false.">
-			Given the following sample code.what is the output of the following
-			trace statement?
-
-			var xml:XML =
-			<foo>
+			feedback="A is correct.false,true,true,false."><![CDATA[Given the following sample code.what is the output of the following trace statement?
+			var xml:XML = <foo>
 				<a>text</a>
-				<a>
-					<b />
-				</a>
-			</foo>
-			;
-
+				<a><b/></a>
+			</foo>;
 			trace(xml.a[0].hasComplexContent());
-
 			trace(xml.a[1].hasComplexContent());
-
 			trace(xml.a[0].hasSimpleContent());
-
-			trace(xml.a[1].hasSimpleContent());
-		</question>
+			trace(xml.a[1].hasSimpleContent());]]></question>
 		<answer correct="y">false,true,true,false</answer>
 		<answer>true,true,false,false</answer>
 		<answer>false,false,true,true</answer>
-		<answer>true,false,true,false</answer>
-	</item>
+		<answer>true,false,true,false</answer></item>
 	<item id="192">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/AS3LCR/Flash_10.0/XML.html#insertChildAfter()"
-			feedback="C is &#xD;&#xA;correct.&lt;menu>&lt;item>burger&lt;/item>&lt;saleItem>fries&lt;/saleItem>&lt;item>soda&lt;/item>&lt;/menu>.">
-			The following example appends an element to the end of the child
-			elements of an XML object.what is the output of the following trace
-			statement?
-
-			var xml:XML =
-			<menu>
+			feedback="C is &#xD;&#xA;correct.&lt;menu>&lt;item>burger&lt;/item>&lt;saleItem>fries&lt;/saleItem>&lt;item>soda&lt;/item>&lt;/menu>."><![CDATA[The following example appends an element to the end of the child elements of an XML object.what is the output of the following trace statement?
+			var xml:XML =<menu>
 				<item>burger</item>
 				<item>soda</item>
-			</menu>
-			;xml.insertChildAfter(xml.item[0],
-			<saleItem>fries</saleItem>
-			);trace(xml);
+			</menu>;
+			xml.insertChildAfter(xml.item[0],
+			<saleItem>fries</saleItem>);
+			trace(xml);]]>
 		</question>
-		<answer>
-			<menu>
+		<answer><![CDATA[<menu>
 				<item>burger</item>
 				<item>soda</item>
 				<saleItem>fries</saleItem>
-			</menu>
-		</answer>
-		<answer>
-			<menu>
+			</menu>]]></answer>
+		<answer><![CDATA[<menu>
 				<saleItem>fries</saleItem>
 				<item>burger</item>
 				<item>soda</item>
-			</menu>
-		</answer>
-		<answer correct="y">
-			<menu>
+			</menu>]]></answer>
+		<answer correct="y"><![CDATA[<menu>
 				<item>burger</item>
 				<saleItem>fries</saleItem>
 				<item>soda</item>
-			</menu>
-		</answer>
-		<answer>
-			<menu>
+			</menu>]]></answer>
+		<answer><![CDATA[<menu>
 				<saleItem>fries</saleItem>
 				<saleItem>fries</saleItem>
 				<item>burger</item>
 				<item>soda</item>
-			</menu>
-		</answer>
+			</menu>]]></answer>
 	</item>
 	<item id="193">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/AS3LCR/Flash_10.0/XML.html#normalize()"
-			feedback="A is correct.2 1.">
-			The following example shows the effect of calling the normalize()
-			method.what is the output of the following trace statement?
-
-			var xml:XML =
-			<body />
-			;xml.appendChild("hello");xml.appendChild("
-			world");trace(xml.children().length()); xml.normalize();
-
-			trace(xml.children().length());
-		</question>
+			feedback="A is correct.2 1."><![CDATA[The following example shows the effect of calling the normalize() method. what is the output of the following trace statement?
+			var xml:XML =<body />;
+			xml.appendChild("hello");
+			xml.appendChild("world");
+			trace(xml.children().length()); 
+			xml.normalize();
+			trace(xml.children().length());]]></question>
 		<answer correct="y">2 1</answer>
 		<answer>1 2</answer>
 		<answer>2 2</answer>
@@ -379,55 +343,40 @@
 	<item id="194">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/AS3LCR/Flash_10.0/XML.html#replace()"
-			feedback="B is correct.&lt;body>  &#x9;&#x9;&lt;p>Hello&lt;/p>&lt;p>Bob&lt;/p>&lt;hr/>&lt;/body>.">
-			The following example illustrates calling the replace() method with
-			an integer as the first parameter.what is the output of the following
-			trace statement?
-
-			var xml:XML=
-			<body>
+			feedback="B is correct.&lt;body>  &#x9;&#x9;&lt;p>Hello&lt;/p>&lt;p>Bob&lt;/p>&lt;hr/>&lt;/body>."><![CDATA[The following example illustrates calling the replace() method with an integer as the first parameter.what is the output of the following trace statement?
+			var xml:XML=<body>
 				<p>Hello</p>
 				<p>World</p>
 				<hr />
-			</body>
-			;xml.replace(1,
-			<p>Bob</p>
-			);trace(xml);
+			</body>;
+			xml.replace(1,<p>Bob</p>);
+			trace(xml);]]>
 		</question>
-		<answer>
-			<body>
+		<answer><![CDATA[<body>
 				<p>Bob</p>
 				<p>Hello</p>
 				<hr />
-			</body>
-		</answer>
-		<answer correct="y">
-			<body>
+			</body>]]></answer>
+		<answer correct="y"><![CDATA[<body>
 				<p>Hello</p>
 				<p>Bob</p>
 				<hr />
-			</body>
-		</answer>
-		<answer>
-			<body>
+			</body>]]></answer>
+		<answer><![CDATA[<body>
 				<p>Bob</p>
 				<hr />
-			</body>
-		</answer>
-		<answer>
-			<body>
+			</body>]]></answer>
+		<answer><![CDATA[<body>
 				<p>Hello</p>
 				<p>World</p>
 				<p>Bob</p>
 				<hr />
-			</body>
-		</answer>
+			</body>]]></answer>
 	</item>
 	<item id="195">
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/mx/validators/package-detail.html"
-			feedback="A and C are correct.subclasses of validators are CreditCardValidator, CurrencyValidator, DateValidator, EmailValidator, NumberValidator, PhoneNumberValidator,RegExpValidator, SocialSecurityValidator, StringValidator, StyleValidator, ZipCodeValidator.">Which of the following are NOT part of the mx.validators
-			package. Choose two?</question>
+			feedback="A and C are correct.subclasses of validators are CreditCardValidator, CurrencyValidator, DateValidator, EmailValidator, NumberValidator, PhoneNumberValidator,RegExpValidator, SocialSecurityValidator, StringValidator, StyleValidator, ZipCodeValidator.">Which of the following are NOT part of the mx.validators package. Choose two?</question>
 		<answer correct="y">NumericValidator</answer>
 		<answer>EmailValidator</answer>
 		<answer correct="y">OperationValidator</answer>
@@ -436,8 +385,7 @@
 	<item id="197">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf6443d-7ffc.html#WS2db454920e96a9e51e63e3d11c0bf6443d-7fff"
-			feedback="B is correct.repeatEnd Dispatched after all the subcomponents of a repeater are created.">Which of the Following event will dispatch after all the sub
-			Components of the repeater are created?</question>
+			feedback="B is correct.repeatEnd Dispatched after all the subcomponents of a repeater are created.">Which of the Following event will dispatch after all the sub Components of the repeater are created?</question>
 		<answer>repeat</answer>
 		<answer correct="y">repeatEnd</answer>
 		<answer>repeatStart</answer>
@@ -446,8 +394,7 @@
 	<item id="198">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf5f39f-7ff7.html#WS2db454920e96a9e51e63e3d11c0bf5f39f-7ff0"
-			feedback="C is correct.RemoteObject provides access to Java objects using the AMF protocol (Adobe LiveCycle Data Services ES only).">which of the following RPC Components will help us to access
-			the Java objects using the AMF protocol?</question>
+			feedback="C is correct.RemoteObject provides access to Java objects using the AMF protocol (Adobe LiveCycle Data Services ES only).">which of the following RPC Components will help us to access the Java objects using the AMF protocol?</question>
 		<answer>HTTPService</answer>
 		<answer>WebService</answer>
 		<answer correct="y">RemoteObject</answer>
@@ -456,11 +403,9 @@
 	<item id="199">
 		<question type="singleChoice"
 			link="http://livedocs.adobe.com/flex/201/html/wwhelp/wwhimpl/common/html/wwhelp.htm?context=LiveDocs_Book_Parts&amp;file=04_OO_Programming_161_04.html"
-			feedback="B is correct.firstName, age, city.">Consider the following code sample, what is the output of
-			the following trace statement. Choose one.?
-
-			var myObject:Object={firstName:"Tara",age:27,city:"San Francisco"};for
-			each (var item in myObject){trace(item.label + ", ");}}</question>
+			feedback="B is correct.firstName, age, city.">Consider the following code sample, what is the output of the following trace statement. Choose one.?
+			var myObject:Object={firstName:"Tara",age:27,city:"San Francisco"};
+			for each (var item in myObject){trace(item.label + ", ");}}</question>
 		<answer>"item" will be output 3 times</answer>
 		<answer correct="y">firstName, age, city</answer>
 		<answer>Tara, 27, San Francisco</answer>
@@ -469,22 +414,12 @@
 	<item id="200">
 		<question type="singleChoice"
 			link="http://livedocs.adobe.com/flex/201/html/wwhelp/wwhimpl/common/html/wwhelp.htm?context=LiveDocs_Book_Parts&amp;file=04_OO_Programming_161_04.html"
-			feedback="C is correct.Tara, 27, San Francisco.">Given the following ActionScript 3 code, what is the output
-			of the following trace statement.Choose one?
-
+			feedback="C is correct.Tara, 27, San Francisco.">Given the following ActionScript 3 code, what is the output of the following trace statement.Choose one?
 			var myObject:Object = {firstName:"Tara", age:27, city:"San Francisco"};
-
 			for each (var item in myObject) {
-
 			if (item is String) {
-
 			trace(item + ", ");
-
-			}
-
-			}
-
-			}</question>
+			}}}</question>
 		<answer>"item" will be output 3 times</answer>
 		<answer>firstName, age, city</answer>
 		<answer correct="y">Tara, 27, San Francisco</answer>
@@ -493,10 +428,8 @@
 	<item id="201">
 		<question type="singleChoice"
 			link="http://www.adobeauthorizations.com/livedocs/flex/201/html/wwhelp/wwhimpl/common/html/wwhelp.htm?context=LiveDocs_Book_Parts&amp;file=12_Using_Regular_Expressions_168_02.html"
-			feedback="A is correct.null.">Given the following String and Reguler Expression pattern,
-			what would be the output of the following trace statement.Choose
-			one.?var str:String = "&lt;p&gt;Test\n"; str +=
-			"Multiline&lt;/p&gt;"; var re:RegExp = /&lt;p&gt;.*&lt;\/p&gt;/;
+			feedback="A is correct.null.">Given the following String and Reguler Expression pattern, what would be the output of the following trace statement.Choose one.?
+			var str:String = "&lt;p&gt;Test\n"; str += "Multiline&lt;/p&gt;"; var re:RegExp = /&lt;p&gt;.*&lt;\/p&gt;/;
 			trace(str.match(re));</question>
 		<answer correct="y">null</answer>
 		<answer>testtest</answer>
@@ -506,9 +439,7 @@
 	<item id="202">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f00.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7ef4"
-			feedback="B is correct.2131.">Consider the following code Sample. what is the output of
-			the following trace statement?
-
+			feedback="B is correct.2131.">Consider the following code Sample. what is the output of the following trace statement?
 			var str:String = "567891011121314";trace(str.substring(11,15));
 		</question>
 		<answer>5678</answer>
@@ -519,11 +450,8 @@
 	<item id="203">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f00.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7ef4"
-			feedback="B is correct.213143434.">Consider the following code Sample. what is the output of
-			the following trace statement? Choose one?
-
+			feedback="B is correct.213143434.">Consider the following code Sample. what is the output of the following trace statement? Choose one?
 			var str:String = "5678910111213143434";
-
 			trace(srt.substr(11,15));</question>
 		<answer>21314</answer>
 		<answer correct="y">213143434</answer>
@@ -533,8 +461,7 @@
 	<item id="204">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7ed3.html"
-			feedback="A is correct.Asynchronous errors are run-time errors that occur at various points during runtime; they generate events and event listeners catch them. An asynchronous operation is one in which a function initiates an operation, but doesn't wait for it to complete.">Which of the following errors are run-time errors that occur
-			at various points during runtime a function is called?</question>
+			feedback="A is correct.Asynchronous errors are run-time errors that occur at various points during runtime; they generate events and event listeners catch them. An asynchronous operation is one in which a function initiates an operation, but doesn't wait for it to complete.">Which of the following errors are run-time errors that occur at various points during runtime a function is called?</question>
 		<answer correct="y">Asynchronouserrors</answer>
 		<answer>Synchronous errors</answer>
 		<answer>Run-time errors</answer>
@@ -543,8 +470,7 @@
 	<item id="205">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/components/WS5b3ccc516d4fbf351e63e3d118a9c65b32-7f17.html"
-			feedback="A is correct.The sizing behavior of the UILoader component is controlled by the scaleContent property. When scaleContent is true, the content is scaled to fit within the bounds of the loader (and is rescaled when setSize() is called). When scaleContent is false, the size of the component is fixed to the size of the content and setSize() and the sizing properties have no no effect.">The sizing behavior of the UILoader component is controlled
-			by the?</question>
+			feedback="A is correct.The sizing behavior of the UILoader component is controlled by the scaleContent property. When scaleContent is true, the content is scaled to fit within the bounds of the loader (and is rescaled when setSize() is called). When scaleContent is false, the size of the component is fixed to the size of the content and setSize() and the sizing properties have no no effect.">The sizing behavior of the UILoader component is controlled by the?</question>
 		<answer correct="y">scaleContent property</answer>
 		<answer>scaleAxis property</answer>
 		<answer>scaleSizing property</answer>
@@ -554,8 +480,7 @@
 	<item id="206">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WSda78ed3a750d6b8f-73a4773012528309923-8000.html#WSda78ed3a750d6b8f45b56ddc125283156e2-8000"
-			feedback="A is correct. colordodge is Brightens the base color to reflect the blend color. Blending with black produces no change.">Which of the following BlendMode brightens the base color to
-			reflect the blend color.</question>
+			feedback="A is correct. colordodge is Brightens the base color to reflect the blend color. Blending with black produces no change.">Which of the following BlendMode brightens the base color to reflect the blend color.</question>
 		<answer correct="y">colordodge</answer>
 		<answer>colorburn</answer>
 		<answer>darken</answer>
@@ -564,8 +489,7 @@
 	<item id="207">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WSda78ed3a750d6b8f-73a4773012528309923-8000.html#WSda78ed3a750d6b8f45b56ddc125283156e2-8000"
-			feedback="B is correct.colorburn will Darkens the base color to reflect the blend color. Blending with white produces no change.">which of the following blend mode darkens the base color to
-			reflect the blend color.</question>
+			feedback="B is correct.colorburn will Darkens the base color to reflect the blend color. Blending with white produces no change.">which of the following blend mode darkens the base color to reflect the blend color.</question>
 		<answer>colordodge</answer>
 		<answer correct="y">colorburn</answer>
 		<answer>darken</answer>
@@ -574,69 +498,47 @@
 	<item id="209">
 		<question type="tf"
 			link="http://help.adobe.com/zh_CN/flex/using/WSb04c7610c3432839-13869d09121418556f1-7ffc.html#WSc78f87379113c38b3a63e0312219803011-7ffe"
-			feedback="True is correct.The Scroller skin provides scroll bars and manages layout according to the verticalScrollPolicy and horizontalScrollPolicy properties in the Scroller class.">The Scroller skin provides scroll bars manages layout
-			according to the verticalScrollPolicy and horizontalScrollPolicy
-			properties in the Scroller class.</question>
+			feedback="True is correct.The Scroller skin provides scroll bars and manages layout according to the verticalScrollPolicy and horizontalScrollPolicy properties in the Scroller class.">The Scroller skin provides scroll bars manages layout according to the verticalScrollPolicy and horizontalScrollPolicy properties in the Scroller class.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="210">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f9d.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f8c"
-			feedback="C, is correct. You declare a local variable by declaring the variable inside a function definition. The smallest area of code for which you can define a local variable is a function definition. A local variable declared within a function exists only in that function. For example, if you declare a variable named str2 within a function named localScope(), that variable is not available outside the function.">Consider the following sample code. What is the output of
-			the trace statement below? Choose one.
-
-			function localScope(){var strLocal:String =
-			"local";}localScope();trace(strLocal);</question>
+			feedback="C, is correct. You declare a local variable by declaring the variable inside a function definition. The smallest area of code for which you can define a local variable is a function definition. A local variable declared within a function exists only in that function. For example, if you declare a variable named str2 within a function named localScope(), that variable is not available outside the function.">Consider the following sample code. What is the output of the trace statement below? Choose one.
+			function localScope(){var strLocal:String ="local";}localScope();trace(strLocal);</question>
 		<answer>0</answer>
 		<answer>10</answer>
-		<answer correct="y">error because strLocal is not defined globally
-		</answer>
-		<answer>the trace is ignored because the value of strLocal was set
-			outside the A class</answer>
+		<answer correct="y">error because strLocal is not defined globally</answer>
+		<answer>the trace is ignored because the value of strLocal was set outside the A class</answer>
 	</item>
 	<item id="211">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7ccb.html"
-			feedback="TrueYou cannot use E4X when defining a data binding by using the BindingUtils.bindProperty() or the BindingUtils.bindSetter() method.">You cannot use E4X when defining a data binding by using the
-			BindingUtils.bindProperty() or the BindingUtils.bindSetter() method.
-		</question>
+			feedback="TrueYou cannot use E4X when defining a data binding by using the BindingUtils.bindProperty() or the BindingUtils.bindSetter() method.">You cannot use E4X when defining a data binding by using the BindingUtils.bindProperty() or the BindingUtils.bindSetter() method.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="212">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc9.html"
-			feedback="B, is correct. you cannot include an E4X expression in a data binding expression defined in ActionScript.">Which of the following statement is wrong when to defining
-			data bindings in MXML at compile time and in defining them at runtime
-			in ActionScript.</question>
-		<answer>You cannot include ActionScript code in a data binding
-			expression defined by the bindProperty() or bindSetter() method.
-			Instead, use the bindSetter() method to specify a method to call when
-			the binding occurs.</answer>
-		<answer correct="y">You can include an E4X expression in a data
-			binding expression defined in ActionScript.</answer>
-		<answer>You cannot include functions or array elements in property
-			chains in a data binding expression defined by the bindProperty() or
-			bindSetter() method.</answer>
-		<answer>The MXML compiler has better warning and error detection
-			support than runtime data bindings defined by the bindProperty() or
-			bindSetter() method.</answer>
+			feedback="B, is correct. you cannot include an E4X expression in a data binding expression defined in ActionScript.">Which of the following statement is wrong when to defining data bindings in MXML at compile time and in defining them at runtime in ActionScript.</question>
+		<answer>You cannot include ActionScript code in a data binding expression defined by the bindProperty() or bindSetter() method. Instead, use the bindSetter() method to specify a method to call when the binding occurs.</answer>
+		<answer correct="y">You can include an E4X expression in a data binding expression defined in ActionScript.</answer>
+		<answer>You cannot include functions or array elements in property chains in a data binding expression defined by the bindProperty() or bindSetter() method.</answer>
+		<answer>The MXML compiler has better warning and error detection support than runtime data bindings defined by the bindProperty() or bindSetter() method.</answer>
 	</item>
 	<item id="213">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc5.html"
-			feedback="False is correct. You can automatically use a read-only property defined by a getter method, which means no setter method, as the source for a data-binding expression. Flex performs the data binding once when the application starts.">You cannot automatically use a read-only property defined by
-			a getter method, which means no setter method, as the source for a
-			data-binding expression</question>
+			feedback="False is correct. You can automatically use a read-only property defined by a getter method, which means no setter method, as the source for a data-binding expression. Flex performs the data binding once when the application starts.">You cannot automatically use a read-only property defined by a getter method, which means no setter method, as the source for a data-binding expression</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="214">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62b90-7fff.html"
-			feedback="A is correct. Layout containers Control the sizing and positioning of the children defined within them. Children can be controls or other containers.">Which of the following Containers Control the sizing and
-			positioning of the children defined within them.?</question>
+			feedback="A is correct. Layout containers Control the sizing and positioning of the children defined within them. Children can be controls or other containers.">Which of the following Containers Control the sizing and positioning of the children defined within them.?</question>
 		<answer correct="y">Layout containers</answer>
 		<answer>Navigator containers</answer>
 		<answer>ViewStack containers</answer>
@@ -645,8 +547,7 @@
 	<item id="215">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62b90-7fff.html"
-			feedback="B is correct. Navigator containers Control user movement, or navigation, among multiple child containers. Navigators only take MX containers or the Spark NavigatorContent container as children. The individual child containers, not the navigator container itself, control the layout and positioning of their children">Which of the following Container Control user movement, or
-			navigation, among multiple child containers.</question>
+			feedback="B is correct. Navigator containers Control user movement, or navigation, among multiple child containers. Navigators only take MX containers or the Spark NavigatorContent container as children. The individual child containers, not the navigator container itself, control the layout and positioning of their children">Which of the following Container Control user movement, or navigation, among multiple child containers.</question>
 		<answer>Layout containers</answer>
 		<answer correct="y">Navigator containers</answer>
 		<answer>ViewStack containers</answer>
@@ -655,30 +556,23 @@
 	<item id="216">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62b90-7fff.html#WS3A51CD4F-F921-4d64-9C1A-BD7109975520"
-			feedback="A is correct. MX container can only use components that implement the IUIComponent interface as its children">What is the main differences between Spark and MX containers
-		</question>
-		<answer correct="y">MX container can only use components that
-			implement the IUIComponent interface as its children</answer>
-		<answer>MX containers can hold children that implement the
-			IVisualElement interface</answer>
-		<answer>MX containers can hold children that implement the
-			IUIComponent interface, and hold data items such as a String, Number,
-			or Object</answer>
+			feedback="A is correct. MX container can only use components that implement the IUIComponent interface as its children">What is the main differences between Spark and MX containers</question>
+		<answer correct="y">MX container can only use components that implement the IUIComponent interface as its children</answer>
+		<answer>MX containers can hold children that implement the IVisualElement interface</answer>
+		<answer>MX containers can hold children that implement the IUIComponent interface, and hold data items such as a String, Number, or Object</answer>
 		<answer>All the above</answer>
 	</item>
 	<item id="217">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62b90-7fff.html#WS34283599-8547-43ff-A89E-A67CAEABC8B0"
-			feedback="True is correct.The Spark Group and DataGroup containers are not skinnable">True or False:The Spark Group and DataGroup containers are
-			not skinnable</question>
+			feedback="True is correct.The Spark Group and DataGroup containers are not skinnable">True or False:The Spark Group and DataGroup containers are not skinnable</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="218">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62b90-7fff.html#WS2FCF2174-EFDB-4d01-8D29-5A964D794ADA"
-			feedback="C, is correct. Containers define a creation policy that specifies when its children are created. By default, a container delays creating its children until they are needed by the application. This process is called deferred instantiation">The container delays creating its children until they are
-			needed by the application. This process is called?</question>
+			feedback="C, is correct. Containers define a creation policy that specifies when its children are created. By default, a container delays creating its children until they are needed by the application. This process is called deferred instantiation">The container delays creating its children until they are needed by the application. This process is called?</question>
 		<answer>instantiation</answer>
 		<answer>initialization</answer>
 		<answer correct="y">deferred instantiation</answer>
@@ -687,9 +581,7 @@
 	<item id="219">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fd1.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f6a"
-			feedback="B, is correct. 0,1 The postfix operators take one operator and either increment or decrement the value. Although these operators are unary operators, they are classified separately from the rest of the unary operators because of their higher precedence and special behavior. When a postfix operator is used as part of a larger expression, the expression's value is returned before the postfix operator is processed. For example, the above code shows how the value of the expression xNum++ is returned before the value is incremented">Consider the following sample code, what will be output in
-			the trace statement? Choose one. var xNum:Number =
-			0;trace(xNum++);trace(xNum);</question>
+			feedback="B, is correct. 0,1 The postfix operators take one operator and either increment or decrement the value. Although these operators are unary operators, they are classified separately from the rest of the unary operators because of their higher precedence and special behavior. When a postfix operator is used as part of a larger expression, the expression's value is returned before the postfix operator is processed. For example, the above code shows how the value of the expression xNum++ is returned before the value is incremented">Consider the following sample code, what will be output in the trace statement? Choose one. var xNum:Number = 0;trace(xNum++);trace(xNum);</question>
 		<answer>1,1</answer>
 		<answer correct="y">0,1</answer>
 		<answer>0,0</answer>
@@ -698,9 +590,7 @@
 	<item id="220">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fd1.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f69"
-			feedback="A, is correct. 1,1 The unary operators take one operand. The increment (++) and decrement (--) operators in this group are prefixoperators, which means that they appear before the operand in an expression. The prefix operators differ from their postfix counterparts in that the increment or decrement operation is completed before the value of the overall expression is returned. For example, the above code shows how the value of the expression ++xNum is returned after the value is incremented">Consider the following sample code, what will be output in
-			the trace statement? Choose one.
-
+			feedback="A, is correct. 1,1 The unary operators take one operand. The increment (++) and decrement (--) operators in this group are prefixoperators, which means that they appear before the operand in an expression. The prefix operators differ from their postfix counterparts in that the increment or decrement operation is completed before the value of the overall expression is returned. For example, the above code shows how the value of the expression ++xNum is returned after the value is incremented">Consider the following sample code, what will be output in the trace statement? Choose one. 
 			var xNum:Number = 0;trace(++xNum);trace(xNum);</question>
 		<answer correct="y">1,1</answer>
 		<answer>1,0</answer>
@@ -710,9 +600,9 @@
 	<item id="221">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fcf.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f5b"
-			feedback="A, is correct. x20,y30">Consider the following sample code, what will be output in
-			the trace statement? Choose one. var myObj:Object = {x:20, y:30}; for
-			(var i:String in myObj){trace(i + " " + myObj[i]);}</question>
+			feedback="A, is correct. x20,y30">Consider the following sample code, what will be output in the trace statement? Choose one. 
+			var myObj:Object = {x:20, y:30}; 
+			for (var i:String in myObj){trace(i + " " + myObj[i]);}</question>
 		<answer correct="y">x20,y30</answer>
 		<answer>y30,x20</answer>
 		<answer>20,30</answer>
@@ -721,11 +611,11 @@
 	<item id="222">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fd0.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f56"
-			feedback="B, is correct. 11,16">Consider the following sample code, what will be output in
-			the trace statement? Choose one.function passPrimitives(xParam:int,
-			yParam:int):void { xParam++; yParam++; trace(xParam, yParam);}var
-			xValue:int = 10; var yValue:int = 15; passPrimitives(xValue, yValue);
-		</question>
+			feedback="B, is correct. 11,16">Consider the following sample code, what will be output in the trace statement? Choose one.
+			function passPrimitives(xParam:int,yParam:int):void { xParam++; yParam++; trace(xParam, yParam);}
+			var xValue:int = 10; 
+			var yValue:int = 15;
+			passPrimitives(xValue, yValue);</question>
 		<answer>10,15</answer>
 		<answer correct="y">11,16</answer>
 		<answer>9,14</answer>
@@ -734,13 +624,13 @@
 	<item id="223">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fd0.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f56"
-			feedback="C, is correct. 10,15,11,16">Given the following ActionScript 3 class, what will be
-			output in the trace statement? Choose one. function
-			passByRef(objParam:Object):void { objParam.x++; objParam.y++;
+			feedback="C, is correct. 10,15,11,16">Given the following ActionScript 3 class, what will be output in the trace statement? Choose one. 
+			function passByRef(objParam:Object):void { objParam.x++; objParam.y++;
 			trace(objParam.x, objParam.y); }
-
-			var objVar:Object = {x:10, y:15}; trace(objVar.x,
-			objVar.y);passByRef(objVar);trace(objVar.x, objVar.y);</question>
+			var objVar:Object = {x:10, y:15}; 
+			trace(objVar.x,objVar.y);
+			passByRef(objVar);
+			trace(objVar.x, objVar.y);</question>
 		<answer>10,15,9,14</answer>
 		<answer>10,15,10,15</answer>
 		<answer correct="y">10,15,11,16</answer>
@@ -749,11 +639,8 @@
 	<item id="226">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fd0.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f56"
-			feedback="C, is correct. 120.The arguments.callee property is often used in anonymous functions to create recursion. You can use it to add flexibility to your code. If the name of a recursive function changes over the course of your development cycle, you need not worry about changing the recursive call in your function body if you use arguments.callee instead of the function name. The arguments.callee property is used in the above function expression to enable recursion">Consider the following cample code, what will be output for
-			the trace statement? Choose one.
-
+			feedback="C, is correct. 120.The arguments.callee property is often used in anonymous functions to create recursion. You can use it to add flexibility to your code. If the name of a recursive function changes over the course of your development cycle, you need not worry about changing the recursive call in your function body if you use arguments.callee instead of the function name. The arguments.callee property is used in the above function expression to enable recursion">Consider the following cample code, what will be output for the trace statement? Choose one.
 			var factorial:Function = function (x:uint){if(x == 0){return 1;}
-
 			else{return (x * arguments.callee(x - 1)); }} trace(factorial(5));
 		</question>
 		<answer>25</answer>
@@ -764,19 +651,11 @@
 	<item id="227">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fd0.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f55"
-			feedback="B, is correct. This is different from the arguments.length property, which reports the number of arguments sent to the function. Recall that in ActionScript, the number of arguments sent to a function can exceed the number of parameters defined for that function. The following example, which compiles only in standard mode because strict mode requires an exact match between the number of arguments passed and the number of parameters defined">Given the following sample code, what will be output of the
-			trace statement? Choose one.
-
+			feedback="B, is correct. This is different from the arguments.length property, which reports the number of arguments sent to the function. Recall that in ActionScript, the number of arguments sent to a function can exceed the number of parameters defined for that function. The following example, which compiles only in standard mode because strict mode requires an exact match between the number of arguments passed and the number of parameters defined">Given the following sample code, what will be output of the trace statement? Choose one.
 			// Compiles only in standard mode
-
-			function traceLength(x:uint, y:uint):void
-
-			{
-
+			function traceLength(x:uint, y:uint):void{
 			trace("arguments expected: " + traceLength.length);
-
 			}
-
 			traceLength(3, 5, 7, 11);</question>
 		<answer>arguments expected: 4</answer>
 		<answer correct="y">arguments expected: 2</answer>
@@ -786,25 +665,14 @@
 	<item id="228">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f36.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f33"
-			feedback="A, is correct. hola class created">Given the following ActionScript 3 class, what will be
-			output of the trace statement? Choose one.
-
-			function hello():String
-
-			{
-
+			feedback="A, is correct. hola class created">Given the following ActionScript 3 class, what will be output of the trace statement? Choose one.
+			function hello():String{
 			trace("hola");
-
 			}
-
 			class SampleClass
-
 			{
-
 			hello();
-
 			trace("class created");
-
 			}</question>
 		<answer correct="y">hola class created</answer>
 		<answer>hola created</answer>
@@ -814,17 +682,11 @@
 	<item id="229">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f3f.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f17"
-			feedback="B, is correct. you can use the use namespace directive to open the AS3 namespace for all the definitions within a block of code. For example, the following code uses the use namespace directive to open the AS3 namespace for both the pop() and push() methods">Given the following ActionScript 3 class, what will be
-			output in the trace statement? Choose one.
-
+			feedback="B, is correct. you can use the use namespace directive to open the AS3 namespace for all the definitions within a block of code. For example, the following code uses the use namespace directive to open the AS3 namespace for both the pop() and push() methods">Given the following ActionScript 3 class, what will be output in the trace statement? Choose one.
 			use namespace AS3;
-
 			var nums:Array = new Array(1, 2, 3);
-
 			nums.pop();
-
 			nums.push(5);
-
 			trace(nums)</question>
 		<answer>5,2,3</answer>
 		<answer correct="y">1,2,5</answer>
@@ -834,9 +696,7 @@
 	<item id="230">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/mx/controls/advancedDataGridClasses/AdvancedDataGridListData.html"
-			feedback="C, is correct. The AdvancedDataGridListData class defines the data type of the listData property implemented by drop-in item renderers or drop-in item editors for the AdvancedDataGrid control. All drop-in item renderers and drop-in item editors must implement the IDropInListItemRenderer interface, which defines the listData property.">Which of the following class defines the data type of the
-			listData property implemented by drop-in item renderers or drop-in
-			item editors for the AdvancedDataGrid control.?</question>
+			feedback="C, is correct. The AdvancedDataGridListData class defines the data type of the listData property implemented by drop-in item renderers or drop-in item editors for the AdvancedDataGrid control. All drop-in item renderers and drop-in item editors must implement the IDropInListItemRenderer interface, which defines the listData property.">Which of the following class defines the data type of the listData property implemented by drop-in item renderers or drop-in item editors for the AdvancedDataGrid control.?</question>
 		<answer>AdvancedDataGridItemSelectEvent</answer>
 		<answer>AdvancedDataGridItemRenderer</answer>
 		<answer correct="y">AdvancedDataGridListData</answer>
@@ -845,8 +705,7 @@
 	<item id="231">
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/fl/motion/BezierSegment.html#methodSummary"
-			feedback="D is correct. getSingleValue is used to calculates the value of a one-dimensional cubic Bezier equation at a specific time.">Which method used to calculates the value of a
-			one-dimensional cubic Bezier equation at a specific time.</question>
+			feedback="D is correct. getSingleValue is used to calculates the value of a one-dimensional cubic Bezier equation at a specific time.">Which method used to calculates the value of a one-dimensional cubic Bezier equation at a specific time.</question>
 		<answer>getCubicCoefficients</answer>
 		<answer>getCubicRoots</answer>
 		<answer>getQuadraticRoots</answer>
@@ -855,8 +714,7 @@
 	<item id="232">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f9e.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f92"
-			feedback="True.In general, import statements should be as specific as possible. If you plan to use only the SampleCode class from the samples package, you should import only the SampleCode class rather than the entire package to which it belongs. Importing entire packages may lead to unexpected name conflicts.">True or False:Importing entire packages may lead to
-			unexpected name conflicts</question>
+			feedback="True.In general, import statements should be as specific as possible. If you plan to use only the SampleCode class from the samples package, you should import only the SampleCode class rather than the entire package to which it belongs. Importing entire packages may lead to unexpected name conflicts.">True or False:Importing entire packages may lead to unexpected name conflicts</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
@@ -872,8 +730,7 @@
 	<item id="234">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f9e.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f92"
-			feedback="C, is correct. When a package is created, the default access specifier for all members of that package is internal, which means that, by default, package members are only visible to other members of that package. If you want a class to be available to code outside the package, you must declare that class to be public">When a package is created, the default access specifier for
-			all members of that package is ?</question>
+			feedback="C, is correct. When a package is created, the default access specifier for all members of that package is internal, which means that, by default, package members are only visible to other members of that package. If you want a class to be available to code outside the package, you must declare that class to be public">When a package is created, the default access specifier for all members of that package is ?</question>
 		<answer>public</answer>
 		<answer>private</answer>
 		<answer correct="y">internal</answer>
@@ -882,8 +739,7 @@
 	<item id="235">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/net/URLRequest.html"
-			feedback="A, is correct. The URLRequest class captures all of the information in a single HTTP request. URLRequest objects are passed to the load() methods of the Loader, URLStream, and URLLoader classes, and to other loading operations, to initiate URL downloads. They are also passed to the upload() and download() methods of the FileReference class.">Which of the following class is used to specify the URL to
-			navigate the URL method?</question>
+			feedback="A, is correct. The URLRequest class captures all of the information in a single HTTP request. URLRequest objects are passed to the load() methods of the Loader, URLStream, and URLLoader classes, and to other loading operations, to initiate URL downloads. They are also passed to the upload() and download() methods of the FileReference class.">Which of the following class is used to specify the URL to navigate the URL method?</question>
 		<answer correct="y">URLRequest</answer>
 		<answer>URLResource</answer>
 		<answer>URLStream</answer>
@@ -892,8 +748,7 @@
 	<item id="236">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/mx/formatters/ZipCodeFormatter.html"
-			feedback="B, is correct. The ZipCodeFormatter class formats a valid number into one of the following formats, based on a user-supplied formatString property.#####-####,##### ####,#####,### ### (Canadian)A six-digit number must be supplied for a six-digit mask. If you use a five-digit or a nine-digit mask, you can use either a five-digit or a nine-digit number for formatting.">Which of the following is a valid format of Zip Formatter
-			based on a user-supplied property.?</question>
+			feedback="B, is correct. The ZipCodeFormatter class formats a valid number into one of the following formats, based on a user-supplied formatString property.#####-####,##### ####,#####,### ### (Canadian)A six-digit number must be supplied for a six-digit mask. If you use a five-digit or a nine-digit mask, you can use either a five-digit or a nine-digit number for formatting.">Which of the following is a valid format of Zip Formatter based on a user-supplied property.?</question>
 		<answer>######</answer>
 		<answer correct="y">#####</answer>
 		<answer>########</answer>
@@ -902,8 +757,7 @@
 	<item id="237">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/mx/validators/ZipCodeValidator.html"
-			feedback="D, is correct. The ZipCodeValidator class validates that a String has the correct length and format for a five-digit ZIP code, a five-digit+four-digit United States ZIP code, or Canadian postal code.">The ZipCodeValidator class validates that a String has the
-			correct length and format for?</question>
+			feedback="D, is correct. The ZipCodeValidator class validates that a String has the correct length and format for a five-digit ZIP code, a five-digit+four-digit United States ZIP code, or Canadian postal code.">The ZipCodeValidator class validates that a String has the correct length and format for?</question>
 		<answer>a four-digit+four-digit United States ZIP code</answer>
 		<answer>a five-digit+five-digit United States ZIP code</answer>
 		<answer>a four-digit+five-digit United States ZIP code</answer>
@@ -913,17 +767,14 @@
 	<item id="238">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/adobe/utils/XMLUI.html"
-			feedback="TrueThe XMLUI class enables communication with SWF files that are used as custom user interfaces for the Flash authoring tool's extensibility features">True or False:The XML UI class enables communication with
-			SWF files that are used as custom user interfaces for the Flash
-			authoring tool's extensibility features.</question>
+			feedback="TrueThe XMLUI class enables communication with SWF files that are used as custom user interfaces for the Flash authoring tool's extensibility features">True or False:The XML UI class enables communication with SWF files that are used as custom user interfaces for the Flash authoring tool's extensibility features.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="239">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/mx/rpc/soap/WebService.html"
-			feedback="B is correct. The WebService class provides access to SOAP-based web services on remote servers.">The WebService class provides access to __________ web
-			services on remote servers.</question>
+			feedback="B is correct. The WebService class provides access to SOAP-based web services on remote servers.">The WebService class provides access to __________ web services on remote servers.</question>
 		<answer>Remote based</answer>
 		<answer correct="y">SOAP based</answer>
 		<answer>HTTP based</answer>
@@ -932,8 +783,7 @@
 	<item id="240">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/net/URLRequest.html"
-			feedback="D, is correct. However, in Adobe AIR, content in the application security sandbox (content installed with the AIR application) is not restricted by these security limitations. For content running in Adobe AIR, files in the application security sandbox can access URLs using any of the following URL schemes:http and https,file,app-storage and app">In Adobe AIR, files in the application security sandbox can
-			access URLs by using which of the following schemes.</question>
+			feedback="D, is correct. However, in Adobe AIR, content in the application security sandbox (content installed with the AIR application) is not restricted by these security limitations. For content running in Adobe AIR, files in the application security sandbox can access URLs using any of the following URL schemes:http and https,file,app-storage and app">In Adobe AIR, files in the application security sandbox can access URLs by using which of the following schemes.</question>
 		<answer>file</answer>
 		<answer>app-storage</answer>
 		<answer>app</answer>
@@ -942,17 +792,14 @@
 	<item id="241">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/mx/containers/Accordion.html"
-			feedback="False is correct. An MX Accordion navigator container has a collection of child MX containers or Spark NavigatorContent containers, but only one of them at a time is visible">True or False:An MX Accordion navigator container has a
-			collection of child MX containers or Spark NavigatorContent
-			containers,both can visible in same time</question>
+			feedback="False is correct. An MX Accordion navigator container has a collection of child MX containers or Spark NavigatorContent containers, but only one of them at a time is visible">True or False:An MX Accordion navigator container has a collection of child MX containers or Spark NavigatorContent containers,both can visible in same time</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="242">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/mx/containers/Accordion.html"
-			feedback="B, is correct. The Accordion container does not extend the ViewStack container, but it implements all the properties, methods, styles, and events of the ViewStack container, such as selectedIndex and selectedChild.">Which of the following container cannot extended by the
-			Accordion container?</question>
+			feedback="B, is correct. The Accordion container does not extend the ViewStack container, but it implements all the properties, methods, styles, and events of the ViewStack container, such as selectedIndex and selectedChild.">Which of the following container cannot extended by the Accordion container?</question>
 		<answer>TabNavigator</answer>
 		<answer correct="y">ViewStack</answer>
 		<answer>TabBar</answer>
@@ -961,17 +808,14 @@
 	<item id="243">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/mx/messaging/AdvancedChannelSet.html#AdvancedChannelSet()"
-			feedback="False is correct. If the channelIds argument is not provided or is null, Channels must be manually created and added to the AdvancedChannelSet in order to connect and send messages.">True or False:If the channelIds argument is not provided or
-			is null, Channels will automatically get created and added to the
-			AdvancedChannelSet in order to connect and send messages.</question>
+			feedback="False is correct. If the channelIds argument is not provided or is null, Channels must be manually created and added to the AdvancedChannelSet in order to connect and send messages.">True or False:If the channelIds argument is not provided or is null, Channels will automatically get created and added to the AdvancedChannelSet in order to connect and send messages.</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="244">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/mx/messaging/channels/AMFChannel.html"
-			feedback="B, is correct. Channels are created within the framework using the ServerConfig.getChannel() method. Channels can be constructed directly and assigned to a ChannelSet if desired.">Which of the following method used to create a Channels
-			within the framework.?</question>
+			feedback="B, is correct. Channels are created within the framework using the ServerConfig.getChannel() method. Channels can be constructed directly and assigned to a ChannelSet if desired.">Which of the following method used to create a Channels within the framework.?</question>
 		<answer>ServerConfig.setChannel()</answer>
 		<answer correct="y">ServerConfig.getChannel()</answer>
 		<answer>ServerConfig.createChannel()</answer>
@@ -980,16 +824,14 @@
 	<item id="245">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/text/AntiAliasType.html#ADVANCED"
-			feedback="False is correct. Advanced anti-aliasing allows font faces to be rendered at very high quality at small sizes. It is best used with applications that have a lot of small text. Advanced anti-aliasing is not recommended for very large fonts (larger than 48 points). This constant is used for the antiAliasType property in the TextField class. Use the syntax AntiAliasType.ADVANCED">True or False: Advanced anti-aliasing is not recommended for
-			very small fonts.</question>
+			feedback="False is correct. Advanced anti-aliasing allows font faces to be rendered at very high quality at small sizes. It is best used with applications that have a lot of small text. Advanced anti-aliasing is not recommended for very large fonts (larger than 48 points). This constant is used for the antiAliasType property in the TextField class. Use the syntax AntiAliasType.ADVANCED">True or False: Advanced anti-aliasing is not recommended for very small fonts.</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="246">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/spark/filters/BevelFilter.html"
-			feedback="C, is correct. The BevelFilter class lets you add a bevel effect to display objects. A bevel effect gives objects such as buttons a three-dimensional look.">What dimensional look you will get, if bevel effect is added
-			in buttons?</question>
+			feedback="C, is correct. The BevelFilter class lets you add a bevel effect to display objects. A bevel effect gives objects such as buttons a three-dimensional look.">What dimensional look you will get, if bevel effect is added in buttons?</question>
 		<answer>one-dimensional</answer>
 		<answer>two-dimensional</answer>
 		<answer correct="y">three-dimensional</answer>
@@ -998,31 +840,25 @@
 	<item id="247">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/display/Bitmap.html"
-			feedback="D, is correct. A BitmapData object can be drawn to the screen by a Bitmap object in one of two ways: by using the vector renderer as a fill-bitmap shape, or by using a faster pixel-copying routine">What are all the ways to draw a BitmapData Object to the
-			screen by Bitmap object.</question>
-		<answer correct="y">By using the vector renderer as a fill-bitmap
-			shape</answer>
+			feedback="D, is correct. A BitmapData object can be drawn to the screen by a Bitmap object in one of two ways: by using the vector renderer as a fill-bitmap shape, or by using a faster pixel-copying routine">What are all the ways to draw a BitmapData Object to the screen by Bitmap object.</question>
+		<answer correct="y">By using the vector renderer as a fill-bitmap shape</answer>
 		<answer>By using a slower pixel-copying routine</answer>
 		<answer>By using the scalar renderer as a fill-bitmap shape</answer>
-		<answer correct="y">By using a faster pixel-copying routine
-		</answer>
+		<answer correct="y">By using a faster pixel-copying routine</answer>
 	</item>
 	<item id="248">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/utils/ByteArray.html"
-			feedback="C, is correct. The ByteArray class provides methods and properties to optimize reading, writing, and working with binary data.">The ByteArray class provides methods and properties to
-			optimize?</question>
+			feedback="C, is correct. The ByteArray class provides methods and properties to optimize reading, writing, and working with binary data.">The ByteArray class provides methods and properties to optimize?</question>
 		<answer>read-only and working with binary data</answer>
 		<answer>write-only and working with binary data</answer>
-		<answer correct="y">both read and write and working with binary
-			data</answer>
+		<answer correct="y">both read and write and working with binary data</answer>
 		<answer>None of these above</answer>
 	</item>
 	<item id="249">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/mx/containers/Canvas.html"
-			feedback="False is correct. you use percentage sizing inside a Canvas container, some of your components may overlap. If this is not the effect you want, plan your component positions and sizes carefully.">True or False:All the components inside the Canvas will be
-			in a same position if you use percentage sizing.</question>
+			feedback="False is correct. you use percentage sizing inside a Canvas container, some of your components may overlap. If this is not the effect you want, plan your component positions and sizes carefully.">True or False:All the components inside the Canvas will be in a same position if you use percentage sizing.</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
@@ -1113,21 +949,16 @@
 		<answer>public function addItemAt(item):void</answer>
 		<answer>public function addItemAt(index, item):void</answer>
 		<answer>public function addItemAt(index):void</answer>
-		<answer correct="y">public function addItemAt(item, index):void
-		</answer>
+		<answer correct="y">public function addItemAt(item, index):void </answer>
 	</item>
 	<item id="335">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/mx/collections/ArrayList.html"
 			feedback="A and B are correct.ArrayCollection has additional logic to sort and filter the list data however ArrayList is created specifically to hold and manipulate data and still be bindable. Thus ArrayList is lighter version of ArrayCollection."><![CDATA[Which of the following are correct statements for ArrayCollection and ArrayList?]]></question>
-		<answer correct="y">ArrayList is created specifically to hold and
-			manipulate data and still be bindable.</answer>
-		<answer correct="y">ArrayCollection has logic to sort and filter
-			the list data.</answer>
-		<answer>ArrayCollection supports disableEvents and enableEvents.
-		</answer>
-		<answer>ArrayList is not possible to specify as the dataProvider in
-			the list base components.</answer>
+		<answer correct="y">ArrayList is created specifically to hold and manipulate data and still be bindable.</answer>
+		<answer correct="y">ArrayCollection has logic to sort and filter the list data.</answer>
+		<answer>ArrayCollection supports disableEvents and enableEvents.</answer>
+		<answer>ArrayList is not possible to specify as the dataProvider in the list base components.</answer>
 	</item>
 	<item id="336">
 		<question type="singleChoice"
@@ -1136,21 +967,16 @@
 		<answer>One shared virtual address space</answer>
 		<answer>Locality is slightly diminished</answer>
 		<answer>Fixed size wastes space</answer>
-		<answer correct="y">improve performance of applications by
-			decreasing query times</answer>
+		<answer correct="y">improve performance of applications by decreasing query times</answer>
 	</item>
 	<item id="337">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7e72.html"
 			feedback="A is correct.E4X includes some intuitive operators, such as the dot (.) and attribute identifier (@) operators, for accessing properties and attributes in the XML"><![CDATA[Which following result in correct for this condition images.@category=='animals'?]]></question>
-		<answer correct="y">The condition will get all the images which is
-			having animal value in the category attribute.</answer>
-		<answer>The condition will get all the images which is having animal
-			value in the category element.</answer>
-		<answer>The condition will assisn the animal value to the category
-			attribute.</answer>
-		<answer>The condition will assisn the animal value to the category
-			element.</answer>
+		<answer correct="y">The condition will get all the images which is having animal value in the category attribute.</answer>
+		<answer>The condition will get all the images which is having animal value in the category element.</answer>
+		<answer>The condition will assisn the animal value to the category attribute.</answer>
+		<answer>The condition will assisn the animal value to the category element.</answer>
 	</item>
 	<item id="346">
 		<question type="singleChoice"
@@ -1168,21 +994,13 @@
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7ee5.html"
 			feedback="A is correct.The Index value of 2 is 3. The addItemAt will replace that to 1."><![CDATA[What will be the result for the folowing trace statement.
-
 	var myAC:ArrayCollection = new ArrayCollection();
-
 	myAC.addItem("1");
-
 	myAC.addItem("2");
-
 	myAC.addItem("3");
-
 	myAC.addItem("4");
-
 	myAC.addItem("5");
-
 	myAC.addItemAt("1",2);
-
 	trace(myAC[2]);]]></question>
 		<answer correct="y">1</answer>
 		<answer>2</answer>
@@ -1193,15 +1011,9 @@
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7e72.html"
 			feedback="A is correct.Attribute identifier (@) used to access the attribute value"><![CDATA[You have declared the following XML instance:
-
-	var myBooks:XML =
-
-		<books>
-
+	var myBooks:XML =<books>
 			<book name="Flex 3 with AIR" />
-
 		</books>
-
 How do you access the name attribute of the myBooks instance by using E4X?]]></question>
 		<answer correct="y">myBooks.book.@name;</answer>
 		<answer>myBooks.books.book.@name;</answer>
@@ -1212,18 +1024,11 @@ How do you access the name attribute of the myBooks instance by using E4X?]]></q
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/ActionScript/3.0_ProgrammingAS3/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f41.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f21"
 			feedback="D is correct. The method declarations inside an interface definition cannot have any access control specifiers. To fix the errors in this sample, remove the protected access control modifiers on the method definitions."><![CDATA[Consider the following example code. This code provides Compilation error. Which of the following should change to avoid the compilation error. Choose one:
-
 	package	{
-
 	public interface IExternalizable { 
-
 			public function writeExternal(output:IDataOutput):void; 
-
 			public function readExternal(input:IDataInput):void; 
-
-		}
-
-	}]]></question>
+		}}]]></question>
 		<answer><![CDATA[Change the protected access control modifiers to public]]></answer>
 		<answer><![CDATA[Change the protected access control modifiers to internal]]></answer>
 		<answer><![CDATA[Nothing needs to change, this code will not produce a compile-time error]]></answer>
