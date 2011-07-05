@@ -155,11 +155,9 @@
 			link="http://help.adobe.com/ja_JP/flex/using/WS2db454920e96a9e51e63e3d11c0bf668d2-7ff2.html#WS2db454920e96a9e51e63e3d11c0bf69084-7b65"
 			feedback="B is correct.You can use view cursor methods and properties to perform the following operations:Move the cursor backward or forward Move the cursor to specific items. Get the item at a cursor location.Add, remove, and change items.Save a cursor position by using a bookmark, and return to it later.">Which of the following action cannot be done by view cursor?</question>
 		<answer>Move the cursor backward or forward</answer>
-		<answer correct="y">cannot Move the cursor to specific items
-		</answer>
+		<answer correct="y">cannot Move the cursor to specific items</answer>
 		<answer>Get the item at a cursor location</answer>
-		<answer>save a cursor position by using a bookmark, and return to it
-			later</answer>
+		<answer>save a cursor position by using a bookmark, and return to it later</answer>
 	</item>
 	<item id="175">
 		<question type="tf"
@@ -303,27 +301,10 @@
 			<saleItem>fries</saleItem>);
 			trace(xml);]]>
 		</question>
-		<answer><![CDATA[<menu>
-				<item>burger</item>
-				<item>soda</item>
-				<saleItem>fries</saleItem>
-			</menu>]]></answer>
-		<answer><![CDATA[<menu>
-				<saleItem>fries</saleItem>
-				<item>burger</item>
-				<item>soda</item>
-			</menu>]]></answer>
-		<answer correct="y"><![CDATA[<menu>
-				<item>burger</item>
-				<saleItem>fries</saleItem>
-				<item>soda</item>
-			</menu>]]></answer>
-		<answer><![CDATA[<menu>
-				<saleItem>fries</saleItem>
-				<saleItem>fries</saleItem>
-				<item>burger</item>
-				<item>soda</item>
-			</menu>]]></answer>
+		<answer><![CDATA[<menu><item>burger</item><item>soda</item><saleItem>fries</saleItem></menu>]]></answer>
+		<answer><![CDATA[<menu><saleItem>fries</saleItem><item>burger</item><item>soda</item></menu>]]></answer>
+		<answer correct="y"><![CDATA[<menu><item>burger</item><saleItem>fries</saleItem><item>soda</item></menu>]]></answer>
+		<answer><![CDATA[<menu><saleItem>fries</saleItem><saleItem>fries</saleItem><item>burger</item><item>soda</item></menu>]]></answer>
 	</item>
 	<item id="193">
 		<question type="singleChoice"
@@ -352,26 +333,10 @@
 			xml.replace(1,<p>Bob</p>);
 			trace(xml);]]>
 		</question>
-		<answer><![CDATA[<body>
-				<p>Bob</p>
-				<p>Hello</p>
-				<hr />
-			</body>]]></answer>
-		<answer correct="y"><![CDATA[<body>
-				<p>Hello</p>
-				<p>Bob</p>
-				<hr />
-			</body>]]></answer>
-		<answer><![CDATA[<body>
-				<p>Bob</p>
-				<hr />
-			</body>]]></answer>
-		<answer><![CDATA[<body>
-				<p>Hello</p>
-				<p>World</p>
-				<p>Bob</p>
-				<hr />
-			</body>]]></answer>
+		<answer><![CDATA[<body><p>Bob</p><p>Hello</p><hr /></body>]]></answer>
+		<answer correct="y"><![CDATA[<body><p>Hello</p><p>Bob</p><hr /></body>]]></answer>
+		<answer><![CDATA[<body><p>Bob</p><hr /></body>]]></answer>
+		<answer><![CDATA[<body><p>Hello</p><p>World</p><p>Bob</p><hr /></body>]]></answer>
 	</item>
 	<item id="195">
 		<question type="multiChoice"

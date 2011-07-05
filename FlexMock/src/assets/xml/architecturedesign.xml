@@ -283,10 +283,8 @@ Which option below shows the correct way to call this function a button's click 
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffd.html"
 			feedback="C is correct. The only required step in dispatching a custom event from a custom component is to use the dispatchEvent() method. A and B option is optional."><![CDATA[Which of the following is a required step when dispatching a custom event from a custom component? Choose one:]]></question>
 		<answer>Create a subclass from the flash.events.Event class</answer>
-		<answer>Use the [Event] metadata tag to make the event public so that
-			the MXML compiler recognizes it</answer>
-		<answer correct="y">Dispatch the event using the dispatchEvent()
-		</answer>
+		<answer>Use the [Event] metadata tag to make the event public so that the MXML compiler recognizes it</answer>
+		<answer correct="y">Dispatch the event using the dispatchEvent()</answer>
 		<answer>All of the above are required</answer>
 	</item>
 	<item id="127">
