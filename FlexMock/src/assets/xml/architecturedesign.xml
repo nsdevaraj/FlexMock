@@ -143,7 +143,7 @@ Which option below shows the correct way to call this function a button's click 
 	</item>
 	<item id="108">
 		<question
-			feedback="A is correct. A library of custom classes created by you to use across applications that are in the same domain. Standard RSLs are stored in the browser’s cache"
+			feedback="A is correct. A library of custom classes created by you to use across applications that are in the same domain. Standard RSLs are stored in the browserâ€™s cache"
 			type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf674ba-7fff.html">Which of the following type of RSL custom class is created to
 			use across application that are in the domain</question>
@@ -309,7 +309,7 @@ Which option below shows the correct way to call this function a button's click 
 	</item>
 	<item id="125">
 		<question
-			feedback="C is correct. The doValidation() method of your validator class, you typically call the base class’s doValidation() method to perform the verification for a required field. If the user did not enter a value, the base class issues a validation error stating that the field is required."
+			feedback="C is correct. The doValidation() method of your validator class, you typically call the base classâ€™s doValidation() method to perform the verification for a required field. If the user did not enter a value, the base class issues a validation error stating that the field is required."
 			type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf68c0f-7ffb.html">Which of the following method contains the custom validation
 			Logic and perform the verificaion for a required field.</question>
@@ -728,7 +728,7 @@ Which option below shows the correct way to call this function a button's click 
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/flex/using/WSC8DB0C28-F7A6-48ff-9899-7957415A0A49.html#WSF11B6088-034E-458c-836B-6B53BEF88CC7"
 			feedback="A and C are correct. Dynamic parts are instantiated when needed. There can be more than one instance of a dynamic part. Dynamic parts are defined in the Declarations block of a skin so that one or more instances of the part can be instantiated and used by the skin. The Slider class DataTip, for example, is a dynamic skin part. In the VSliderSkin and HSliderSkin, the dataTip skin part is defined in a Declarations block."><![CDATA[Which are the examples of dynamic skin parts as opposed to static skin parts? Choose two:]]></question>
-		<answer correct="y"><![CDATA[Slider class’s DataTip]]></answer>
+		<answer correct="y"><![CDATA[Slider classâ€™s DataTip]]></answer>
 		<answer><![CDATA[VScrollBar class's thumb]]></answer>
 		<answer correct="y"><![CDATA[ButtonBar class's firstButton]]></answer>
 		<answer><![CDATA[HScrollBar class's track]]></answer>

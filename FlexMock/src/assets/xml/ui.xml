@@ -11,7 +11,7 @@
 	<item id="2">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS64909091-7042-4fb8-A243-8FD4E2990264.html"
-			feedback="A and c are correct. The DataGroup and SkinnableDataContainer container are examples of data provider components. Data provider components require data for display or user interaction. To provide data, assign a collection which implements the IList interface, such as an ArrayList, ArrayCollection, or XMLListCollection object, to the container’s dataProvider property."><![CDATA[Which of the following Containers are example of DataProvider Components. Choose two: ]]></question>
+			feedback="A and c are correct. The DataGroup and SkinnableDataContainer container are examples of data provider components. Data provider components require data for display or user interaction. To provide data, assign a collection which implements the IList interface, such as an ArrayList, ArrayCollection, or XMLListCollection object, to the containerâ€™s dataProvider property."><![CDATA[Which of the following Containers are example of DataProvider Components. Choose two: ]]></question>
 		<answer correct="y">DataGroup container</answer>
 		<answer>Border Container</answer>
 		<answer>NavigatorContent container.</answer>
@@ -528,7 +528,7 @@
 	<item id="58">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7e4d.html"
-			feedback="False. The default creation policy for all containers, except the Application container, is the policy of the parent container. The default policy for the Application container is auto. In most cases, therefore, the View Stack control’s children are not created until they are selected. You cannot set the selectedChild  property to a child that is not yet created"><![CDATA[True of False:  The default creation policy for all containers is the policy of the parent container]]></question>
+			feedback="False. The default creation policy for all containers, except the Application container, is the policy of the parent container. The default policy for the Application container is auto. In most cases, therefore, the View Stack controlâ€™s children are not created until they are selected. You cannot set the selectedChild  property to a child that is not yet created"><![CDATA[True of False:  The default creation policy for all containers is the policy of the parent container]]></question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
@@ -545,9 +545,9 @@
 	</item>
 	<item id="60">
 		<question
-			feedback="False. When you set the child’s width and height properties to percentages, the percentage is based on the size of the tile cell, not on the size of the Tile container itself. Even though it isn’t an explicitly defined container, the cell acts as the parent of the components in the Tile container."
+			feedback="False. When you set the childâ€™s width and height properties to percentages, the percentage is based on the size of the tile cell, not on the size of the Tile container itself. Even though it isnâ€™t an explicitly defined container, the cell acts as the parent of the components in the Tile container."
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7e4f.html"><![CDATA[True or False: When you set the child’s width and height properties to percentages, the percentage is based on the size of the Tile container.]]></question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7e4f.html"><![CDATA[True or False: When you set the childâ€™s width and height properties to percentages, the percentage is based on the size of the Tile container.]]></question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
@@ -632,7 +632,7 @@ color: #FF0000;
 	</item>
 	<item id="67">
 		<question
-			feedback="A is correct. Class selectors define a set of styles (or a class) that you can apply to any component. You define the style class, and then point to the style class using the styleName property of the component’s MXML tag. All components that are a subclass of the UIComponent class support the styleName property."
+			feedback="A is correct. Class selectors define a set of styles (or a class) that you can apply to any component. You define the style class, and then point to the style class using the styleName property of the componentâ€™s MXML tag. All components that are a subclass of the UIComponent class support the styleName property."
 			type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ff2.html#WS2db454920e96a9e51e63e3d11c0bf62883-7fee"><![CDATA[The Given sample code specifies which of the following selectors?  Choose one.
 
@@ -710,8 +710,8 @@ color: #9933FF;
 	<item id="75">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf63825-7fff.html"
-			feedback="D is correct. Use the updateComplete event for actions that must be performed each time a component’s characteristics change, not just when the component is created.">Which of the following event will be called when actions
-			that must be performed each time a component’s characteristics
+			feedback="D is correct. Use the updateComplete event for actions that must be performed each time a componentâ€™s characteristics change, not just when the component is created.">Which of the following event will be called when actions
+			that must be performed each time a componentâ€™s characteristics
 			change, not just when the component is created</question>
 		<answer>preinitialize</answer>
 		<answer>initialize</answer>
@@ -948,7 +948,7 @@ color: #9933FF;
 	<item id="146">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7df9.html"
-			feedback="C is correct. The horizontalCenter and verticalCenter properties specify distance between the component’s center point and the container’s center, in the specified direction; a negative number moves the component left or up from the center."><![CDATA[If you specify the negative value for the horizontalCenter and verticalCenter properties, the component moves left or up from the center]]></question>
+			feedback="C is correct. The horizontalCenter and verticalCenter properties specify distance between the componentâ€™s center point and the containerâ€™s center, in the specified direction; a negative number moves the component left or up from the center."><![CDATA[If you specify the negative value for the horizontalCenter and verticalCenter properties, the component moves left or up from the center]]></question>
 		<answer correct="y">true</answer>
 		<answer>flase</answer>
 	</item>
@@ -1285,7 +1285,7 @@ color: #9933FF;
 	<item id="394">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WSC8DB0C28-F7A6-48ff-9899-7957415A0A49.html"
-			feedback="False, if you create a custom theme for your application, or if you do not need support for global Spark styles in your custom skin class, you can use Skin rather than SparkSkin as your custom skin’s root tag. The SparkSkin class adds support for the colorization styles (such as chromeColor and symbolColor) and supports excluding specific skin parts from colorization, or for specifying symbols to colorize."><![CDATA[True or False: To create a Custom skin you should extend from the Skin Class when your require support for the colorization styles (such as chromeColor and symbolColor)?]]></question>
+			feedback="False, if you create a custom theme for your application, or if you do not need support for global Spark styles in your custom skin class, you can use Skin rather than SparkSkin as your custom skinâ€™s root tag. The SparkSkin class adds support for the colorization styles (such as chromeColor and symbolColor) and supports excluding specific skin parts from colorization, or for specifying symbols to colorize."><![CDATA[True or False: To create a Custom skin you should extend from the Skin Class when your require support for the colorization styles (such as chromeColor and symbolColor)?]]></question>
 		<answer><![CDATA[True]]></answer>
 		<answer correct="y"><![CDATA[False]]></answer>
 	</item>

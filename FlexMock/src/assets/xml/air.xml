@@ -178,7 +178,7 @@
 	<item id="295">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7ff0.html#WS5b3ccc516d4fbf351e63e3d118666ade46-7c64"
-			feedback="C, is correct. Digital Certificate-A digital document that contains information about the identity of the owner, the owner’s public key, and the identity of the certificate itself. A certificate issued by a certification authority is itself signed by a certificate belonging to the issuing CA.">Which of the following is a certificate issued by a
+			feedback="C, is correct. Digital Certificate-A digital document that contains information about the identity of the owner, the ownerâ€™s public key, and the identity of the certificate itself. A certificate issued by a certification authority is itself signed by a certificate belonging to the issuing CA.">Which of the following is a certificate issued by a
 			certification authority is itself signed by a certificate belonging
 			to the issuing CA.</question>
 		<answer>Certificate chain</answer>
