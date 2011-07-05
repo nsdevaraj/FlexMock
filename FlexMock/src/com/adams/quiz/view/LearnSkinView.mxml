@@ -5,10 +5,10 @@
 		xmlns:components="com.adams.swizdao.views.components.*">	 
 	<s:Group width="100%" height="100%">
 		<s:VGroup id="answer" top="10">
-			<s:TextArea id="choice" styleName="header"
+			<s:TextArea id="question" styleName="header"
 						width="100%" editable="false" selectable="false" />
 		</s:VGroup>
-		<s:TextArea id="question" editable="false" 
+		<s:TextArea id="choice" editable="false" 
 					bottom="70"
 					top="{answer.height+10}" width="100%" selectable="false"/> 
 		<s:HGroup id="footer" width="100%" bottom="5" paddingRight="5" verticalAlign="middle">

@@ -109,7 +109,7 @@ package com.adams.quiz.view.mediators
 			view.maxQs.text = "of "+maxPosition;
 			view.navigate.incrementButton.visible =false;
 			view.navigate.decrementButton.visible =false;
-			setQuestion(gotoQuestion(currentPosition));
+			gotoQuestion(currentPosition);
 			Multitouch.inputMode = MultitouchInputMode.GESTURE;
 			for each (var item:String in Multitouch.supportedGestures)
 			{
@@ -124,11 +124,11 @@ package com.adams.quiz.view.mediators
 			// Swipe was to the right
 			if (event.offsetX == 1 ) {
 				currentPosition++;
-				setQuestion(gotoQuestion(currentPosition));
+				gotoQuestion(currentPosition);
 			}
 			else if (event.offsetX == -1 ) {
 				currentPosition--;
-				setQuestion(gotoQuestion(currentPosition));
+				gotoQuestion(currentPosition);
 			}
 		}
 		
@@ -136,13 +136,13 @@ package com.adams.quiz.view.mediators
 			if(pos>=0 && pos<maxPosition){
 				currentPosition = pos;
 				currentQuestion = randomList.getItemAt(currentPosition) as QuestionItem;
-				setAllWrongChoices();
-				setCorrectAnswer(currentQuestion);
+				setAllChoices();
 				oldPosition = currentPosition;
 			}else{
 				currentPosition = oldPosition;
 			}
 			view.navigate.value = (currentPosition+1);
+			view.question.text = currentQuestion.question;
 			return currentQuestion;
 		} 
 		
@@ -157,37 +157,13 @@ package com.adams.quiz.view.mediators
 			return choices;
 		}
 		
-		protected function setAllWrongChoices():void {
-			var getChapter:Chapter= new Chapter();
-			getChapter.chapterId = currentQuestion.chapter;
-			var currentChapter:Chapter = chapterDAO.collection.findExistingItem(getChapter) as Chapter;
-			var choices:ArrayCollection = getRandomListOfQuestions(currentChapter.questionsList);
-			for(var i:int=0;i<4;i++){
+		protected function setAllChoices():void { 
+			for(var i:int=0;i<currentQuestion.choices.length;i++){
 				var qRadio:QRadioButton = view[Utils.CHOICE+int(i+1)];
 				qRadio.correctAnswer=false;
-				qRadio.label = choices.getItemAt(i) as String;
+				//randomRadio.correctAnswer = true;
+				qRadio.label = currentQuestion.choices.getItemAt(i) as String;
 				qRadio.selected = false;
-			}
-		}
-		
-		protected function setCorrectAnswer(currentQuestion:QuestionItem):void {
-			var randomRadio:QRadioButton = view[Utils.CHOICE+Math.round(Math.random()*(4-1)+(1))]
-			randomRadio.label = currentQuestion.choice;
-			randomRadio.correctAnswer = true;
-			view.question.text =currentQuestion.question.split(currentQuestion.choice).join('___')
-		}
-		
-		protected function setQuestion(currentQuestion:QuestionItem):void {
-			var nameArr:Array = currentQuestion.choice.split(',')
-			if(nameArr){	
-				if(nameArr.length>1){
-					if(nameArr[0].length>0){	
-						view.question.text =view.question.text.split(nameArr[0]).join('___')
-					}
-					if(nameArr[1].length>0){	
-						view.question.text =view.question.text.split(nameArr[1]).join('___')
-					}
-				}
 			}
 		}  
 		
@@ -219,7 +195,7 @@ package com.adams.quiz.view.mediators
 			if(currentRadio.correctAnswer){
 				currentSkin.correctFeedback.visible =true;
 			} else{
-				view.feedback.text = 'Try Again'
+				view.feedback.text = currentQuestion.feedback;
 			}
 			oldSkin = currentSkin;
 		}
@@ -229,11 +205,11 @@ package com.adams.quiz.view.mediators
 			switch(ev.currentTarget){  
 				case view.back:
 					currentPosition--;
-					setQuestion(gotoQuestion(currentPosition));
+					gotoQuestion(currentPosition);
 					break;
 				case view.next:
 					currentPosition++;
-					setQuestion(gotoQuestion(currentPosition));
+					gotoQuestion(currentPosition);
 					break;
 				case view.learn:
 					controlSignal.changeStateSignal.dispatch(Utils.LEARN_INDEX);
@@ -241,7 +217,7 @@ package com.adams.quiz.view.mediators
 				case view.navigate:
 				case view.navigate.textDisplay:
 					currentPosition = (view.navigate.value)-1;
-					setQuestion(gotoQuestion(currentPosition));
+					gotoQuestion(currentPosition);
 					break;
 			}
 		} 

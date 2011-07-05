@@ -11,10 +11,23 @@
 		<s:TextArea id="question" editable="false" right="10"
 					bottom="300" top="10" left="10" selectable="false"/>
 		<s:VGroup top="{question.height+10}" bottom="0" width="100%">
-			<components1:QRadioButton id="choice1" group="{grp}" width="100%"/>
-			<components1:QRadioButton id="choice2" group="{grp}" width="100%"/>
-			<components1:QRadioButton id="choice3" group="{grp}" width="100%"/>
-			<components1:QRadioButton id="choice4" group="{grp}" width="100%"/>
+			<s:HGroup id="choicegrp1" verticalAlign="middle">
+				<s:Label text="A."/>
+				<components1:QRadioButton id="choice1" group="{grp}" width="100%"/>
+			</s:HGroup>
+			<s:HGroup id="choicegrp2" verticalAlign="middle">
+				<s:Label text="B."/>
+				<components1:QRadioButton id="choice2" group="{grp}" width="100%"/>
+			</s:HGroup>
+			<s:HGroup id="choicegrp3" verticalAlign="middle">
+				<s:Label text="C."/>
+				<components1:QRadioButton id="choice3" group="{grp}" width="100%"/>
+			</s:HGroup>
+			<s:HGroup id="choicegrp4" verticalAlign="middle">
+				<s:Label text="D."/>
+				<components1:QRadioButton id="choice4" group="{grp}" width="100%"/>
+			</s:HGroup>
+			<s:Label id="feedback" color="white"/>
 		</s:VGroup>
 		<s:HGroup id="footer" verticalAlign="middle" width="100%" bottom="5" paddingRight="5">
 			<components:NativeButton id="back" label="back"/>
@@ -22,7 +35,6 @@
 			<s:Label id="maxQs"/>
 			<components:NativeButton id="next" label="next"/>	
 			<s:Spacer width="100%"/>
-			<s:Label id="feedback" color="white"/>
 			<components:NativeButton id="learn" label="Learn" includeInLayout="{learn.visible}"/>
 		</s:HGroup>
 	</s:Group>

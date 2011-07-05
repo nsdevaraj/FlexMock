@@ -120,7 +120,7 @@ package com.adams.quiz.view.mediators
 		} 
 		
 		protected function setQuestion(currentQuestion:QuestionItem):void {
-			currentInstance.mapConfig.currentTopic = currentQuestion.choice;
+			currentInstance.mapConfig.currentTopic = currentQuestion.link;
 			view.choice.text = currentQuestion.choice;
 			view.question.text = currentQuestion.question;
 		}  

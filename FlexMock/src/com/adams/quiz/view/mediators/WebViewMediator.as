@@ -93,7 +93,7 @@ package com.adams.quiz.view.mediators
 		
 		protected function setWebURL():void {	
 			webView.viewPort = new Rectangle( 0, 50, stage.stageWidth, stage.stageHeight-50);
-			webView.loadURL("http://www.google.com/m/search?q="+currentInstance.mapConfig.currentTopic);
+			webView.loadURL(currentInstance.mapConfig.currentTopic);
 		}
    
 		/**
