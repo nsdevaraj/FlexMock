@@ -253,8 +253,7 @@
 		<answer>They can only be installed from the desktop.</answer>
 		<answer>They can only be installed from a web browser.</answer>
 		<answer>They must be installed using an SWF (Flash) file</answer>
-		<answer correct="y">They can be installed from a web browser or the
-			desktop</answer>
+		<answer correct="y">They can be installed from a web browser or the desktop</answer>
 	</item>
 	<item id="360">
 		<question type="singleChoice"

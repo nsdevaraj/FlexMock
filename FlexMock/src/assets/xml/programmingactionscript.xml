@@ -515,7 +515,7 @@
 	<item id="211">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7ccb.html"
-			feedback="TrueYou cannot use E4X when defining a data binding by using the BindingUtils.bindProperty() or the BindingUtils.bindSetter() method.">You cannot use E4X when defining a data binding by using the BindingUtils.bindProperty() or the BindingUtils.bindSetter() method.</question>
+			feedback="True. You cannot use E4X when defining a data binding by using the BindingUtils.bindProperty() or the BindingUtils.bindSetter() method.">You cannot use E4X when defining a data binding by using the BindingUtils.bindProperty() or the BindingUtils.bindSetter() method.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>

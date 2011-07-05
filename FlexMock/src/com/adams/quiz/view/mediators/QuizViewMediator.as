@@ -19,7 +19,7 @@ package com.adams.quiz.view.mediators
 	import com.adams.quiz.util.RandomSequence;
 	import com.adams.quiz.util.Utils;
 	import com.adams.quiz.view.QuizSkinView;
-	import com.adams.quiz.view.components.QRadioButton;
+	import com.adams.quiz.view.components.QChoice;
 	import com.adams.swizdao.model.vo.*;
 	import com.adams.swizdao.views.mediators.AbstractViewMediator;
 	
@@ -149,7 +149,7 @@ package com.adams.quiz.view.mediators
 		
 		protected function hideAllChoices():void { 
 			for(var i:int=0;i<4;i++){
-				var qRadio:QRadioButton = view[Utils.CHOICE+int(i+1)];
+				var qRadio:QChoice = view[Utils.CHOICE+int(i+1)];
 				qRadio.selected = false;
 				qRadio.visible =false;
 				qRadio.correctAnswer =false;
@@ -158,7 +158,7 @@ package com.adams.quiz.view.mediators
 		
 		protected function setAllChoices():void { 
 			for(var i:int=0;i<currentQuestion.choices.length;i++){
-				var qRadio:QRadioButton = view[Utils.CHOICE+int(i+1)];
+				var qRadio:QChoice = view[Utils.CHOICE+int(i+1)];
 				var choice:String = String(currentQuestion.choices.getItemAt(i));
 				(currentQuestion.choiceArr.indexOf(choice)== -1) ? qRadio.correctAnswer=false : qRadio.correctAnswer=true;
 				qRadio.label = choice;
@@ -190,8 +190,8 @@ package com.adams.quiz.view.mediators
 		}
 		
 		protected function onSelection( ev:Event ): void { 
-			var currentRadio:QRadioButton = ev.currentTarget as QRadioButton
-			var currentSkin:QRadioSkin = QRadioSkin(currentRadio.skin);
+			var currentRadio:QChoice = ev.currentTarget as QChoice
+			var currentSkin:QRadioSkin = Object(currentRadio).skin;
 			resetFeedback();
 			if(currentRadio.correctAnswer){
 				currentSkin.correctFeedback.visible =true;

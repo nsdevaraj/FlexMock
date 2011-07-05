@@ -27,7 +27,7 @@
 				<s:Label id="lbl4" text="D." fontWeight="bold" color="white" visible="{choice4.visible}"  includeInLayout="{lbl3.visible}"/>
 				<components1:QRadioButton id="choice4" group="{grp}" includeInLayout="{choice4.visible}" width="100%"/>
 			</s:HGroup>
-			<s:Label id="feedback" color="white"/>
+			<s:TextArea id="feedback" color="white" width="100%"/>
 		</s:VGroup>
 		<s:HGroup id="footer" verticalAlign="middle" width="100%" bottom="5" paddingRight="5">
 			<components:NativeButton id="back" label="back"/>
