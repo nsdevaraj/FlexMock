@@ -125,6 +125,7 @@ package com.adams.quiz.model.vo
 			_questionitemId = value;
 		}
 		override public function fill(item:Object):void{
+			questionitemId = item.id;
 			question = item.question.value;
 			link = item.question.link;
 			feedback = item.question.feedback;

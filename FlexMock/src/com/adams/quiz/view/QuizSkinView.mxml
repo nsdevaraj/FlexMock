@@ -9,24 +9,24 @@
 	</fx:Declarations>
 	<s:Group width="100%" height="100%">
 		<s:TextArea id="question" editable="false" right="10"
-					bottom="300" top="10" left="10" selectable="false"/>
+					maxHeight="150" top="10" left="10" selectable="false"/>
 		<s:VGroup top="{question.height+10}" bottom="0" width="100%">
-			<s:HGroup id="choicegrp1" verticalAlign="middle"  width="100%">
-				<s:Label id="lbl1" text="A." fontWeight="bold" color="white"  includeInLayout="{lbl1.visible}"/>
+			<s:HGroup id="choicegrp1" verticalAlign="middle"  width="100%" includeInLayout="{lbl1.visible}">
+				<s:Label id="lbl1" text="A." fontWeight="bold" color="white"/>
 			</s:HGroup>
-			<s:HGroup id="choicegrp2" verticalAlign="middle"  width="100%">
-				<s:Label id="lbl2" text="B." fontWeight="bold" color="white"  includeInLayout="{lbl2.visible}"/>
+			<s:HGroup id="choicegrp2" verticalAlign="middle"  width="100%" includeInLayout="{lbl2.visible}">
+				<s:Label id="lbl2" text="B." fontWeight="bold" color="white"/>
 			</s:HGroup>
-			<s:HGroup id="choicegrp3" verticalAlign="middle" width="100%">
-				<s:Label id="lbl3" text="C." fontWeight="bold" color="white" includeInLayout="{lbl3.visible}"/>
+			<s:HGroup id="choicegrp3" verticalAlign="middle" width="100%" includeInLayout="{lbl3.visible}">
+				<s:Label id="lbl3" text="C." fontWeight="bold" color="white"/>
 			</s:HGroup>
-			<s:HGroup id="choicegrp4" verticalAlign="middle" width="100%" >
-				<s:Label id="lbl4" text="D." fontWeight="bold" color="white"  includeInLayout="{lbl4.visible}"/>
+			<s:HGroup id="choicegrp4" verticalAlign="middle" width="100%" includeInLayout="{lbl4.visible}">
+				<s:Label id="lbl4" text="D." fontWeight="bold" color="white"/>
 			</s:HGroup>
 			<s:HGroup id="choicegrp5" verticalAlign="middle" width="100%" includeInLayout="{lbl5.visible}">
-				<s:Label id="lbl5" text="E." fontWeight="bold" color="white"  includeInLayout="{lbl5.visible}"/>
+				<s:Label id="lbl5" text="E." fontWeight="bold" color="white"/>
 			</s:HGroup>
-			<s:TextArea id="feedback" color="white" width="100%" selectable="false" editable="false"/>
+			<s:TextArea id="feedback" color="white" maxHeight="50" width="100%" selectable="false" editable="false"/>
 		</s:VGroup>
 		<s:HGroup id="footer" verticalAlign="middle" width="100%" bottom="5" paddingRight="5">
 			<components:NativeButton id="back" label="back"/>

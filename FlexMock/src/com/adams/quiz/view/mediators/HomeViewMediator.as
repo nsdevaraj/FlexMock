@@ -151,7 +151,8 @@ package com.adams.quiz.view.mediators
 			for(var i:int=0; i<maxLength; i++){
 				ArrayCollection(currentInstance.mapConfig.randomList).addItem(collection.getItemAt(_array[i]));
 			} 
-			//view.chapterList.selectedItem = null;
+			view.chapterList.selectedItem = null;
+			view.chapterList.selectedIndex = -1;
 			controlSignal.headerStateSignal.dispatch(this,Utils.HEADER_LEARN_INDEX);
 			controlSignal.changeStateSignal.dispatch(Utils.SEARCH_INDEX);
 		}

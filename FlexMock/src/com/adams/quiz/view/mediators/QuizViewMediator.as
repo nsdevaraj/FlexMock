@@ -31,7 +31,6 @@ package com.adams.quiz.view.mediators
 	import flash.ui.MultitouchInputMode;
 	
 	import mx.collections.ArrayCollection;
-	import mx.collections.IList;
 	
 	import spark.components.Group;
 	import spark.components.Label;
@@ -169,6 +168,7 @@ package com.adams.quiz.view.mediators
 		}	
 		
 		protected function initAllRadioChoices():void { 
+			//trace(currentQuestion.questionitemId +'currentQuestion')
 			if(currentQuestion.type != Utils.MULTI_CHOICE){
 				choice1 = new QRadioButton();
 				choice2 = new QRadioButton();
