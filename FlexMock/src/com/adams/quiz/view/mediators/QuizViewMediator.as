@@ -11,7 +11,7 @@ Copyright (c) 2011 Adams Studio India, All Rights Reserved
 */
 package com.adams.quiz.view.mediators
 { 
-	import assets.skins.QRadioSkin;
+	import assets.skins.IChoiceSkin;
 	
 	import com.adams.quiz.model.AbstractDAO;
 	import com.adams.quiz.model.vo.*;
@@ -45,7 +45,7 @@ package com.adams.quiz.view.mediators
 		private var currentQuestion:QuestionItem;
 		private var currentPosition:int;
 		private var oldPosition:int;
-		private var oldSkin:QRadioSkin;
+		private var oldSkin:IChoiceSkin;
 		private var maxPosition:int;
 		private var _homeState:String;
 		
@@ -191,7 +191,7 @@ package com.adams.quiz.view.mediators
 		
 		protected function onSelection( ev:Event ): void { 
 			var currentRadio:QChoice = ev.currentTarget as QChoice
-			var currentSkin:QRadioSkin = Object(currentRadio).skin;
+			var currentSkin:IChoiceSkin = Object(currentRadio).skin as IChoiceSkin;
 			resetFeedback();
 			if(currentRadio.correctAnswer){
 				currentSkin.correctFeedback.visible =true;

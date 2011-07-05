@@ -7,12 +7,12 @@ package assets.skins
 	
 	import spark.components.CheckBox;
 	import spark.components.Label;
-	import spark.skins.mobile.RadioButtonSkin;
+	import spark.skins.mobile.CheckBoxSkin;
 	
-	public class QRadioSkin extends RadioButtonSkin implements IChoiceSkin
+	public class QCheckBoxSkin extends CheckBoxSkin implements IChoiceSkin 
 	{
 		private var _correctFeedback:CheckBox;
-		public function QRadioSkin()
+		public function QCheckBoxSkin()
 		{
 			super();
 			addEventListener(Event.ADDED_TO_STAGE,creationComplete,false,0,true);
@@ -37,6 +37,5 @@ package assets.skins
 			correctFeedback.x = 350;
 			this.addChild(correctFeedback);
 		} 
-		
 	}
 }

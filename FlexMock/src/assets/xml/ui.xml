@@ -1048,10 +1048,8 @@ color: #9933FF;
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf66ac6-7fff.html#WS2db454920e96a9e51e63e3d11c0bf66ac6-7ffd"
 			feedback="D is correct.The data model feature lets you store data in client-side objects. A data model is an ActionScript object that contains properties for storing data, and that optionally contains methods for additional functionality. Data models are useful for partitioning the user interface and data in an application."><![CDATA[What are required to achieve Data Driven Model?]]></question>
 		<answer>you store data in client-side objects.</answer>
-		<answer>useful for partitioning the user interface and data in an
-			application</answer>
-		<answer>it is an ActionScript object that contains properties for
-			storing data</answer>
+		<answer>useful for partitioning the user interface and data in an application</answer>
+		<answer>it is an ActionScript object that contains properties for storing data</answer>
 		<answer correct="y">All the above</answer>
 	</item>
 	<item id="351">

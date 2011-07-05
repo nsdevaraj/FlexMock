@@ -9,9 +9,22 @@
 			
 			import org.osflash.signals.natives.NativeSignal;
 			
-			private var _clicked:NativeSignal;
-			private var _correctAnswer:Boolean;
+			import spark.components.RadioButtonGroup;
 			
+			private var _clicked:NativeSignal;
+			private var _correctAnswer:Boolean; 
+			private var _group:RadioButtonGroup
+
+			public function get group():RadioButtonGroup
+			{
+				return _group;
+			}
+
+			public function set group(value:RadioButtonGroup):void
+			{
+				_group = value;
+			}
+
 			public function get correctAnswer():Boolean
 			{
 				return _correctAnswer;

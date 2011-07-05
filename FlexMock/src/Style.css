@@ -52,3 +52,6 @@ s|List{
 components|QRadioButton{
 	skinClass:ClassReference("assets.skins.QRadioSkin")
 }
+components|QCheckBox{
+	skinClass:ClassReference("assets.skins.QCheckBoxSkin")
+}
