@@ -11,7 +11,7 @@
 	<item id="2">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS64909091-7042-4fb8-A243-8FD4E2990264.html"
-			feedback="A and c are correct. The DataGroup and SkinnableDataContainer container are examples of data provider components. Data provider components require data for display or user interaction. To provide data, assign a collection which implements the IList interface, such as an ArrayList, ArrayCollection, or XMLListCollection object, to the containerâ€™s dataProvider property."><![CDATA[Which of the following Containers are example of DataProvider Components. Choose two: ]]></question>
+			feedback="A and c are correct. The DataGroup and SkinnableDataContainer container are examples of data provider components. Data provider components require data for display or user interaction. To provide data, assign a collection which implements the IList interface, such as an ArrayList, ArrayCollection, or XMLListCollection object, to the container's dataProvider property."><![CDATA[Which of the following Containers are example of DataProvider Components. Choose two: ]]></question>
 		<answer correct="y">DataGroup container</answer>
 		<answer>Border Container</answer>
 		<answer>NavigatorContent container.</answer>
@@ -63,21 +63,14 @@
 	<item id="8">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7df9.html"
-			feedback="False.Constraint rows and columns are only supported by the MX containers. They are not supported by the Spark containers."><![CDATA[True or False:Spark containers supports Constraint rows and columns.]></question>
-
-  <answer>true</answer>
-
-  <answer correct="y">false</answer>
-
-</item>
-
-<item id="9">
-
-<question type="singleChoice" feedback="C is the answer. The OLAPDataGrid control lets you aggregate large amounts of data for easy display and interpretation. The control supports a two-dimensional grid layout, where the columns and rows of the control can display a single level of information, or you can create hierarchical rows and columns to display more complex data." link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7b38.html">
-
-<![CDATA[ Which of the following control supports a two-dimensional grid layout, where the columns and rows of the control can display a single level of information?
-
-  ]]></question>
+			feedback="False.Constraint rows and columns are only supported by the MX containers. They are not supported by the Spark containers."><![CDATA[True or False:Spark containers supports Constraint rows and columns.]]></question>
+		<answer>true</answer>
+		<answer correct="y">false</answer>
+	</item>
+	<item id="9">
+		<question type="singleChoice"
+			feedback="C is the answer. The OLAPDataGrid control lets you aggregate large amounts of data for easy display and interpretation. The control supports a two-dimensional grid layout, where the columns and rows of the control can display a single level of information, or you can create hierarchical rows and columns to display more complex data."
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7b38.html"><![CDATA[ Which of the following control supports a two-dimensional grid layout, where the columns and rows of the control can display a single level of information?]]></question>
 		<answer><![CDATA[ DataGrid control]]></answer>
 		<answer><![CDATA[AdvancedDataGrid control]]></answer>
 		<answer correct="y"><![CDATA[OLAPDataGrid control]]></answer>
@@ -203,19 +196,12 @@
 		<question
 			feedback="A is correct. If you do not specify a unit of measure for fontSize in an external CSS document, the unit is assumed to be pixels."
 			type="singleChoice" link="http://livedocs.adobe.com/flex/3/html/styles_02.html#159355"><![CDATA[Based on the code below, which of the following statements is true? Choose One: 
-
 <mx:Style> 
-
 	.myStyle { 
-
     	fontSize: 12;
-
     	color: #9933FF;
-
 	}	
-
 </mx:Style> 
-
 <mx:Button styleName="myStyle" label="Click Here"/>]]></question>
 		<answer correct="y">this code will make the button's label 20
 			pixels in height</answer>
@@ -263,9 +249,7 @@
 	<item id="29">
 		<question
 			feedback="B is correct. This method Interrupts an effect instance that is currently playing, and jumps immediately to the end of the effect. This method is invoked by a call to the Effect.end() method"
-			type="singleChoice" link="http://livedocs.adobe.com/flex/3/html/behaviors_05.html#275821"><![CDATA[Which of the following method would you add to stop the indefinite rotation effect.? Choose One: 
-
-]]></question>
+			type="singleChoice" link="http://livedocs.adobe.com/flex/3/html/behaviors_05.html#275821"><![CDATA[Which of the following method would you add to stop the indefinite rotation effect.? Choose One:]]></question>
 		<answer><![CDATA[finishEffect()]]></answer>
 		<answer correct="y"><![CDATA[end()]]></answer>
 		<answer><![CDATA[finishRepeat()]]></answer>
@@ -275,9 +259,7 @@
 		<question
 			feedback="D is correct.Informs the NativeDragManager object that the specified target interactive object can accept a drop corresponding to the current drag event."
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/desktop/NativeDragManager.html#acceptDragDrop()"><![CDATA[Which method of the NativeDragManager class will approve the current drag event? Choose one. 
-
->]]></question>
+			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/desktop/NativeDragManager.html#acceptDragDrop()"><![CDATA[Which method of the NativeDragManager class will approve the current drag event? Choose one.]]></question>
 		<answer>doDrag()</answer>
 		<answer>dragDrop()</answer>
 		<answer>doDragDrop()</answer>
@@ -297,9 +279,7 @@
 		<question
 			feedback="A is Correct.When you change the styleName property of a UIComponent, flex cals the regenerateStyleCache()."
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/mx/core/UIComponent.html#regenerateStyleCache()"><![CDATA[Which of the following method will be called When you change the styleName property of a UIComponent. Choose One: 
-
-]]></question>
+			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/mx/core/UIComponent.html#regenerateStyleCache()"><![CDATA[Which of the following method will be called When you change the styleName property of a UIComponent. Choose One: ]]></question>
 		<answer correct="y">regenerateStyleCache()</answer>
 		<answer>regenerateStyleCache()</answer>
 		<answer>registerEffects()</answer>
@@ -309,9 +289,7 @@
 		<question
 			feedback="True.The default layout of the List control is VerticalLayout. You can use any of the Flex layout classes with the list-based controls."
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WSc2368ca491e3ff92-1483ec4a12136246e76-8000.html"><![CDATA[True or False:Default layout of the List control is VerticalLayout. 
-
-]]></question>
+			link="http://help.adobe.com/en_US/flex/using/WSc2368ca491e3ff92-1483ec4a12136246e76-8000.html"><![CDATA[True or False:Default layout of the List control is VerticalLayout. ]]></question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
@@ -355,8 +333,7 @@
 		<question
 			feedback="B and C are correct. PSD's and ICO's' are file types that are not supported for embeding in your Flex application. "
 			type="multiChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7f9d.html">Which of the following file formats are not supported by Flex
-			application? Choose two.</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7f9d.html">Which of the following file formats are not supported by Flex application? Choose two.</question>
 		<answer>JPEG</answer>
 		<answer correct="y">PSD</answer>
 		<answer correct="y">ICO</answer>
@@ -365,8 +342,7 @@
 	<item id="40">
 		<question type="Single choice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7f9d.html"
-			feedback="C is correct. The load() method of the SWFLoader control only works with GIF, JPEG, PNG, and SWF files; you cannot use it to load SVG files.">Which of the following file cannot be loaded by load() of
-			the SWF loader control.</question>
+			feedback="C is correct. The load() method of the SWFLoader control only works with GIF, JPEG, PNG, and SWF files; you cannot use it to load SVG files.">Which of the following file cannot be loaded by load() of the SWF loader control.</question>
 		<answer>GIF</answer>
 		<answer>JPEG</answer>
 		<answer correct="y">SVG</answer>
@@ -385,10 +361,7 @@
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7f9d.html"
 			feedback="C is correct. It shows the proper way to load an image at runtime,it is not packaged as part of the generated SWF file."><![CDATA[Which of the following options shows the correct way to embed an image into the source property of the <mx:Image> tag at Run time? Choose one.
-
-<mx:Image  ...add code here... width="100" height="50"/>
-
-]]></question>
+        <mx:Image  ...add code here... width="100" height="50"/>]]></question>
 		<answer><![CDATA[source="@Embed(source='mypic.jpg')"]]></answer>
 		<answer><![CDATA[source="Embed(source='mypic.jpg')"]]></answer>
 		<answer correct="y"><![CDATA[source='mypic.jpg']]></answer>
@@ -416,8 +389,7 @@
 	<item id="45">
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7d7e.html"
-			feedback="A and C are correct. TileList Control and HorizontalList control take input from a data provider, an object that contains data.">Which of the following are data-driven controls? Choose two.
-		</question>
+			feedback="A and C are correct. TileList Control and HorizontalList control take input from a data provider, an object that contains data.">Which of the following are data-driven controls? Choose two.</question>
 		<answer correct="y">TileList</answer>
 		<answer>CheckBox</answer>
 		<answer correct="y">HorizontalList</answer>
@@ -467,8 +439,7 @@
 		<question
 			feedback="C is correct. The DisplayObject class is the base class for all objects that can be placed on the display list. DisplayObject implements IBitmapDrawable class, and MovieClip and Sprite extend from DisplayObject."
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/display/DisplayObject.html">Which is the base class for all the Visual Objects including
-			flex controls and containers.? Choose one.</question>
+			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/display/DisplayObject.html">Which is the base class for all the Visual Objects including flex controls and containers.? Choose one.</question>
 		<answer>MovieClip</answer>
 		<answer>IBitmapDrawable</answer>
 		<answer correct="y">DisplayObject</answer>
@@ -478,16 +449,14 @@
 		<question
 			feedback="False. When using the SWFLoader control with an SVG file, you can only load it by using an Embed statement; you cannot load an SVG file at run time."
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7f9c.html">True or False. If you are using the SWFLoader control with an
-			SVG file, you can only load it by run time</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7f9c.html">True or False. If you are using the SWFLoader control with an SVG file, you can only load it by run time</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="53">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7e50.html"
-			feedback="A is correct. The TabNavigator container extends the ViewStack container by including a TabBar container for navigating between its child containers.">Which of the following extends the ViewStack container and
-			offers easy navigation of it's children? Choose one.</question>
+			feedback="A is correct. The TabNavigator container extends the ViewStack container by including a TabBar container for navigating between its child containers.">Which of the following extends the ViewStack container and offers easy navigation of it's children? Choose one.</question>
 		<answer correct="y">TabNavigator</answer>
 		<answer>Panel</answer>
 		<answer>Accordion</answer>
@@ -497,8 +466,7 @@
 		<question
 			feedback="True. The LinkButton control creates a single-line hypertext link that supports an optional icon."
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7d93.html">True or False: The LinkButton control supports the optional
-			graphic icon?</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7d93.html">True or False: The LinkButton control supports the optional graphic icon?</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
@@ -506,8 +474,7 @@
 		<question
 			feedback="A iscorrect.The Spark Group, DataGroup, and BorderContainer containers do not support skinning. All other Spark containers support skinning so that you can control the visual aspects of the container. "
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS8DF44A60-B4B0-491f-A359-1B193DEB18D6.html">Which of the following Spark Container does not support
-			Skinning?</question>
+			link="http://help.adobe.com/en_US/flex/using/WS8DF44A60-B4B0-491f-A359-1B193DEB18D6.html">Which of the following Spark Container does not support Skinning?</question>
 		<answer correct="y">Group</answer>
 		<answer>HorizontalLayout</answer>
 		<answer>VerticalLayout</answer>
@@ -518,7 +485,6 @@
 			feedback="C is correct. Use attributes of components to apply style properties. These properties apply only to the instance of the control. This is the most efficient method of applying instance properties because no ActionScript code blocks or method calls are required."
 			type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ffe.html"><![CDATA[The following style declaration is an example of: Choose one.
-
 <s:Button label="Hello" fontSize="15" color="#9933FF"/>]]></question>
 		<answer>class selector</answer>
 		<answer>type selector</answer>
@@ -528,7 +494,7 @@
 	<item id="58">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7e4d.html"
-			feedback="False. The default creation policy for all containers, except the Application container, is the policy of the parent container. The default policy for the Application container is auto. In most cases, therefore, the View Stack controlâ€™s children are not created until they are selected. You cannot set the selectedChild  property to a child that is not yet created"><![CDATA[True of False:  The default creation policy for all containers is the policy of the parent container]]></question>
+			feedback="False. The default creation policy for all containers, except the Application container, is the policy of the parent container. The default policy for the Application container is auto. In most cases, therefore, the View Stack control's children are not created until they are selected. You cannot set the selectedChild  property to a child that is not yet created"><![CDATA[True of False:  The default creation policy for all containers is the policy of the parent container]]></question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
@@ -536,8 +502,7 @@
 		<question
 			feedback="B is correct. The Parallel effect plays multiple child effects at the same time."
 			type="multiChoice"
-			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/mx/effects/Parallel.html">Which of the following effet plays a multiple Child effects at
-			the same time.?</question>
+			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/mx/effects/Parallel.html">Which of the following effet plays a multiple Child effects at the same time.?</question>
 		<answer><![CDATA[Effect>]]></answer>
 		<answer correct="y"><![CDATA[Parallel]]></answer>
 		<answer><![CDATA[EffectInstance]]></answer>
@@ -545,9 +510,9 @@
 	</item>
 	<item id="60">
 		<question
-			feedback="False. When you set the childâ€™s width and height properties to percentages, the percentage is based on the size of the tile cell, not on the size of the Tile container itself. Even though it isnâ€™t an explicitly defined container, the cell acts as the parent of the components in the Tile container."
+			feedback="False. When you set the child's width and height properties to percentages, the percentage is based on the size of the tile cell, not on the size of the Tile container itself. Even though it isn't an explicitly defined container, the cell acts as the parent of the components in the Tile container."
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7e4f.html"><![CDATA[True or False: When you set the childâ€™s width and height properties to percentages, the percentage is based on the size of the Tile container.]]></question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7e4f.html"><![CDATA[True or False: When you set the child's width and height properties to percentages, the percentage is based on the size of the Tile container.]]></question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
@@ -556,11 +521,8 @@
 			feedback="C is correct. The proper way to implement a binding to the employees ArrayCollection here would be to use the curly braces {} in the opening tag for the DataGrid."
 			type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7e52.html"><![CDATA[Given the following code sample,How you will add the dataprovider property to the DataGrid? Choose one.
-
 <mx:DataGrid id="dg" rowCount="5" ...add code here...>
-
 <mx:columns>
-
 <mx:DataGridColumn dataField="name" headerText="Name"/>]]></question>
 		<answer><![CDATA[dataProvider="students"]]></answer>
 		<answer><![CDATA[dataProvider="{'students'}"]]></answer>
@@ -571,9 +533,7 @@
 		<question
 			feedback="False. The curly braces syntax and the &lt;fx:Binding> tag both define a data binding at compile time. You can also use ActionScript code to define a data binding at run time,"
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf64c3d-7fff.html">True or False: You can use curly braces syntax and the
-			&lt;fx:Binding&gt; tag both to define a data binding at run time.
-		</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf64c3d-7fff.html">True or False: You can use curly braces syntax and the &lt;fx:Binding&gt; tag both to define a data binding at run time. </question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
@@ -581,8 +541,7 @@
 		<question
 			feedback="A and D are correct. The TextInput and TextArea components can both display text and accept user input, while the Label and Text controls are used only for displaying text."
 			type="multiChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS02f7d8d4857b1677-165a04e1126951a2d98-7fde.html">Which of the following controls display text AND cannot accept
-			user input? Choose two.</question>
+			link="http://help.adobe.com/en_US/flex/using/WS02f7d8d4857b1677-165a04e1126951a2d98-7fde.html">Which of the following controls display text AND cannot accept user input? Choose two.</question>
 		<answer correct="y">Label</answer>
 		<answer>TextInput</answer>
 		<answer>TextArea</answer>
@@ -600,22 +559,13 @@
 			feedback="D is correct. In this MXML code, a CSS type selector class is set for all Button controls in the application. However, the inline definition will take precendence. The Button type selector will set a style for all Button controls within the application, but since this particular button has it's color property set inline, it will effectively override any other styles."
 			type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ffe.html"><![CDATA[Based on the following code, which style definition's color property will take precedence? Choose one.
-
 <mx:Style>
-
 Button { 
-
 fontSize: 10pt;
-
 color: #FF0000;
-
 }
-
 </mx:Style>
-
-<mx:Button color="0x999942" label="Inline Color"/>
-
-]]></question>
+<mx:Button color="0x999942" label="Inline Color"/>]]></question>
 		<answer>Button type selector</answer>
 		<answer>This will cause an error</answer>
 		<answer>Makes no difference</answer>
@@ -632,21 +582,14 @@ color: #FF0000;
 	</item>
 	<item id="67">
 		<question
-			feedback="A is correct. Class selectors define a set of styles (or a class) that you can apply to any component. You define the style class, and then point to the style class using the styleName property of the componentâ€™s MXML tag. All components that are a subclass of the UIComponent class support the styleName property."
+			feedback="A is correct. Class selectors define a set of styles (or a class) that you can apply to any component. You define the style class, and then point to the style class using the styleName property of the component's MXML tag. All components that are a subclass of the UIComponent class support the styleName property."
 			type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ff2.html#WS2db454920e96a9e51e63e3d11c0bf62883-7fee"><![CDATA[The Given sample code specifies which of the following selectors?  Choose one.
-
- .myFontStyle { 
-
+.myFontStyle { 
 fontSize: 15;
-
 color: #9933FF;
-
- }
-
-<s:Button id="myButton" styleName="myFontStyle" label="Click Me"/>
-
- ]]></question>
+}
+<s:Button id="myButton" styleName="myFontStyle" label="Click Me"/>]]></question>
 		<answer correct="y">type selector</answer>
 		<answer>class selector</answer>
 		<answer>id selector</answer>
@@ -656,8 +599,7 @@ color: #9933FF;
 		<question
 			feedback="B is correct. Change Dispatched after the currently selected data item changes to another data item. This event is dispatched when the user interacts with the control.When you change the value of the selectedIndex or selectedItem properties programmatically, the control does not dispatch the change event. It dispatches the valueCommit event instead."
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/flex/using/WSc2368ca491e3ff92-1483ec4a12136246e76-8000.html#WSbe2da7400ffe6ad4-4db7fd2d121d08216ab-8000">Which of the following Event dispatched after the currently
-			selected data item changes to another data item.</question>
+			link="http://help.adobe.com/en_US/flex/using/WSc2368ca491e3ff92-1483ec4a12136246e76-8000.html#WSbe2da7400ffe6ad4-4db7fd2d121d08216ab-8000">Which of the following Event dispatched after the currently selected data item changes to another data item.</question>
 		<answer><![CDATA[caretChange]]></answer>
 		<answer correct="y"><![CDATA[change]]></answer>
 		<answer>changing</answer>
@@ -691,8 +633,7 @@ color: #9933FF;
 	<item id="73">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7e52.html"
-			feedback="B is correct. A Grid container lets you arrange children as rows and columns of cells, similar to an HTML table. GridContainer does not exist in the mx.containers package.">Which of the following containers is like an HTML table?
-			Choose one.</question>
+			feedback="B is correct. A Grid container lets you arrange children as rows and columns of cells, similar to an HTML table. GridContainer does not exist in the mx.containers package.">Which of the following containers is like an HTML table? Choose one.</question>
 		<answer>TileWindow</answer>
 		<answer correct="y">Grid</answer>
 		<answer>GridContainer</answer>
@@ -701,18 +642,14 @@ color: #9933FF;
 	<item id="74">
 		<question type="tf"
 			link="http://livedocs.adobe.com/flex/201/html/wwhelp/wwhimpl/common/html/wwhelp.htm?context=LiveDocs_Book_Parts&amp;file=working_comps_038_24.html"
-			feedback="True. In Flex, all constraints are set relative to the edges of the container. They cannot be set relative to other controls.">True or False: Concerning constraint-based layouts in Flex,
-			all constraints are set relative to the edges of the container. They
-			cannot be set relative to other controls.</question>
+			feedback="True. In Flex, all constraints are set relative to the edges of the container. They cannot be set relative to other controls.">True or False: Concerning constraint-based layouts in Flex, all constraints are set relative to the edges of the container. They cannot be set relative to other controls.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="75">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf63825-7fff.html"
-			feedback="D is correct. Use the updateComplete event for actions that must be performed each time a componentâ€™s characteristics change, not just when the component is created.">Which of the following event will be called when actions
-			that must be performed each time a componentâ€™s characteristics
-			change, not just when the component is created</question>
+			feedback="D is correct. Use the updateComplete event for actions that must be performed each time a component's characteristics change, not just when the component is created.">Which of the following event will be called when actions that must be performed each time a component's characteristics change, not just when the component is created</question>
 		<answer>preinitialize</answer>
 		<answer>initialize</answer>
 		<answer>creationComplete</answer>
@@ -758,8 +695,7 @@ color: #9933FF;
 		<question
 			feedback="True. The RichText control is a middleweight Spark text control. It can display richly-formatted text, with multiple character and paragraph formats. However, it is non-interactive: it does not support hyperlinks, scrolling, selection, or editing. If you want a control that supports formatted text plus scrolling, selection, and editing, you can use the RichEditableText control."
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS02f7d8d4857b1677-165a04e1126951a2d98-7fca.html">True or False: Rich text Control does not support hyperlinks,
-			scrolling, selection, or editing</question>
+			link="http://help.adobe.com/en_US/flex/using/WS02f7d8d4857b1677-165a04e1126951a2d98-7fca.html">True or False: Rich text Control does not support hyperlinks, scrolling, selection, or editing</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
@@ -774,8 +710,7 @@ color: #9933FF;
 	<item id="82">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ffe.html"
-			feedback="False. The order of precedence is the following: inline, class selector, type selector, ancestor class type selector, parent chain , global selector.">A type selector for a style definition takes precedence over
-			a classselector.</question>
+			feedback="False. The order of precedence is the following: inline, class selector, type selector, ancestor class type selector, parent chain , global selector.">A type selector for a style definition takes precedence over a class selector.</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
@@ -791,8 +726,7 @@ color: #9933FF;
 	<item id="85">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf60efb-7fee.html"
-			feedback="A is correct. Application and UIComponent are part of the mx.core package. Object and String are part of the TopLevel package.">In a dataValidator which of the following property is used
-			to specify a field of the object to validate?</question>
+			feedback="A is correct. Application and UIComponent are part of the mx.core package. Object and String are part of the TopLevel package.">In a dataValidator which of the following property is used to specify a field of the object to validate?</question>
 		<answer correct="y">property</answer>
 		<answer>source</answer>
 		<answer>trigger</answer>
@@ -810,8 +744,7 @@ color: #9933FF;
 	<item id="87">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7f4f.html#WS2db454920e96a9e51e63e3d11c0bf69084-7f47"
-			feedback="C is Correct.EmialValidator, ZipCodeValidator, NumberValidators, PhoneNumberValidators are the standard Validator. PhoneValidator is not a validator.">Which of the following validators are not a standard
-			Validator?</question>
+			feedback="C is Correct.EmialValidator, ZipCodeValidator, NumberValidators, PhoneNumberValidators are the standard Validator. PhoneValidator is not a validator.">Which of the following validators are not a standard Validator?</question>
 		<answer>EmailValidator</answer>
 		<answer>NumberValidator</answer>
 		<answer correct="y">PhoneValidator</answer>
@@ -830,8 +763,7 @@ color: #9933FF;
 		<question
 			feedback="True. FXG is a declarative XML syntax for defining vector graphics in applications built with Flex. FXG can also be used as an interchange format with other Adobe tools such as Illustrator or Photoshop"
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WSda78ed3a750d6b8f26c150d412357de3591-8000.html">True or False: FXG can also be used as an interchange format
-			with other Adobe tools such as Illustrator or Photoshop.</question>
+			link="http://help.adobe.com/en_US/flex/using/WSda78ed3a750d6b8f26c150d412357de3591-8000.html">True or False: FXG can also be used as an interchange format with other Adobe tools such as Illustrator or Photoshop.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
@@ -839,8 +771,7 @@ color: #9933FF;
 		<question
 			feedback="A is correct. he CandlestickChart control represents financial data as a series of candlesticks representing the high, low, opening, and closing values of a data series."
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/mx/charts/CandlestickChart.html">Which of the following chart type represent financial data
-		</question>
+			link="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/mx/charts/CandlestickChart.html">Which of the following chart type represent financial data.</question>
 		<answer>PieChart</answer>
 		<answer>PlotChart</answer>
 		<answer correct="y">CandlestickChart</answer>
@@ -849,8 +780,7 @@ color: #9933FF;
 	<item id="91">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/fl/accessibility/ButtonAccImpl.html"
-			feedback="A is correct. The ButtonAccImpl class, also called the Button Accessibility Implementation class, enables communication between a Button component and a screen reader. Screen readers are used to translate screen content into synthesized speech or braille for visually impaired users.">Which of the following class enables communication between a
-			Button Component and Screen reader?</question>
+			feedback="A is correct. The ButtonAccImpl class, also called the Button Accessibility Implementation class, enables communication between a Button component and a screen reader. Screen readers are used to translate screen content into synthesized speech or braille for visually impaired users.">Which of the following class enables communication between a Button Component and Screen reader?</question>
 		<answer correct="y">ButtonAccImpl</answer>
 		<answer>ButtonAsset</answer>
 		<answer>BufferEvent</answer>
@@ -948,7 +878,7 @@ color: #9933FF;
 	<item id="146">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7df9.html"
-			feedback="C is correct. The horizontalCenter and verticalCenter properties specify distance between the componentâ€™s center point and the containerâ€™s center, in the specified direction; a negative number moves the component left or up from the center."><![CDATA[If you specify the negative value for the horizontalCenter and verticalCenter properties, the component moves left or up from the center]]></question>
+			feedback="C is correct. The horizontalCenter and verticalCenter properties specify distance between the component's center point and the container's center, in the specified direction; a negative number moves the component left or up from the center."><![CDATA[If you specify the negative value for the horizontalCenter and verticalCenter properties, the component moves left or up from the center]]></question>
 		<answer correct="y">true</answer>
 		<answer>flase</answer>
 	</item>
@@ -1216,33 +1146,18 @@ color: #9933FF;
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ff2.html#WS2db454920e96a9e51e63e3d11c0bf62883-7fed"
 			feedback="C is correct. You cannot use type selectors in an MXML component. The resulting code will produce a warning, but Button one's label will ignore the type selector, and Button two's label will be white because its styleName property is set to a class selector in the style declaration."><![CDATA[Consider the following code sample. How the CSS selectors will affect the Button label colors? Choose one:
-
 	<fx:Style>
-
 		@namespace s "library://ns.adobe.com/flex/spark";
-
 		@namespace mx "library://ns.adobe.com/flex/mx";
 
-		
-
 		s|Button {
-
 			color: #ffc000;
-
 		}		
-
-		.myLabel {
-
+ 		.myLabel {
 			color: #FFFFFF;
-
 		}
-
 	</fx:Style>
-
-	
-
 	<s:Button label="Button One!" x="0" y="0"/>	
-
 	<s:Button label="Button Two" styleName="myLabel" x="0" y="29"/>]]></question>
 		<answer><![CDATA[Both Button labels will be white]]></answer>
 		<answer><![CDATA[Both Button labels will be black]]></answer>
@@ -1253,16 +1168,10 @@ color: #9933FF;
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ff2.html#WSda78ed3a750d6b8f-7b5abe51121cfcf7996-7fff"
 			feedback="B is correct. Flex supports using an id selector. Flex applies styles to a component whose id matches the id selector in the CSS. To define an id selector, specify the id of the component with a pound sign (#) followed by the id string. The id selector can be qualified by the type or by itself."><![CDATA[Which of the following options shows the correct use of an ID selector in a CSS style sheet? Choose two:]]></question>
-		<answer><![CDATA[ s|Button { fontSize:16; }
-
-]]></answer>
-		<answer correct="y"><![CDATA[#myButton3 {fontSize:16;}
-
-]]></answer>
+		<answer><![CDATA[ s|Button { fontSize:16; }]]></answer>
+		<answer correct="y"><![CDATA[#myButton3 {fontSize:16;}]]></answer>
 		<answer><![CDATA[.myButton { fontSize:16; }]]></answer>
-		<answer><![CDATA[s|VGroup s|Button {fontSize:16;}
-
-]]></answer>
+		<answer><![CDATA[s|VGroup s|Button {fontSize:16;}]]></answer>
 	</item>
 	<item id="392">
 		<question type="tf"
@@ -1274,9 +1183,7 @@ color: #9933FF;
 	<item id="393">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WSC8DB0C28-F7A6-48ff-9899-7957415A0A49.html"
-			feedback="D is correct. Since the minimum default width and height of the HGroup is 0 and no sizing is set, the HGroup container will only be as big as the child it contains and therefore not appear to be centered on the Panel even though the alignment properties are set as such. Setting the width and height of the HGroup to 100% to match the panel size will show the button centered horizontally and vertically."><![CDATA[Which of the following statements is the correct way  to set a skin class in ActionScript?
-
-]]></question>
+			feedback="D is correct. Since the minimum default width and height of the HGroup is 0 and no sizing is set, the HGroup container will only be as big as the child it contains and therefore not appear to be centered on the Panel even though the alignment properties are set as such. Setting the width and height of the HGroup to 100% to match the panel size will show the button centered horizontally and vertically."><![CDATA[Which of the following statements is the correct way  to set a skin class in ActionScript?]]></question>
 		<answer><![CDATA[myButton.setStyle("skinClass",MyButtonSkin.mxml);]]></answer>
 		<answer><![CDATA[myButton.setStyle("skinClass",Class("MyButtonSkin"));]]></answer>
 		<answer><![CDATA[myButton.setStyle("skinClass",Class(MyButtonSkin));]]></answer>
@@ -1285,7 +1192,7 @@ color: #9933FF;
 	<item id="394">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WSC8DB0C28-F7A6-48ff-9899-7957415A0A49.html"
-			feedback="False, if you create a custom theme for your application, or if you do not need support for global Spark styles in your custom skin class, you can use Skin rather than SparkSkin as your custom skinâ€™s root tag. The SparkSkin class adds support for the colorization styles (such as chromeColor and symbolColor) and supports excluding specific skin parts from colorization, or for specifying symbols to colorize."><![CDATA[True or False: To create a Custom skin you should extend from the Skin Class when your require support for the colorization styles (such as chromeColor and symbolColor)?]]></question>
+			feedback="False, if you create a custom theme for your application, or if you do not need support for global Spark styles in your custom skin class, you can use Skin rather than SparkSkin as your custom skin's root tag. The SparkSkin class adds support for the colorization styles (such as chromeColor and symbolColor) and supports excluding specific skin parts from colorization, or for specifying symbols to colorize."><![CDATA[True or False: To create a Custom skin you should extend from the Skin Class when your require support for the colorization styles (such as chromeColor and symbolColor)?]]></question>
 		<answer><![CDATA[True]]></answer>
 		<answer correct="y"><![CDATA[False]]></answer>
 	</item>

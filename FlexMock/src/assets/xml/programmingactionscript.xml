@@ -10,9 +10,7 @@
 	<item id="152">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fcd.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f1f"
-			feedback="C is correct.Inheritance is a form of code reuse that allows programmers to develop new classes that are based on existing classes.">Which one of the following defines a form of code reuse that
-			allows programmers to develop new classes that are based on existing
-			classes</question>
+			feedback="C is correct.Inheritance is a form of code reuse that allows programmers to develop new classes that are based on existing classes.">Which one of the following defines a form of code reuse that allows programmers to develop new classes that are based on existing classes</question>
 		<answer correct="y">Polymorphism</answer>
 		<answer>Encapsulation</answer>
 		<answer correct="y">Inheritance</answer>
@@ -21,17 +19,14 @@
 	<item id="161">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f36.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7fcb"
-			feedback="False is correct.Another advantage of getters and setters is that you can avoid having two public-facing functions for each property that allows both read and write access.">The advantage of getters and setters is that you can avoid
-			having two public-facing functions for each property that is not
-			allows both read and write access.?</question>
+			feedback="False is correct.Another advantage of getters and setters is that you can avoid having two public-facing functions for each property that allows both read and write access.">The advantage of getters and setters is that you can avoid having two public-facing functions for each property that is not allows both read and write access.?</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="162">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f36.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f33"
-			feedback="D is correct.dynamic-Allow properties to be added to instances at run time final-Must not be extended by another class. internal (default)-Visible to references inside the current package. public-Visible to references everywhere.">which of the attribute allows you to modify class
-			definitions using one of the following?</question>
+			feedback="D is correct.dynamic-Allow properties to be added to instances at run time final-Must not be extended by another class. internal (default)-Visible to references inside the current package. public-Visible to references everywhere.">which of the attribute allows you to modify class definitions using one of the following?</question>
 		<answer>Dynamic</answer>
 		<answer>internal</answer>
 		<answer>final</answer>
@@ -40,9 +35,7 @@
 	<item id="163">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f41.html"
-			feedback="B is correct.An interface is a collection of method declarations that allows unrelated objects to communicate with one another. For example, ActionScript 3.0 defines the IEventDispatcher interface, which contains method declarations that a class can use to handle event objects.">Which of the following is a collection of method
-			declarations that allows unrelated objects to communicate with one
-			another?</question>
+			feedback="B is correct.An interface is a collection of method declarations that allows unrelated objects to communicate with one another. For example, ActionScript 3.0 defines the IEventDispatcher interface, which contains method declarations that a class can use to handle event objects.">Which of the following is a collection of method declarations that allows unrelated objects to communicate with one another?</question>
 		<answer>Abstraction</answer>
 		<answer correct="y">Interface</answer>
 		<answer>Encapsulation</answer>
