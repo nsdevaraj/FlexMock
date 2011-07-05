@@ -13,19 +13,15 @@
 		<s:VGroup top="{question.height+10}" bottom="0" width="100%">
 			<s:HGroup id="choicegrp1" verticalAlign="middle">
 				<s:Label id="lbl1" text="A." fontWeight="bold" color="white"  includeInLayout="{lbl1.visible}"/>
-				<components1:QCheckBox id="choice1" group="{grp}" width="100%"/>
 			</s:HGroup>
 			<s:HGroup id="choicegrp2" verticalAlign="middle">
 				<s:Label id="lbl2" text="B." fontWeight="bold" color="white"  includeInLayout="{lbl2.visible}"/>
-				<components1:QRadioButton id="choice2" group="{grp}" width="100%"/>
 			</s:HGroup>
 			<s:HGroup id="choicegrp3" verticalAlign="middle">
-				<s:Label id="lbl3" text="C." fontWeight="bold" color="white" visible="{choice3.visible}" includeInLayout="{lbl3.visible}"/>
-				<components1:QRadioButton id="choice3" group="{grp}" includeInLayout="{choice3.visible}" width="100%"/>
+				<s:Label id="lbl3" text="C." fontWeight="bold" color="white" includeInLayout="{lbl3.visible}"/>
 			</s:HGroup>
 			<s:HGroup id="choicegrp4" verticalAlign="middle">
-				<s:Label id="lbl4" text="D." fontWeight="bold" color="white" visible="{choice4.visible}"  includeInLayout="{lbl3.visible}"/>
-				<components1:QRadioButton id="choice4" group="{grp}" includeInLayout="{choice4.visible}" width="100%"/>
+				<s:Label id="lbl4" text="D." fontWeight="bold" color="white"  includeInLayout="{lbl3.visible}"/>
 			</s:HGroup>
 			<s:TextArea id="feedback" color="white" width="100%"/>
 		</s:VGroup>

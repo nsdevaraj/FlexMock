@@ -19,7 +19,9 @@ package com.adams.quiz.view.mediators
 	import com.adams.quiz.util.RandomSequence;
 	import com.adams.quiz.util.Utils;
 	import com.adams.quiz.view.QuizSkinView;
+	import com.adams.quiz.view.components.QCheckBox;
 	import com.adams.quiz.view.components.QChoice;
+	import com.adams.quiz.view.components.QRadioButton;
 	import com.adams.swizdao.model.vo.*;
 	import com.adams.swizdao.views.mediators.AbstractViewMediator;
 	
@@ -30,6 +32,9 @@ package com.adams.quiz.view.mediators
 	
 	import mx.collections.ArrayCollection;
 	import mx.collections.IList;
+	
+	import spark.components.Group;
+	import spark.components.Label;
 	
 	
 	public class QuizViewMediator extends AbstractViewMediator
@@ -47,6 +52,11 @@ package com.adams.quiz.view.mediators
 		private var oldPosition:int;
 		private var oldSkin:IChoiceSkin;
 		private var maxPosition:int;
+		
+		private var choice1:QChoice;
+		private var choice2:QChoice;
+		private var choice3:QChoice;
+		private var choice4:QChoice;
 		private var _homeState:String;
 		
 		[Inject("chapterDAO")]
@@ -136,7 +146,7 @@ package com.adams.quiz.view.mediators
 			if(pos>=0 && pos<maxPosition){
 				currentPosition = pos;
 				currentQuestion = randomList.getItemAt(currentPosition) as QuestionItem;
-				hideAllChoices();
+				recreateChoices();
 				setAllChoices();
 				oldPosition = currentPosition;
 			}else{
@@ -147,22 +157,47 @@ package com.adams.quiz.view.mediators
 			return currentQuestion;
 		}  
 		
-		protected function hideAllChoices():void { 
+		protected function recreateChoices():void { 
 			for(var i:int=0;i<4;i++){
-				var qRadio:QChoice = view[Utils.CHOICE+int(i+1)];
-				qRadio.selected = false;
-				qRadio.visible =false;
-				qRadio.correctAnswer =false;
+				if((view[Utils.CHOICEGRP+int(i+1)] as Group).numElements >1){
+					var qRadio:QChoice = (view[Utils.CHOICEGRP+int(i+1)] as Group).getElementAt(1) as QChoice;
+					Object(qRadio).parent.removeElement(qRadio);
+				}
 			}
+			initAllRadioChoices()
 		}	
 		
+		protected function initAllRadioChoices():void { 
+			if(currentQuestion.type != Utils.MULTI_CHOICE){
+				choice1 = new QRadioButton();
+				choice2 = new QRadioButton();
+				choice3 = new QRadioButton();
+				choice4 = new QRadioButton();
+			}else{
+				choice1 = new QCheckBox();
+				choice2 = new QCheckBox();
+				choice3 = new QCheckBox();
+				choice4 = new QCheckBox();
+			}
+			for(var i:int=0,j:int=0,k:int=0;i<4;i++,j++,k++){
+				view[Utils.CHOICEGRP+int(j+1)].addElement(this[Utils.CHOICE+int(i+1)]);
+				((view[Utils.CHOICEGRP+int(i+1)] as Group).getElementAt(0) as Label).visible = false;
+				var qRadio:QChoice = (view[Utils.CHOICEGRP+int(k+1)] as Group).getElementAt(1) as QChoice;
+				qRadio.group = view.grp;
+				qRadio.clicked.add(onSelection);
+				qRadio.percentWidth = 100;
+				qRadio.visible =false;
+			}
+		}
+		
 		protected function setAllChoices():void { 
-			for(var i:int=0;i<currentQuestion.choices.length;i++){
-				var qRadio:QChoice = view[Utils.CHOICE+int(i+1)];
+			for(var i:int=0,j:int=0;i<currentQuestion.choices.length;i++,j++){
+				var qRadio:QChoice = (view[Utils.CHOICEGRP+int(i+1)] as Group).getElementAt(1) as QChoice;
 				var choice:String = String(currentQuestion.choices.getItemAt(i));
 				(currentQuestion.choiceArr.indexOf(choice)== -1) ? qRadio.correctAnswer=false : qRadio.correctAnswer=true;
 				qRadio.label = choice;
 				qRadio.visible =true;
+				((view[Utils.CHOICEGRP+int(i+1)] as Group).getElementAt(0) as Label).visible = true;
 				qRadio.selected = false;
 			}
 		}  
@@ -175,11 +210,7 @@ package com.adams.quiz.view.mediators
 			view.back.clicked.add(viewClickHandlers);
 			view.docs.clicked.add(viewClickHandlers);
 			view.next.clicked.add(viewClickHandlers);
-			view.learn.clicked.add(viewClickHandlers);
-			view.choice1.clicked.add(onSelection);
-			view.choice2.clicked.add(onSelection);
-			view.choice3.clicked.add(onSelection);
-			view.choice4.clicked.add(onSelection);
+			view.learn.clicked.add(viewClickHandlers); 
 			view.navigate.addEventListener(Event.CHANGE,viewClickHandlers,false,0,true);
 			super.setViewListeners(); 
 		}
@@ -196,6 +227,7 @@ package com.adams.quiz.view.mediators
 			if(currentRadio.correctAnswer){
 				currentSkin.correctFeedback.visible =true;
 			} else{
+				(ev.currentTarget as QChoice).selected =false;
 				view.feedback.text = currentQuestion.feedback;
 			}
 			oldSkin = currentSkin;

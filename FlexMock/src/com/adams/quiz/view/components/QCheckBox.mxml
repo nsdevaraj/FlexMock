@@ -44,7 +44,12 @@
 			{
 				_clicked = value;
 			}
-
+			
+			override public function set percentWidth(value:Number):void
+			{
+				super.percentWidth = value; 
+			}
+			
 			protected function radiobutton1_initializeHandler(event:FlexEvent):void
 			{
 				clicked = new NativeSignal( this, MouseEvent.CLICK, MouseEvent );

@@ -22,6 +22,7 @@ package com.adams.quiz.util
 		public static var menuId:int;
 		public static var fileSplitter:String =  '//';
 		public static const CHOICE:String ='choice';
+		public static const CHOICEGRP:String ='choicegrp';
 		public static const XMLPATH:String="assets"+fileSplitter+"xml"+fileSplitter;
 		public static const LAUNCHXML:String="home";
 		public static const XML:String=".xml";
