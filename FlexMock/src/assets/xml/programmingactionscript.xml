@@ -1328,7 +1328,7 @@ How do you access the name attribute of the myBooks instance by using E4X?]]></q
 	<item id="402">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf668d2-7ff2.html#WS2db454920e96a9e51e63e3d11c0bf69084-7b65"
-			feedback="True. You useSortField objects to specify the fields to use in the sort. You create SortField objects and put them in the Sort class objectâ€™s fields array."><![CDATA[True or False:You useSortField objects to specify the fields to use in the sort]]></question>
+			feedback="True. You useSortField objects to specify the fields to use in the sort. You create SortField objects and put them in the Sort class object's fields array."><![CDATA[True or False:You useSortField objects to specify the fields to use in the sort]]></question>
 		<answer correct="y"><![CDATA[True]]></answer>
 		<answer><![CDATA[False]]></answer>
 	</item>

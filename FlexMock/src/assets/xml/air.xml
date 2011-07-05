@@ -42,9 +42,7 @@
 	<item id="281">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7fdf.html"
-			feedback="True is correct. Both the runtime installer and the AIR application installer create log files when they install, update, or remove AIR applications or the AIR runtime itself. You can consult these logs to help determine the cause of any installation problems">True or False:Both the runtime installer and the AIR
-			application installer create log files when they install, update,or
-			remove AIR applications or the AIR runtime itself.</question>
+			feedback="True is correct. Both the runtime installer and the AIR application installer create log files when they install, update, or remove AIR applications or the AIR runtime itself. You can consult these logs to help determine the cause of any installation problems">True or False:Both the runtime installer and the AIR application installer create log files when they install, update,or remove AIR applications or the AIR runtime itself.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
@@ -69,9 +67,7 @@
 	<item id="284">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/air/build/WS2d8d13466044a73328ed2239124110d12b3-8000.html#WS2d8d13466044a7335b8b194f1241146252e-8000"
-			feedback="B, is correct. AIRAliases.js - Provides &quot;alias&quot; definitions that make it easier to reference the AIR runtime classes in Javascript code">Which one of the following that Provides "alias" definitions
-			that make it easier to reference the AIR runtime classes in
-			Javascript code.</question>
+			feedback="B, is correct. AIRAliases.js - Provides &quot;alias&quot; definitions that make it easier to reference the AIR runtime classes in Javascript code">Which one of the following that Provides "alias" definitions that make it easier to reference the AIR runtime classes in Javascript code.</question>
 		<answer>AIRAlias.js</answer>
 		<answer correct="y">AIRAliases.js</answer>
 		<answer>AliasAIR.js</answer>
@@ -80,33 +76,28 @@
 	<item id="285">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/air/build/WS2d8d13466044a733190f0432124114d9a19-8000.html#WS2d8d13466044a733531e1885124115aac6a-8000"
-			feedback="False is correct. Java is not required for end users to run AIR applications">True or False:Java is required for end users to run AIR
-			Applications</question>
+			feedback="False is correct. Java is not required for end users to run AIR applications">True or False:Java is required for end users to run AIR Applications</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="286">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/air/build/WS2d8d13466044a733190f0432124114d9a19-8000.html#WS2d8d13466044a7337ff97e7912411607904-8000"
-			feedback="False is correct. You cannot start an AIR application directly with fdb, because fdb attempts to launch it with Flash Player. Instead, let the AIR application connect to a running fdb session.">You should start an AIR application directly with fdb(flash
-			debugger), because fdb(flash debugger) attempts to launch it with
-			Flash Player</question>
+			feedback="False is correct. You cannot start an AIR application directly with fdb, because fdb attempts to launch it with Flash Player. Instead, let the AIR application connect to a running fdb session.">You should start an AIR application directly with fdb(flash debugger), because fdb(flash debugger) attempts to launch it with Flash Player</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="287">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7fd9.html"
-			feedback="True is correct. The amxmlc and acompc tools are only included in the Flex SDK, not the AIR SDK">The amxmlc and acompc tools are only included in the Flex
-			SDK, not the AIR SDK</question>
+			feedback="True is correct. The amxmlc and acompc tools are only included in the Flex SDK, not the AIR SDK">The amxmlc and acompc tools are only included in the Flex SDK, not the AIR SDK</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="288">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7fd7.html"
-			feedback="B, is correct. Use the AIR Debug Launcher (ADL) to run both SWF-based and HTML-based applications during development. Using ADL, you can run an application without first packaging and installing it. By default, ADL uses a runtime included with the SDK, which means you do not have to install the runtime separately to use ADL.">Which of the following is used to run both SWF-based and
-			HTML-based application during development?</question>
+			feedback="B, is correct. Use the AIR Debug Launcher (ADL) to run both SWF-based and HTML-based applications during development. Using ADL, you can run an application without first packaging and installing it. By default, ADL uses a runtime included with the SDK, which means you do not have to install the runtime separately to use ADL.">Which of the following is used to run both SWF-based and HTML-based application during development?</question>
 		<answer>ADT</answer>
 		<answer correct="y">ADL</answer>
 		<answer>ADC</answer>
@@ -115,9 +106,7 @@
 	<item id="289">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7fd7.html#WS5b3ccc516d4fbf351e63e3d118666ade46-7f65"
-			feedback="B, is correct. When you launch an AIR application that is already running, a new instance of that application is not started. Instead, an invoke event is dispatched to the running instance.">When you launch an AIR application that is already running,
-			a new instance of that application is not started. Instead, an
-			_________ is dispatched to the running instance.</question>
+			feedback="B, is correct. When you launch an AIR application that is already running, a new instance of that application is not started. Instead, an invoke event is dispatched to the running instance.">When you launch an AIR application that is already running, a new instance of that application is not started. Instead, an _________ is dispatched to the running instance.</question>
 		<answer>dispatch event</answer>
 		<answer correct="y">invoke event</answer>
 		<answer>initialize event</answer>
@@ -126,9 +115,7 @@
 	<item id="290">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7fd6.html"
-			feedback="B, is correct. You create an AIR installation file for both your SWF-based and HTML-based AIR applications using the AIR Developer Tool (ADT).">which of the following is used to create an AIR installation
-			file for both your SWF-based and HTML-based AIR applications using
-			the AIR Developer Tool ?</question>
+			feedback="B, is correct. You create an AIR installation file for both your SWF-based and HTML-based AIR applications using the AIR Developer Tool (ADT).">which of the following is used to create an AIR installation file for both your SWF-based and HTML-based AIR applications using the AIR Developer Tool ?</question>
 		<answer>ADL</answer>
 		<answer correct="y">ADT</answer>
 		<answer>AFT</answer>
@@ -137,8 +124,7 @@
 	<item id="291">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7fd6.html"
-			feedback="C, is correct. ADT is a Java program that you can run from the command line or a build tool such as Ant.">ADT is a __________ program that you can run from the
-			command line or a build tool such as Ant.</question>
+			feedback="C, is correct. ADT is a Java program that you can run from the command line or a build tool such as Ant.">ADT is a __________ program that you can run from the command line or a build tool such as Ant.</question>
 		<answer>Flash</answer>
 		<answer>Flex</answer>
 		<answer correct="y">Java</answer>
@@ -147,9 +133,7 @@
 	<item id="292">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7f72.html"
-			feedback="C, is correct. ADT uses the Java Cryptography Architecture (JCA) to access private keys and certificates for signing AIR applications. The signing options identify the keystore and the private key and certificate within that keystore.">which of the following uses the Java Cryptography
-			Architecture (JCA) to access private keys and certificates for
-			signing AIR applications</question>
+			feedback="C, is correct. ADT uses the Java Cryptography Architecture (JCA) to access private keys and certificates for signing AIR applications. The signing options identify the keystore and the private key and certificate within that keystore.">which of the following uses the Java Cryptography Architecture (JCA) to access private keys and certificates for signing AIR applications</question>
 		<answer>AJCA</answer>
 		<answer>ADL</answer>
 		<answer correct="y">ADT</answer>
@@ -158,8 +142,7 @@
 	<item id="293">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7f6e.html"
-			feedback="B, is correct. The -prepare command takes the same flags and parameters as the -package command (except for the signing options). The only difference is that the output file is not signed. The intermediate file is generated with the filename extension: airi">What is the filename extension of the AIR intermediate file?
-		</question>
+			feedback="B, is correct. The -prepare command takes the same flags and parameters as the -package command (except for the signing options). The only difference is that the output file is not signed. The intermediate file is generated with the filename extension: airi">What is the filename extension of the AIR intermediate file?</question>
 		<answer>iair</answer>
 		<answer correct="y">airi</answer>
 		<answer>air</answer>
@@ -168,8 +151,7 @@
 	<item id="294">
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7ff0.html#WS5b3ccc516d4fbf351e63e3d118666ade46-7c65"
-			feedback="B,D, are correct. Java versions 1.5 and above do not accept high-ASCII characters in passwords used to protect PKCS12 certificate files. Java is used by the AIR development tools to create the signed AIR packages. When you export the certificate as a .p12 or .pfx file, use only regular ASCII characters in the password.">What type of files we are using for creating AIR package?
-		</question>
+			feedback="B,D, are correct. Java versions 1.5 and above do not accept high-ASCII characters in passwords used to protect PKCS12 certificate files. Java is used by the AIR development tools to create the signed AIR packages. When you export the certificate as a .p12 or .pfx file, use only regular ASCII characters in the password.">What type of files we are using for creating AIR package?</question>
 		<answer>*.pcert</answer>
 		<answer correct="y">*.p12</answer>
 		<answer>*.cert</answer>
@@ -178,9 +160,7 @@
 	<item id="295">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7ff0.html#WS5b3ccc516d4fbf351e63e3d118666ade46-7c64"
-			feedback="C, is correct. Digital Certificate-A digital document that contains information about the identity of the owner, the ownerâ€™s public key, and the identity of the certificate itself. A certificate issued by a certification authority is itself signed by a certificate belonging to the issuing CA.">Which of the following is a certificate issued by a
-			certification authority is itself signed by a certificate belonging
-			to the issuing CA.</question>
+			feedback="C, is correct. Digital Certificate-A digital document that contains information about the identity of the owner, the owner's public key, and the identity of the certificate itself. A certificate issued by a certification authority is itself signed by a certificate belonging to the issuing CA.">Which of the following is a certificate issued by a certification authority is itself signed by a certificate belonging to the issuing CA.</question>
 		<answer>Certificate chain</answer>
 		<answer>Digital Signature</answer>
 		<answer correct="y">Digital Certificate</answer>
@@ -189,9 +169,7 @@
 	<item id="296">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7ff0.html#WS5b3ccc516d4fbf351e63e3d118666ade46-7c64"
-			feedback="D, is correct. PKCS#11-The Cryptographic Token Interface Standard by RSA Laboratories. A hardware token based keystore.">The Cryptographic Token Interface Standard by RSA
-			Laboratories. A hardware token based keystore.Which of the following
-			terms that related to above description?</question>
+			feedback="D, is correct. PKCS#11-The Cryptographic Token Interface Standard by RSA Laboratories. A hardware token based keystore.">The Cryptographic Token Interface Standard by RSA Laboratories. A hardware token based keystore.Which of the following terms that related to above description?</question>
 		<answer>PKCS#14</answer>
 		<answer>PKCS#13</answer>
 		<answer>PKCS#12</answer>
@@ -200,8 +178,7 @@
 	<item id="297">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7ed2.html#WS5b3ccc516d4fbf351e63e3d118666ade46-7f16"
-			feedback="D, is correct. The Console class defines five methods: log(), warn(), info(), error(), and dump().The log(), warn(), info(), and error() methods all let you send an object to the Console tab. The most basic of these methods is the log() method">Which of the following methods of the Console class will
-			send the message to the console tab?</question>
+			feedback="D, is correct. The Console class defines five methods: log(), warn(), info(), error(), and dump().The log(), warn(), info(), and error() methods all let you send an object to the Console tab. The most basic of these methods is the log() method">Which of the following methods of the Console class will send the message to the console tab?</question>
 		<answer>warn()</answer>
 		<answer>info()</answer>
 		<answer>dump()</answer>
@@ -210,8 +187,7 @@
 	<item id="298">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WSC982AEFA-D020-41aa-8C3D-37AAEB7C132C.html"
-			feedback="D, is correct. D is correct.A PNG image, serialized object, and a URL are all supported transfer formats for the drag-and-drop API.">Which one of the following options is NOT a supported
-			transfer format for the drag-and-drop API? Choose one:</question>
+			feedback="D, is correct. D is correct.A PNG image, serialized object, and a URL are all supported transfer formats for the drag-and-drop API.">Which one of the following options is NOT a supported transfer format for the drag-and-drop API? Choose one:</question>
 		<answer>PNG image</answer>
 		<answer>Serialized object</answer>
 		<answer>URL</answer>
@@ -220,9 +196,7 @@
 	<item id="299">
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WSC982AEFA-D020-41aa-8C3D-37AAEB7C132C.html"
-			feedback="A,C, are correct. A and C are correct. The copyTo() and getDirectoryListing() are synchronous versions that let you write simpler code that does not rely on setting up event listeners. However, since other code cannot execute while a synchronous method is executing, important processes such as display object rendering and animation may be paused">In AIR, which methods of the File class will allow you to
-			write simpler code without setting up event listeners? Choose two:
-		</question>
+			feedback="A,C, are correct. A and C are correct. The copyTo() and getDirectoryListing() are synchronous versions that let you write simpler code that does not rely on setting up event listeners. However, since other code cannot execute while a synchronous method is executing, important processes such as display object rendering and animation may be paused">In AIR, which methods of the File class will allow you to write simpler code without setting up event listeners? Choose two:</question>
 		<answer correct="y">copyTo()</answer>
 		<answer>deleteFileAsync()</answer>
 		<answer correct="y">getDirectoryListing()</answer>
@@ -231,10 +205,7 @@
 	<item id="300">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7d01.html"
-			feedback="False is correct. The initialization properties of a window cannot be changed after the desktop window is created">True or False: When building an AIR application, the
-			initialization properties of a window (such as systemChrome, type,
-			maximizable) can be changed even after the desktop window is created.
-		</question>
+			feedback="False is correct. The initialization properties of a window cannot be changed after the desktop window is created">True or False: When building an AIR application, the initialization properties of a window (such as systemChrome, type, maximizable) can be changed even after the desktop window is created. </question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
@@ -289,13 +260,8 @@
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118666ade46-7d49.html"
 			feedback="C is correct. You call the open() method on the SQLConnection object and pass it the file reference to create a database. "><![CDATA[Complete the following code fragment to create a database:
-
-    
-
 	var conn:SQLConnection = new SQLConnection(); 
-
 	var folder:File = File.applicationStorageDirectory; 
-
 	var dbFile:File = folder.resolvePath("DBSample.db");]]></question>
 		<answer><![CDATA[dbFile.open();]]></answer>
 		<answer><![CDATA[folder.open(dbFile);]]></answer>
