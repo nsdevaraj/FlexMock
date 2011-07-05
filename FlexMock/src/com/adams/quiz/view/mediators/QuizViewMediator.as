@@ -136,6 +136,7 @@ package com.adams.quiz.view.mediators
 			if(pos>=0 && pos<maxPosition){
 				currentPosition = pos;
 				currentQuestion = randomList.getItemAt(currentPosition) as QuestionItem;
+				hideAllChoices();
 				setAllChoices();
 				oldPosition = currentPosition;
 			}else{
@@ -144,25 +145,24 @@ package com.adams.quiz.view.mediators
 			view.navigate.value = (currentPosition+1);
 			view.question.text = currentQuestion.question;
 			return currentQuestion;
-		} 
+		}  
 		
-		protected function getRandomListOfQuestions(collection:IList):ArrayCollection{
-			var rs:RandomSequence=new RandomSequence(0,collection.length-1);
-			var _array:Array=rs.getSequence();
-			var choices:ArrayCollection = new ArrayCollection();
-			for(var i:int=0; i<collection.length-1; i++){
-				var newChoice:String = QuestionItem(collection.getItemAt(_array[i])).choice
-				if(choices.source.indexOf(newChoice)==-1)	choices.addItem(newChoice);
-			} 
-			return choices;
-		}
+		protected function hideAllChoices():void { 
+			for(var i:int=0;i<4;i++){
+				var qRadio:QRadioButton = view[Utils.CHOICE+int(i+1)];
+				qRadio.selected = false;
+				qRadio.visible =false;
+				qRadio.correctAnswer =false;
+			}
+		}	
 		
 		protected function setAllChoices():void { 
 			for(var i:int=0;i<currentQuestion.choices.length;i++){
 				var qRadio:QRadioButton = view[Utils.CHOICE+int(i+1)];
-				qRadio.correctAnswer=false;
-				//randomRadio.correctAnswer = true;
-				qRadio.label = currentQuestion.choices.getItemAt(i) as String;
+				var choice:String = String(currentQuestion.choices.getItemAt(i));
+				(currentQuestion.choiceArr.indexOf(choice)== -1) ? qRadio.correctAnswer=false : qRadio.correctAnswer=true;
+				qRadio.label = choice;
+				qRadio.visible =true;
 				qRadio.selected = false;
 			}
 		}  
@@ -173,6 +173,7 @@ package com.adams.quiz.view.mediators
 		 */
 		override protected function setViewListeners():void {
 			view.back.clicked.add(viewClickHandlers);
+			view.docs.clicked.add(viewClickHandlers);
 			view.next.clicked.add(viewClickHandlers);
 			view.learn.clicked.add(viewClickHandlers);
 			view.choice1.clicked.add(onSelection);
@@ -202,7 +203,10 @@ package com.adams.quiz.view.mediators
 		
 		protected function viewClickHandlers( ev:Event ): void { 
 			resetFeedback();
-			switch(ev.currentTarget){  
+			switch(ev.currentTarget){
+				case view.docs:
+					controlSignal.changeStateSignal.dispatch(Utils.WEB_INDEX);
+					break;   
 				case view.back:
 					currentPosition--;
 					gotoQuestion(currentPosition);

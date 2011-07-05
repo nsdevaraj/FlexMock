@@ -25,6 +25,9 @@ package com.adams.quiz.util
 		public static const XMLPATH:String="assets"+fileSplitter+"xml"+fileSplitter;
 		public static const LAUNCHXML:String="home";
 		public static const XML:String=".xml";
+		public static const TRUE_FALSE:String="tf";
+		public static const MULTI_CHOICE:String="multiChoice";
+		public static const SINGLE_CHOICE:String="singleChoice";
 		// todo: add view index
 		public static const MAIN_INDEX:String='Main';
 		public static const HEADER_MENU_INDEX:String='HeaderMenu';

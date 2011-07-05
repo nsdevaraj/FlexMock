@@ -27,7 +27,7 @@ package com.adams.quiz.model.vo
 		
 		private var _choices:ArrayCollection  = new ArrayCollection();;
 		private var _question:String;
-		private var _choice:String;
+		private var _choiceArr:Array;
 		private var _chapter:int;
 		private var _menu:int;
 		public function QuestionItem()
@@ -105,14 +105,14 @@ package com.adams.quiz.model.vo
 			_question = value;
 		}
 		
-		public function get choice():String
+		public function get choiceArr():Array
 		{
-			return _choice;
+			return _choiceArr;
 		}
 		
-		public function set choice(value:String):void
+		public function set choiceArr(value:Array):void
 		{
-			_choice = value;
+			_choiceArr = value;
 		}
 		
 		public function get questionitemId():int
@@ -129,10 +129,11 @@ package com.adams.quiz.model.vo
 			link = item.question.link;
 			feedback = item.question.feedback;
 			type = item.question.type;
+			choiceArr =[];
 			for each(var obj:Object in item.answer as ArrayCollection){
 				if(obj.hasOwnProperty('correct')){
-					choice=String(obj.value);
-					choices.addItem(choice);
+					choiceArr.push(obj.value);
+					choices.addItem(obj.value);
 				}else{
 					choices.addItem(obj);
 				}

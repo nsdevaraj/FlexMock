@@ -121,7 +121,7 @@ package com.adams.quiz.view.mediators
 		
 		protected function setQuestion(currentQuestion:QuestionItem):void {
 			currentInstance.mapConfig.currentTopic = currentQuestion.link;
-			view.choice.text = currentQuestion.choice;
+			view.choice.text = currentQuestion.choiceArr.join(',');
 			view.question.text = currentQuestion.question;
 		}  
 		

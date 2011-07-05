@@ -5,11 +5,11 @@
 		xmlns:components="com.adams.swizdao.views.components.*">	 
 	<s:Group width="100%" height="100%">
 		<s:VGroup id="answer" top="10" left="0" right="0">
-			<s:TextArea id="question" styleName="header"
+			<s:TextArea id="question" 
 						width="100%" editable="false" selectable="false" />
 		</s:VGroup>
 		<s:TextArea id="choice" editable="false" 
-					bottom="70"
+					bottom="70" styleName="header"
 					top="{answer.height+10}" width="100%" selectable="false"/> 
 		<s:HGroup id="footer" width="100%" bottom="5" paddingRight="5" verticalAlign="middle">
 			<components:NativeButton id="back" label="back"/>
@@ -17,7 +17,7 @@
 			<s:Label id="maxQs"/>
 			<components:NativeButton id="next" label="next"/>
 			<s:Spacer width="100%"/>
-			<components:NativeButton id="learn" label="Learn" includeInLayout="{learn.visible}"/>
+			<components:NativeButton id="learn" label="Docs" includeInLayout="{learn.visible}"/>
 			<components:NativeButton id="quiz" label="Quiz" includeInLayout="{quiz.visible}"/>
 		</s:HGroup>
 	</s:Group> 

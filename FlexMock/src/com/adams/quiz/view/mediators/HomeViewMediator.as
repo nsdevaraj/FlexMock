@@ -98,7 +98,9 @@ package com.adams.quiz.view.mediators
 			super.init();  
 			viewState = Utils.HOME_INDEX;
 			controlSignal.headerStateSignal.dispatch(this,Utils.HEADER_LOGO_INDEX);
-			if(!menuDAO.collection.items)controlSignal.loadMenuSignal.dispatch(this);
+			if(!menuDAO.collection.items){
+				controlSignal.loadMenuSignal.dispatch(this);
+			} 
 			FlexGlobals.topLevelApplication.addEventListener(ResizeEvent.RESIZE,applicationResizeHandler, false, 0, true);
 		} 
 		
@@ -149,6 +151,7 @@ package com.adams.quiz.view.mediators
 			for(var i:int=0; i<maxLength; i++){
 				ArrayCollection(currentInstance.mapConfig.randomList).addItem(collection.getItemAt(_array[i]));
 			} 
+			//view.chapterList.selectedItem = null;
 			controlSignal.headerStateSignal.dispatch(this,Utils.HEADER_LEARN_INDEX);
 			controlSignal.changeStateSignal.dispatch(Utils.SEARCH_INDEX);
 		}
