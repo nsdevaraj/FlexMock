@@ -152,8 +152,7 @@ Which option below shows the correct way to call this function a button's click 
 			feedback="A and D are correct. The goal of the Model-View-Controller (MVC) architecture is that by creating components with a well-defined and limited scope in your application, you increase the reusability of the components and improve the maintainability of the overall system."
 			type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf688f1-7ff8.html">Which of the following are benefits of using a loose coupling approach to building Flex components?</question>
-		<answer correct="y">increase the reusability of the components
-		</answer>
+		<answer correct="y">increase the reusability of the components</answer>
 		<answer>is written for a specific application</answer>
 		<answer>more dependent on the application's structure</answer>
 		<answer>None of the above</answer>
@@ -346,7 +345,7 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="134">
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc5.html"
-			feedback="A is correct. You can use the [Bindable] metadata tag in three places:Before a public class definition,Before a public, protected, or private property defined as a variable,Before a public, protected, or private property defined by a getter or setter method."><![CDATA[Where You can use the [Bindable] metadat tag. Choose two]]></question>
+			feedback="A,B is correct. You can use the [Bindable] metadata tag in three places:Before a public class definition,Before a public, protected, or private property defined as a variable,Before a public, protected, or private property defined by a getter or setter method."><![CDATA[Where You can use the [Bindable] metadat tag. Choose two]]></question>
 		<answer correct="y">Before a public class definition</answer>
 		<answer correct="y">Before a public, protected, or private property defined by a getter or setter method.</answer>
 		<answer>Only before the setter method</answer>
@@ -363,22 +362,17 @@ Which option below shows the correct way to call this function a button's click 
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffd.html#WS2db454920e96a9e51e63e3d11c0bf69084-7a33"
 			feedback="A and C are correct.This method requires an argument of the Event type, which is the event object. The dispatchEvent() method initializes the target property of the event object with a reference to the component dispatching the event.You can create an event object and dispatch the event in a single statement like this.">Which of the following are the correct way to Dispatch Events for the myButton click event?</question>
-		<answer correct="y">myButton.dispatchEvent(new
-			MouseEvent("click"));</answer>
-		<answer>myButton.dispatchEvent(new MouseEvent("Event.click"));
-		</answer>
-		<answer correct="y">myButton.dispatchEvent(new
-			MouseEvent(MouseEvent.CLICK));</answer>
+		<answer correct="y">myButton.dispatchEvent(new MouseEvent("click"));</answer>
+		<answer>myButton.dispatchEvent(new MouseEvent("Event.click")); </answer>
+		<answer correct="y">myButton.dispatchEvent(new MouseEvent(MouseEvent.CLICK));</answer>
 		<answer>myButton.dispatchEvent(new MouseEvent(Event.CLICK));</answer>
 	</item>
 	<item id="153">
 		<question type="singleChoice"
 			link="http://livedocs.adobe.com/flex/3/html/help.html?content=basic_as_2.html"
 			feedback="B is correct.Trigger events that are associated with the property when the property changes.">Which of the following statements is not correct</question>
-		<answer>Inspect and validate any data written to the property on a
-			write</answer>
-		<answer correct="y">Trigger events that are not associated with the
-			property when the property changes</answer>
+		<answer>Inspect and validate any data written to the property on a write</answer>
+		<answer correct="y">Trigger events that are not associated with the property when the property changes</answer>
 		<answer>Calculate a return value on a read</answer>
 		<answer>Allow a child class to override</answer>
 	</item>
@@ -386,14 +380,10 @@ Which option below shows the correct way to call this function a button's click 
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7ce1.html"
 			feedback="C is correct.When dispatching an event, you must create a new Event object. The syntax for the Event object constructor is as follows:Event(event_type:String, bubbles:Boolean, cancelable:Boolean).">The syntax for the Event object constructor is ?</question>
-		<answer>Event(event_type:String, bubbles:Boolean, cancelable:String)
-		</answer>
-		<answer>Event(event_type:String, bubbles:String, cancelable:Boolean)
-		</answer>
-		<answer correct="y">Event(event_type:String, bubbles:Boolean,
-			cancelable:Boolean)</answer>
-		<answer>Event(event_type:String, bubbles:String, cancelable:String)
-		</answer>
+		<answer>Event(event_type:String, bubbles:Boolean, cancelable:String)</answer>
+		<answer>Event(event_type:String, bubbles:String, cancelable:Boolean)</answer>
+		<answer correct="y">Event(event_type:String, bubbles:Boolean, cancelable:Boolean)</answer>
+		<answer>Event(event_type:String, bubbles:String, cancelable:String)</answer>
 	</item>
 	<item id="155">
 		<question type="singleChoice"
@@ -629,8 +619,7 @@ Which option below shows the correct way to call this function a button's click 
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fcd.html"
 			feedback="A is correct. Eyou use the extends keyword to indicate that a class inherits from another class."><![CDATA[You have a custom component named PopUpWindow that inherits from TitleWindow.Which syntax is used to create a class that extends from TitleWindow?]]></question>
-		<answer correct="y">public class PopUpWindow extends TitleWindow
-		</answer>
+		<answer correct="y">public class PopUpWindow extends TitleWindow</answer>
 		<answer>public class PopUpWindow becomes TitleWindow</answer>
 		<answer>public class PopUpWindow inherits TitleWindow</answer>
 		<answer>public class PopUpWindow implements TitleWindow</answer>

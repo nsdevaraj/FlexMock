@@ -914,7 +914,7 @@
 		<answer>public function addItemAt(item):void</answer>
 		<answer>public function addItemAt(index, item):void</answer>
 		<answer>public function addItemAt(index):void</answer>
-		<answer correct="y">public function addItemAt(item, index):void </answer>
+		<answer correct="y">public function addItemAt(item, index):void</answer>
 	</item>
 	<item id="335">
 		<question type="singleChoice"
@@ -1018,7 +1018,7 @@ How do you access the name attribute of the myBooks instance by using E4X?]]></q
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7e3a.html#WS2db454920e96a9e51e63e3d11c0bf62d75-7ff5"
 			feedback="A is correct. To access properties and methods of the top-level application object from anywhere in your application, you can use the topLevelApplication property of the FlexGlobals class."><![CDATA[Which of the following property is used to access properties and methods of the top-level application object from anywhere in your application?]]></question>
-		<answer correct="y"><![CDATA[topLevelApplication ]]></answer>
+		<answer correct="y"><![CDATA[topLevelApplication]]></answer>
 		<answer><![CDATA[parentDocument]]></answer>
 		<answer><![CDATA[parentApplication]]></answer>
 		<answer><![CDATA[documentDescriptor]]></answer>

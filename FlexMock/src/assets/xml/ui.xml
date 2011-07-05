@@ -29,8 +29,8 @@
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7f7c.html"
 			feedback="A is correct.To change the definition of the styles or to apply them during run time, you use the setStyle() method.You can create CSS style declarations by using ActionScript with the CSSStyleDeclaration class. This lets you create and edit style sheets at run time and apply them to classes in your Flex applications.  "><![CDATA[Which method will you use to change the Style or to apply a style During RunTime.]]></question>
 		<answer correct="y"><![CDATA[setStyle();]]></answer>
-		<answer><![CDATA[setStyleDeclaration(); ]]></answer>
-		<answer><![CDATA[getStyleDeclaration(); ]]></answer>
+		<answer><![CDATA[setStyleDeclaration();]]></answer>
+		<answer><![CDATA[getStyleDeclaration();]]></answer>
 		<answer>None of the above</answer>
 	</item>
 	<item id="5">
@@ -164,7 +164,7 @@
 		<answer correct="y"><![CDATA[ @clear()]]></answer>
 		<answer><![CDATA[ clear()]]></answer>
 		<answer><![CDATA[clearStyle()]]></answer>
-		<answer><![CDATA[ itemDestructionPolicy ]]></answer>
+		<answer><![CDATA[ itemDestructionPolicy]]></answer>
 	</item>
 	<item id="21">
 		<question
@@ -737,7 +737,7 @@ color: #9933FF;
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7c48.html"><![CDATA[Which of the following is a type of filter in the flash.filters package? Choose one:]]></question>
 		<answer><![CDATA[ DropShadowFilter]]></answer>
 		<answer><![CDATA[GlowFilter]]></answer>
-		<answer><![CDATA[BlurFilter ]]></answer>
+		<answer><![CDATA[BlurFilter]]></answer>
 		<answer correct="y"><![CDATA[All the above]]></answer>
 	</item>
 	<item id="87">
@@ -885,7 +885,7 @@ color: #9933FF;
 		<question type="singleChoice"
 			feedback="A is correct.The AnimatorFactory class provides ActionScript-based support to associate one Motion object with multiple display objects.Use the AnimatorFactory constructor to create an AnimatorFactory instance. Then, use the methods inherited from the AnimatorFactoryBase class to associate the desired properties with display objects.."
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/fl/motion/AnimatorFactory.html"><![CDATA[Which of the following class provides ActionScript-based support to associate one Motion object with multiple display objects.]]></question>
-		<answer correct="y"><![CDATA[AnimatorFactory ]]></answer>
+		<answer correct="y"><![CDATA[AnimatorFactory]]></answer>
 		<answer><![CDATA[AnimatorBase]]></answer>
 		<answer><![CDATA[AnimatorFactoryBase]]></answer>
 		<answer><![CDATA[AnimatorFactoryUniversal]]></answer>
@@ -1093,7 +1093,7 @@ color: #9933FF;
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf5f39f-7ff7.html"
 			feedback="B is correct. States are not defined within the declarations section, they are defined within the main MXML content. The other three items are defined in the declarations section."><![CDATA[Which of the following is NOT defined in the <fx:Declarations> section?]]></question>
-		<answer><![CDATA[Effects ]]></answer>
+		<answer><![CDATA[Effects]]></answer>
 		<answer correct="y"><![CDATA[States]]></answer>
 		<answer><![CDATA[Validators]]></answer>
 		<answer><![CDATA[RPC Services (HttpService etc)]]></answer>
@@ -1207,7 +1207,7 @@ color: #9933FF;
 <mx:Image width="100" height="100" source="@Embed(source='logo.png')"/> 
 </s:Group>]]></question>
 		<answer correct="y"><![CDATA[The logo image is half displayed and no scrollbars are added]]></answer>
-		<answer><![CDATA[Vertical Scrollbars are added ]]></answer>
+		<answer><![CDATA[Vertical Scrollbars are added]]></answer>
 		<answer><![CDATA[Horizontal and Vertical scrollbars are added]]></answer>
 		<answer><![CDATA[Horizontal Scrollbars are added]]></answer>
 	</item>
