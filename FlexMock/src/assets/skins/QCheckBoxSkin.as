@@ -15,6 +15,7 @@ package assets.skins
 		public function QCheckBoxSkin()
 		{
 			super();
+			layoutGap = 30;
 			addEventListener(Event.ADDED_TO_STAGE,creationComplete,false,0,true);
 		}
 
@@ -34,7 +35,7 @@ package assets.skins
 			correctFeedback = new CheckBox();
 			correctFeedback.selected=true;
 			correctFeedback.visible=false;
-			correctFeedback.x = 350;
+			correctFeedback.x = 30;
 			this.addChild(correctFeedback);
 		} 
 	}

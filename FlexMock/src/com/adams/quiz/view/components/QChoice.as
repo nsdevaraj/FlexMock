@@ -18,6 +18,5 @@ package com.adams.quiz.view.components
 		function set visible(value:Boolean):void
 		function get label():String
 		function set label(value:String):void
-		function set percentWidth(value:Number):void
 	}
 }

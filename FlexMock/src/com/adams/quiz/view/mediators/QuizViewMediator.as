@@ -57,6 +57,7 @@ package com.adams.quiz.view.mediators
 		private var choice2:QChoice;
 		private var choice3:QChoice;
 		private var choice4:QChoice;
+		private var choice5:QChoice;
 		private var _homeState:String;
 		
 		[Inject("chapterDAO")]
@@ -158,7 +159,7 @@ package com.adams.quiz.view.mediators
 		}  
 		
 		protected function recreateChoices():void { 
-			for(var i:int=0;i<4;i++){
+			for(var i:int=0;i<5;i++){
 				if((view[Utils.CHOICEGRP+int(i+1)] as Group).numElements >1){
 					var qRadio:QChoice = (view[Utils.CHOICEGRP+int(i+1)] as Group).getElementAt(1) as QChoice;
 					Object(qRadio).parent.removeElement(qRadio);
@@ -173,19 +174,21 @@ package com.adams.quiz.view.mediators
 				choice2 = new QRadioButton();
 				choice3 = new QRadioButton();
 				choice4 = new QRadioButton();
+				choice5 = new QRadioButton();
 			}else{
 				choice1 = new QCheckBox();
 				choice2 = new QCheckBox();
 				choice3 = new QCheckBox();
 				choice4 = new QCheckBox();
+				choice5 = new QCheckBox();
 			}
-			for(var i:int=0,j:int=0,k:int=0;i<4;i++,j++,k++){
+			for(var i:int=0,j:int=0,k:int=0;i<5;i++,j++,k++){
 				view[Utils.CHOICEGRP+int(j+1)].addElement(this[Utils.CHOICE+int(i+1)]);
 				((view[Utils.CHOICEGRP+int(i+1)] as Group).getElementAt(0) as Label).visible = false;
 				var qRadio:QChoice = (view[Utils.CHOICEGRP+int(k+1)] as Group).getElementAt(1) as QChoice;
 				qRadio.group = view.grp;
 				qRadio.clicked.add(onSelection);
-				qRadio.percentWidth = 100;
+				Object(qRadio).percentWidth = 100;
 				qRadio.visible =false;
 			}
 		}
