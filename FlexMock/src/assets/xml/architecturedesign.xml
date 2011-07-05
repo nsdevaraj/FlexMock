@@ -348,8 +348,7 @@ Which option below shows the correct way to call this function a button's click 
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc5.html"
 			feedback="A is correct. You can use the [Bindable] metadata tag in three places:Before a public class definition,Before a public, protected, or private property defined as a variable,Before a public, protected, or private property defined by a getter or setter method."><![CDATA[Where You can use the [Bindable] metadat tag. Choose two]]></question>
 		<answer correct="y">Before a public class definition</answer>
-		<answer correct="y">Before a public, protected, or private property
-			defined by a getter or setter method.</answer>
+		<answer correct="y">Before a public, protected, or private property defined by a getter or setter method.</answer>
 		<answer>Only before the setter method</answer>
 		<answer>Only before the getter method</answer>
 	</item>
