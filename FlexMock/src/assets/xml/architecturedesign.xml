@@ -272,8 +272,7 @@ Which option below shows the correct way to call this function a button's click 
 		<question
 			feedback="C is correct. The doValidation() method of your validator class, you typically call the base class's doValidation() method to perform the verification for a required field. If the user did not enter a value, the base class issues a validation error stating that the field is required."
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf68c0f-7ffb.html">Which of the following method contains the custom validation
-			Logic and perform the verificaion for a required field.</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf68c0f-7ffb.html">Which of the following method contains the custom validation Logic and perform the verificaion for a required field.</question>
 		<answer>validate()</answer>
 		<answer>validateAll()</answer>
 		<answer correct="y">doValidation()</answer>
@@ -294,8 +293,7 @@ Which option below shows the correct way to call this function a button's click 
 		<question
 			feedback="False. The eventName argument specifies the name of the event. The eventType argument specifies the class name, including the package, that defines the event object."
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffd.html#WS2db454920e96a9e51e63e3d11c0bf69084-7a34">True or False: The eventName argument of the Event metadata tag
-			specifies the name, including the package, of the event.</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffd.html#WS2db454920e96a9e51e63e3d11c0bf69084-7a34">True or False: The eventName argument of the Event metadata tag specifies the name, including the package, of the event.</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
@@ -367,8 +365,7 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="151">
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffd.html#WS2db454920e96a9e51e63e3d11c0bf69084-7a33"
-			feedback="A and C are correct.This method requires an argument of the Event type, which is the event object. The dispatchEvent() method initializes the target property of the event object with a reference to the component dispatching the event.You can create an event object and dispatch the event in a single statement like this.">Which of the following are the correct way to Dispatch
-			Events for the myButton click event?</question>
+			feedback="A and C are correct.This method requires an argument of the Event type, which is the event object. The dispatchEvent() method initializes the target property of the event object with a reference to the component dispatching the event.You can create an event object and dispatch the event in a single statement like this.">Which of the following are the correct way to Dispatch Events for the myButton click event?</question>
 		<answer correct="y">myButton.dispatchEvent(new
 			MouseEvent("click"));</answer>
 		<answer>myButton.dispatchEvent(new MouseEvent("Event.click"));
@@ -404,8 +401,7 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="155">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7ce1.html"
-			feedback="B is correct.The bubbles and cancelable parameters are optional and both default to false.">The default Boolean variable of bubbles and cancelable
-			parameters are ?</question>
+			feedback="B is correct.The bubbles and cancelable parameters are optional and both default to false.">The default Boolean variable of bubbles and cancelable parameters are ?</question>
 		<answer>true</answer>
 		<answer correct="y">false</answer>
 		<answer>0</answer>
@@ -414,9 +410,7 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="157">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/display/DisplayObject.html"
-			feedback="A is correct.The DisplayObject class supports basic functionality like the x and y position of an object, as well as more advanced properties of the object such as its transformation matrix. ">Which of the class supports basic functionality like the x
-			and y position of an object, as well as more advanced properties of
-			the object such as its transformation matrix.?</question>
+			feedback="A is correct.The DisplayObject class supports basic functionality like the x and y position of an object, as well as more advanced properties of the object such as its transformation matrix. ">Which of the class supports basic functionality like the x and y position of an object, as well as more advanced properties of the object such as its transformation matrix.?</question>
 		<answer correct="y">Displayobject</answer>
 		<answer>DisplayContainer</answer>
 		<answer>DisplayObjectContainer</answer>
@@ -425,8 +419,7 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="158">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/display/DisplayObject.html"
-			feedback="C is correct.In addition to the broadcast events listed in the DisplayObject class's Events table, the DisplayObject class also inherits two broadcast events from the EventDispatcher class: activate and deactivate ">Which of the following events will be inherited by the
-			DisplayObject class from the EventDispatcher class?</question>
+			feedback="C is correct.In addition to the broadcast events listed in the DisplayObject class's Events table, the DisplayObject class also inherits two broadcast events from the EventDispatcher class: activate and deactivate ">Which of the following events will be inherited by the DisplayObject class from the EventDispatcher class?</question>
 		<answer>activate and inactivate</answer>
 		<answer>activation and inactivation</answer>
 		<answer correct="y">activate and deactivate</answer>
@@ -435,9 +428,7 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="159">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cdb.html#WS2db454920e96a9e51e63e3d11c0bf64a29-7ffa"
-			feedback="B is correct.The stopImmediatePropagation() method also prevents the Event objects from moving on to the next node, but it does not allow any other event listeners on the current node to execute.">Which method prevents the Event object from moving on to the
-			next node, but it does not allow any other event listeners on the
-			current node to execute.?</question>
+			feedback="B is correct.The stopImmediatePropagation() method also prevents the Event objects from moving on to the next node, but it does not allow any other event listeners on the current node to execute.">Which method prevents the Event object from moving on to the next node, but it does not allow any other event listeners on the current node to execute.?</question>
 		<answer>stopImmediatePropagation()</answer>
 		<answer correct="y">stopPropagation()</answer>
 		<answer>progagationStop()</answer>
@@ -446,9 +437,7 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="160">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/ActionScript/3.0_ProgrammingAS3/WS5b3ccc516d4fbf351e63e3d118a9b90204-7dbc.html#WS5b3ccc516d4fbf351e63e3d118a9b8e851-7ffc"
-			feedback="C is correct.Convolution is Distorting pixels in an image by combining each pixel's value with the values of some or all of its neighboring pixels, using various ratios.">Distorting pixels in an image by combining each pixel's
-			value with the values of some or all of its neighboring pixels, using
-			various ratios is called?</question>
+			feedback="C is correct.Convolution is Distorting pixels in an image by combining each pixel's value with the values of some or all of its neighboring pixels, using various ratios.">Distorting pixels in an image by combining each pixel's value with the values of some or all of its neighboring pixels, using various ratios is called?</question>
 		<answer>Bevel</answer>
 		<answer>Displacement</answer>
 		<answer correct="y">Convolution</answer>
@@ -510,11 +499,8 @@ Which option below shows the correct way to call this function a button's click 
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc0.html#WS2db454920e96a9e51e63e3d11c0bf64c3d-7ff4"
 			feedback="C is correct. Define two objects that specify as the source a property and the destination properties must resolve to a bindable property or property chain at compile time"><![CDATA[Given the following MXML code, which option best represents where the Text control will be display in the application at run-time? Choose one:
-
    	private var msg:String = 'message';      	
-
 	<fx:Binding source="msg" twoWay="true" destination="txt.text" />			
-
 	<s:TextInput id="txt" text="originalmessage" />]]></question>
 		<answer>message</answer>
 		<answer>Undefined property msg</answer>
@@ -525,8 +511,7 @@ Which option below shows the correct way to call this function a button's click 
 		<question
 			feedback="True. Both the source and the destination properties must resolve to a bindable property or property chain at compile time, neither property value can include a binding expression.&#xD;&#xA;"
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc0.html#WS2db454920e96a9e51e63e3d11c0bf64c3d-7ff4">True or False: While using twoway binding, both property will be
-			affecting each other.</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc0.html#WS2db454920e96a9e51e63e3d11c0bf64c3d-7ff4">True or False: While using twoway binding, both property will be affecting each other.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>

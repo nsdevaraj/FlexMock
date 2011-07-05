@@ -44,20 +44,17 @@
 	<item id="164">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fcd.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f1c"
-			feedback="B is correct.The above function modifies the classes defined in the previous example to show that the static test variable defined in the Base class is in scope of the Extender class. In other words, the Extender class can access the static test variable without prefixing the variable with the name of the class that defines test.">Given the sample code.what is the output of the following
-			trace statement?package
-
-			{ import flash.display.MovieClip; public class StaticExample extends
-			MovieClip {
-
-			public function StaticExample() {var myExt:Extender = new Extender();}
-
-			} }
-
+			feedback="B is correct.The above function modifies the classes defined in the previous example to show that the static test variable defined in the Base class is in scope of the Extender class. In other words, the Extender class can access the static test variable without prefixing the variable with the name of the class that defines test.">Given the sample code.what is the output of the following trace statement?
+			package
+			{ 
+			import flash.display.MovieClip; 
+			public class StaticExample extends MovieClip {
+			public function StaticExample() {
+			var myExt:Extender = new Extender();}
+			}}
 			class Base { public static var test:String = "static"; }
-
-			class Extender extends Base{ public function Extender()
-
+			class Extender extends Base{ 
+			public function Extender()
 			{ trace(test); } }</question>
 		<answer>null</answer>
 		<answer correct="y">static</answer>
@@ -67,8 +64,7 @@
 	<item id="165">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f38.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f15"
-			feedback="B is correct.This interface defines two methods common to all polygons, the getPerimeter() method that measures the combined distance of all the sides, and the getSumOfAngles() method that adds up all the interior angles.">Which method adds up all the interior angles to the
-			polygons.?</question>
+			feedback="B is correct.This interface defines two methods common to all polygons, the getPerimeter() method that measures the combined distance of all the sides, and the getSumOfAngles() method that adds up all the interior angles.">Which method adds up all the interior angles to the polygons.?</question>
 		<answer>getPerimeter()</answer>
 		<answer correct="y">getSumOfAngles()</answer>
 		<answer>getArea()</answer>
@@ -77,9 +73,7 @@
 	<item id="166">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f9d.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f8c"
-			feedback="C is correct.You declare a local variable by declaring the variable inside a function definition. The smallest area of code for which you can define a local variable is a function definition. A local variable declared within a function exists only in that function. For example, if you declare a variable named str2 within a function named localScope(), that variable is not available outside the function">Given the sample code.What is the output of the following
-			trace statement?
-
+			feedback="C is correct.You declare a local variable by declaring the variable inside a function definition. The smallest area of code for which you can define a local variable is a function definition. A local variable declared within a function exists only in that function. For example, if you declare a variable named str2 within a function named localScope(), that variable is not available outside the function">Given the sample code.What is the output of the following trace statement?
 			function localScope() { var strLocal:String = "local"; } localScope();
 			trace(strLocal);</question>
 		<answer>null</answer>
@@ -91,18 +85,13 @@
 	<item id="167">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7e6b.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7e61"
-			feedback="A is correct.Use the @ symbol (the attribute identifier operator) to access attributes in an XML or XMLList object,You can use the * wildcard symbol with the @ symbol to access all attributes of an XML or XMLList object,You can use the attribute() or attributes() method to access a specific attribute or all attributes of an XML or XMLList object">
-			What is the output of the following trace statement?
-
+			feedback="A is correct.Use the @ symbol (the attribute identifier operator) to access attributes in an XML or XMLList object,You can use the * wildcard symbol with the @ symbol to access all attributes of an XML or XMLList object,You can use the attribute() or attributes() method to access a specific attribute or all attributes of an XML or XMLList object"><![CDATA[What is the output of the following trace statement?
 			var employee:XML =
 			<employee id="6401" code="233">
 				<lastName>Wu</lastName>
 				<firstName>Erin</firstName>
-			</employee>
-			;
-
-			trace(employee.attribute("*").toXMLString());
-		</question>
+			</employee>;
+			trace(employee.attribute("*").toXMLString());]]></question>
 		<answer correct="y">6401,233</answer>
 		<answer>233,6401</answer>
 		<answer>233</answer>
@@ -112,20 +101,12 @@
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7e6d.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7e5c"
 			feedback="D is correct.All XML attribute values, names, and text values are String data types, and you may need to convert these to other data types. For example, the above code uses the Number() function to convert text values to numbers"><![CDATA[What is the output of the following trace statement?
-
-var myXML:XML =  <order> <item> <price>3.95</price> </item> <item> <price>1.00</price></item></order> 
-
+	var myXML:XML =  <order> <item> <price>3.95</price> </item> <item> <price>1.00</price></item></order> 
 	var total:XML = <total>0</total> 
-
 	myXML.appendChild(total); 
-
-	for each (var item:XML in myXML.item) 
-
-	{ 
-
+	for each (var item:XML in myXML.item){ 
    	 myXML.total.children()[0] = Number(myXML.total.children()[0])+ Number(item.price.children()[0]); 
-
-	} trace(myXML.total);]]></question>
+	}trace(myXML.total);]]></question>
 		<answer>3.95</answer>
 		<answer>1.00</answer>
 		<answer>2.95</answer>
@@ -134,15 +115,11 @@ var myXML:XML =  <order> <item> <price>3.95</price> </item> <item> <price>1.00</
 	<item id="169">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7ea8.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7e77"
-			feedback="C is correct.The exec() method of the RegExp class checks the supplied string for a match of the regular expression and returns an array with the following:The matching substring.Substring matches for any parenthetical groups in the regular expression,The array also includes an index property, indicating the index position of the start of the substring match.">What will be the output of following trace statement?
-
+			feedback="C is correct.The exec() method of the RegExp class checks the supplied string for a match of the regular expression and returns an array with the following:The matching substring.Substring matches for any parenthetical groups in the regular expression,The array also includes an index property, indicating the index position of the start of the substring match."><![CDATA[What will be the output of following trace statement?
 			var pattern:RegExp = /\d{3}\-\d{3}-\d{4}/; //U.S phone number
-
 			var str:String = "phone: 415-555-1212";
-
 			var result:Array = pattern.exec(str);
-
-			trace(result.index, " - ", result);</question>
+			trace(result.index, " - ", result);]]></question>
 		<answer>415-555-1212</answer>
 		<answer>415-555-1212-7</answer>
 		<answer correct="y">7-415-555-1212</answer>
@@ -151,9 +128,7 @@ var myXML:XML =  <order> <item> <price>3.95</price> </item> <item> <price>1.00</
 	<item id="170">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7ea9.html"
-			feedback="B is correct.The asterisk character (*) is a metacharacter. A metacharacter is a character that has special meaning in regular expressions. The asterisk is a specific type of metacharacter called a quantifier, which is used to quantify the amount of repetition of a character or group of characters.">Which of the following is specific type of metacharacter for
-			asterisk, which is used to calculate the amount of repetition of a
-			character or group of characters?</question>
+			feedback="B is correct.The asterisk character (*) is a metacharacter. A metacharacter is a character that has special meaning in regular expressions. The asterisk is a specific type of metacharacter called a quantifier, which is used to quantify the amount of repetition of a character or group of characters.">Which of the following is specific type of metacharacter for asterisk, which is used to calculate the amount of repetition of a character or group of characters?</question>
 		<answer>Alternation</answer>
 		<answer correct="y">Quantifier</answer>
 		<answer>Charater Classes</answer>
@@ -162,8 +137,7 @@ var myXML:XML =  <order> <item> <price>3.95</price> </item> <item> <price>1.00</
 	<item id="171">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7eab.html"
-			feedback="B is correct./a+/ matches the character a repeated one or more times./\d+/ matches one or more digits./[abc]+/ matches a repetition of one or more character, each of which is either a, b, or c./(very, )*/ matches the word very followed by a comma and a space repeated zero or more times.">Which one of the following option will matches the character
-			a repeated one or more times.?</question>
+			feedback="B is correct./a+/ matches the character a repeated one or more times./\d+/ matches one or more digits./[abc]+/ matches a repetition of one or more character, each of which is either a, b, or c./(very, )*/ matches the word very followed by a comma and a space repeated zero or more times.">Which one of the following option will matches the character a repeated one or more times.?</question>
 		<answer>/\d+/</answer>
 		<answer correct="y">/a+/</answer>
 		<answer>/[abc]+/</answer>
@@ -172,16 +146,14 @@ var myXML:XML =  <order> <item> <price>3.95</price> </item> <item> <price>1.00</
 	<item id="172">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7ee7.html"
-			feedback="True is correct.The Array class has no built-in method for making copies of arrays. You can create a shallowcopy of an array by calling either the concat() or slice() methods with no arguments. In a shallow copy, if the original array has elements that are objects, only the references to the objects are copied rather than the objects themselves. The copy points to the same objects as the original does. Any changes made to the objects are reflected in both arrays.">True or False:The Array class has no built-in method for
-			making copies of arrays</question>
+			feedback="True is correct.The Array class has no built-in method for making copies of arrays. You can create a shallowcopy of an array by calling either the concat() or slice() methods with no arguments. In a shallow copy, if the original array has elements that are objects, only the references to the objects are copied rather than the objects themselves. The copy points to the same objects as the original does. Any changes made to the objects are reflected in both arrays.">True or False:The Array class has no built-in method for making copies of arrays</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="173">
 		<question type="singleChoice"
 			link="http://help.adobe.com/ja_JP/flex/using/WS2db454920e96a9e51e63e3d11c0bf668d2-7ff2.html#WS2db454920e96a9e51e63e3d11c0bf69084-7b65"
-			feedback="B is correct.You can use view cursor methods and properties to perform the following operations:Move the cursor backward or forward Move the cursor to specific items. Get the item at a cursor location.Add, remove, and change items.Save a cursor position by using a bookmark, and return to it later.">Which of the following action cannot be done by view cursor?
-		</question>
+			feedback="B is correct.You can use view cursor methods and properties to perform the following operations:Move the cursor backward or forward Move the cursor to specific items. Get the item at a cursor location.Add, remove, and change items.Save a cursor position by using a bookmark, and return to it later.">Which of the following action cannot be done by view cursor?</question>
 		<answer>Move the cursor backward or forward</answer>
 		<answer correct="y">cannot Move the cursor to specific items
 		</answer>
@@ -192,19 +164,14 @@ var myXML:XML =  <order> <item> <price>3.95</price> </item> <item> <price>1.00</
 	<item id="175">
 		<question type="tf"
 			link="http://help.adobe.com/ja_JP/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7b63.html"
-			feedback="False is correct.A RemoteObject component automatically returns an ArrayCollection for any data that is represented on the server as a java.util.List object, and you can use the returned object directly.">A RemoteObject component automatically returns an
-			ArrayCollection for certain data that is represented on the server as
-			a java.util.List object, and you can use the returned object
-			directly.?</question>
+			feedback="False is correct.A RemoteObject component automatically returns an ArrayCollection for any data that is represented on the server as a java.util.List object, and you can use the returned object directly.">A RemoteObject component automatically returns an ArrayCollection for certain data that is represented on the server as a java.util.List object, and you can use the returned object directly.?</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="176">
 		<question type="tf"
 			link="http://help.adobe.com/ja_JP/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7bdb.html"
-			feedback="True is correct.You use an OLAP query to extract data from an OLAP cube for display by the OLAPDataGrid control. An OLAP query defines a result set in a two-dimensional table of rows and columns so that the data can be viewed in the OLAPDataGrid control.">OLAP query defines a result set in a two-dimensional table
-			of rows and columns so that the data can be viewed in the
-			OLAPDataGrid control?</question>
+			feedback="True is correct.You use an OLAP query to extract data from an OLAP cube for display by the OLAPDataGrid control. An OLAP query defines a result set in a two-dimensional table of rows and columns so that the data can be viewed in the OLAPDataGrid control.">OLAP query defines a result set in a two-dimensional table of rows and columns so that the data can be viewed in the OLAPDataGrid control?</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
@@ -220,16 +187,14 @@ var myXML:XML =  <order> <item> <price>3.95</price> </item> <item> <price>1.00</
 	<item id="178">
 		<question type="tf"
 			link="http://help.adobe.com/ja_JP/flex/using/WS2db454920e96a9e51e63e3d11c0bf66f5a-7ff5.html#WS2db454920e96a9e51e63e3d11c0bf66f5a-7fe9"
-			feedback="False is correct.The MenuBar control does not dispatch the itemClick event when you select an item on the menu bar; it only dispatches the itemClick event when you select an item on a pop-up submenu.">The MenuBar control will dispatch the itemClick event when
-			you select an item on the menu bar.?</question>
+			feedback="False is correct.The MenuBar control does not dispatch the itemClick event when you select an item on the menu bar; it only dispatches the itemClick event when you select an item on a pop-up submenu.">The MenuBar control will dispatch the itemClick event when you select an item on the menu bar.?</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="180">
 		<question type="singleChoice"
 			link="http://help.adobe.com/ja_JP/flex/using/WS2db454920e96a9e51e63e3d11c0bf62b90-7ffc.html#WS8E14610C-57E0-4ebc-99E7-46D4CADD1C0D"
-			feedback="C is correct.Skinnable container that lays out it children, including data items, based on the specified layout. This container supports skinning. The default layout is vertical.">Which of the following containers lays out it children,
-			including graphic children, based on the specified layout.</question>
+			feedback="C is correct.Skinnable container that lays out it children, including data items, based on the specified layout. This container supports skinning. The default layout is vertical.">Which of the following containers lays out it children, including graphic children, based on the specified layout.</question>
 		<answer>SkinnableContainer</answer>
 		<answer correct="y">BorderContainer</answer>
 		<answer>SkinnableDataContainer</answer>
@@ -247,8 +212,7 @@ var myXML:XML =  <order> <item> <price>3.95</price> </item> <item> <price>1.00</
 	<item id="182">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf64fe7-7fff.html"
-			feedback="B is correct.A data provider is a collection that contains a data object such as an Array or XMLList object.">It is a collection that contains a data object such as an
-			Array or XMLList object?</question>
+			feedback="B is correct.A data provider is a collection that contains a data object such as an Array or XMLList object.">It is a collection that contains a data object such as an Array or XMLList object?</question>
 		<answer>ArrayCollection</answer>
 		<answer correct="y">data provider</answer>
 		<answer>XMLListCollection</answer>
@@ -257,9 +221,7 @@ var myXML:XML =  <order> <item> <price>3.95</price> </item> <item> <price>1.00</
 	<item id="183">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf64fe7-7fff.html#WS2db454920e96a9e51e63e3d11c0bf64fe7-7ffb"
-			feedback="C is correct.IListItemRenderer is Defines the complete set of interfaces that an item renderer or item editor must implement to be used with any Flex control other than a Chart control. A renderer for a Chart control has to implement only the IDataRenderer interface.The set of interfaces includes the following:IDataRenderer, IFlexDisplayObject, ILayoutClient, IStyleable, and IUIComponent.">Which of the following interface defines the complete set of
-			interfaces that an item renderer or item editor must implement to be
-			used with any Flex control other than a Chart control.?</question>
+			feedback="C is correct.IListItemRenderer is Defines the complete set of interfaces that an item renderer or item editor must implement to be used with any Flex control other than a Chart control. A renderer for a Chart control has to implement only the IDataRenderer interface.The set of interfaces includes the following:IDataRenderer, IFlexDisplayObject, ILayoutClient, IStyleable, and IUIComponent.">Which of the following interface defines the complete set of interfaces that an item renderer or item editor must implement to be used with any Flex control other than a Chart control.?</question>
 		<answer>IDataRenderer</answer>
 		<answer>IDropInListItemRenderer</answer>
 		<answer correct="y">IListItemRenderer</answer>
@@ -268,9 +230,7 @@ var myXML:XML =  <order> <item> <price>3.95</price> </item> <item> <price>1.00</
 	<item id="184">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cb3.html#WS2db454920e96a9e51e63e3d11c0bf64fe7-7fee"
-			feedback="True is correct.When you use the itemRenderer property of the List control to specify a drop-in item renderer, the data in the data provider must be of the type expected by the item renderer control. For example, if you use an Image control as a drop-in item renderer, the data provider for the List control must have String data in the field.">True or False: The data provider for the List control must
-			have String data in the field when You use an Image control as a
-			drop-in item renderer</question>
+			feedback="True is correct.When you use the itemRenderer property of the List control to specify a drop-in item renderer, the data in the data provider must be of the type expected by the item renderer control. For example, if you use an Image control as a drop-in item renderer, the data provider for the List control must have String data in the field.">True or False: The data provider for the List control must have String data in the field when You use an Image control as a drop-in item renderer</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
