@@ -2,14 +2,17 @@
 	<item id="250">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f10.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f0b"
-			feedback="False is correct. The month property, which is in a numeric format with 0 for January up to 11 for December">In Date class,the month property value is in a numeric format with 1 for January up to 12 for December.True or False?</question>
+			feedback="False is correct. The month property, which is in a numeric format with 0 for January up to 11 for December">In Date class,the month property value is in a numeric
+			format with 1 for January up to 12 for December.True or False?
+		</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="251">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f10.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f0b"
-			feedback="monthUTC is correct. In fact, the Date class gives you a number of ways to get each of these values. For example, you can get the month value of a Date object in four different ways:The month property,The getMonth() method,The monthUTC property,The getMonthUTC() method">How you will get the month value of a Date object from Date class.</question>
+			feedback="monthUTC is correct. In fact, the Date class gives you a number of ways to get each of these values. For example, you can get the month value of a Date object in four different ways:The month property,The getMonth() method,The monthUTC property,The getMonthUTC() method">How you will get the month value of a Date object from Date
+			class.</question>
 		<answer>getMonth()</answer>
 		<answer>monthUTC</answer>
 		<answer>getMonthUTC()</answer>
@@ -18,7 +21,9 @@
 	<item id="252">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f00.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7ef4"
-			feedback="C is correct. var str:String = 'Hello from Paris, Texas!!!';&#xD;&#xA;&#x9;&#x9;trace(str.slice(11,15));  output: Pari &#xD;&#xA;&#x9;&#x9;trace(str.slice(-3,-1));  output: !! &#xD;&#xA;&#x9;&#x9;trace(str.slice(-3,26));  output: !!! &#xD;&#xA;&#x9;&#x9;trace(str.slice(-3,str.length));output: !!! &#xD;&#xA;&#x9;&#x9;trace(str.slice(-8,-3)); // output: Texas">Given the following sample code, what will be output in the trace statement? Choose one. var str:String = "Hello from Paris,Texas!!!";trace(str.slice(-8,-3));</question>
+			feedback="C is correct. var str:String = 'Hello from Paris, Texas!!!';&#xD;&#xA;&#x9;&#x9;trace(str.slice(11,15));  output: Pari &#xD;&#xA;&#x9;&#x9;trace(str.slice(-3,-1));  output: !! &#xD;&#xA;&#x9;&#x9;trace(str.slice(-3,26));  output: !!! &#xD;&#xA;&#x9;&#x9;trace(str.slice(-3,str.length));output: !!! &#xD;&#xA;&#x9;&#x9;trace(str.slice(-8,-3)); // output: Texas">Given the following sample code, what will be output in the
+			trace statement? Choose one. var str:String = "Hello from
+			Paris,Texas!!!";trace(str.slice(-8,-3));</question>
 		<answer>Pari</answer>
 		<answer>Paris</answer>
 		<answer correct="y">Texas</answer>
@@ -27,7 +32,8 @@
 	<item id="253">
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f00.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7ef1"
-			feedback="A,B, are correct. The String class includes the following methods for working with patterns in strings:Use the match() and search() methods to locate substrings that match a pattern.Use the replace() method to find substrings that match a pattern and replace them with a specified substring.">Which of the following methods are used to locate substrings that match a pattern</question>
+			feedback="A,B, are correct. The String class includes the following methods for working with patterns in strings:Use the match() and search() methods to locate substrings that match a pattern.Use the replace() method to find substrings that match a pattern and replace them with a specified substring.">Which of the following methods are used to locate substrings
+			that match a pattern</question>
 		<answer correct="y">match()</answer>
 		<answer correct="y">search()</answer>
 		<answer>replace()</answer>
@@ -36,8 +42,10 @@
 	<item id="254">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7ee5.html#WSB1F41227-C612-4f33-A00E-CE84C1913E1C"
-			feedback="A, is correct. 0,0,0,0,0,0,0">Given the following ActionScript 3 class, what will be output in the trace statement? Choose one. 
-			var ages:Vector.&lt;uint&gt; = new Vector.&lt;uint&gt;(7);trace(ages);</question>
+			feedback="A, is correct. 0,0,0,0,0,0,0">Given the following ActionScript 3 class, what will be
+			output in the trace statement? Choose one.
+			var ages:Vector.&lt;uint&gt; = new Vector.&lt;uint&gt;(7);trace(ages);
+		</question>
 		<answer correct="y">0,0,0,0,0,0,0</answer>
 		<answer>7</answer>
 		<answer>0,0,0,0,0,0,0,0</answer>
@@ -46,8 +54,10 @@
 	<item id="255">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7ee5.html#WSB1F41227-C612-4f33-A00E-CE84C1913E1C"
-			feedback="D, is correct. Empty items in the array are not supported; a statement such as var v:Vector.&lt;int> = new &lt;int>[0,,2,] throws a compiler error.">Given the following sample code, What will be output in the trace statement?
-			var v:Vector.&lt;int&gt; = new &lt;int&gt;[0,,2,]</question>
+			feedback="D, is correct. Empty items in the array are not supported; a statement such as var v:Vector.&lt;int> = new &lt;int>[0,,2,] throws a compiler error.">Given the following sample code, What will be output in the
+			trace statement?
+			var v:Vector.&lt;int&gt; = new &lt;int&gt;[0,,2,]
+		</question>
 		<answer>4</answer>
 		<answer>2</answer>
 		<answer>3</answer>
@@ -56,14 +66,17 @@
 	<item id="256">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7ee5.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7ee0"
-			feedback="True is correct. If a Vector object’s fixed property is true, the total number of elements in the Vector can’t change. If you try to add a new element to a fixed-length Vector using the techniques described here, an error occurs.">True or False:If a Vector object’s fixed property is true, the total number of elements in the Vector can’t change.</question>
+			feedback="True is correct. If a Vector object’s fixed property is true, the total number of elements in the Vector can’t change. If you try to add a new element to a fixed-length Vector using the techniques described here, an error occurs.">True or False:If a Vector object’s fixed property is true,
+			the total number of elements in the Vector can’t change.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="257">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7ee5.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7edf"
-			feedback="C, is correct. Three methods of the Array and Vector classes—pop(), shift(), and splice()—allow you to remove elements. The pop() method removes an element from the end of the array. In other words, it removes the element at the highest index number. The shift() method removes an element from the beginning of the array, which means that it always removes the element at index number 0. The splice() method, which can also be used to insert elements, removes an arbitrary number of elements starting at the index number specified by the first argument sent to the method.">Which method can used to insert elements, removes an arbitrary number of elements starting at the index number specified by the first argument sent to the method.</question>
+			feedback="C, is correct. Three methods of the Array and Vector classes—pop(), shift(), and splice()—allow you to remove elements. The pop() method removes an element from the end of the array. In other words, it removes the element at the highest index number. The shift() method removes an element from the beginning of the array, which means that it always removes the element at index number 0. The splice() method, which can also be used to insert elements, removes an arbitrary number of elements starting at the index number specified by the first argument sent to the method.">Which method can used to insert elements, removes an
+			arbitrary number of elements starting at the index number specified
+			by the first argument sent to the method.</question>
 		<answer>shift()</answer>
 		<answer>unshift()</answer>
 		<answer correct="y">splice()</answer>
@@ -72,21 +85,24 @@
 	<item id="258">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7ee5.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7edf"
-			feedback="True is correct. The Vector class does not include a sortOn() method. This method is only available for Array objects">The Vector class does not include a sortOn() method.</question>
+			feedback="True is correct. The Vector class does not include a sortOn() method. This method is only available for Array objects">The Vector class does not include a sortOn() method.
+		</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="259">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7ee9.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7ed9"
-			feedback="True is correct. When you use two indexed arrays, you can visualize the result as a table or spreadsheet. The elements of the first array represent the rows of the table, while the elements of the second array represent the columns.">When you use two indexed arrays, you can visualize the result as a table or spreadsheet.true or false?</question>
+			feedback="True is correct. When you use two indexed arrays, you can visualize the result as a table or spreadsheet. The elements of the first array represent the rows of the table, while the elements of the second array represent the columns.">When you use two indexed arrays, you can visualize the
+			result as a table or spreadsheet.true or false?</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="260">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7ece.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7eb1"
-			feedback="B, is correct. An EOFError exception is thrown when you attempt to read past the end of the available data.">Which exception will be thrown when you attempt to read past the end of the available data.?</question>
+			feedback="B, is correct. An EOFError exception is thrown when you attempt to read past the end of the available data.">Which exception will be thrown when you attempt to read past
+			the end of the available data.?</question>
 		<answer>ScriptTimeoutError</answer>
 		<answer correct="y">EOFError</answer>
 		<answer>IOError</answer>
@@ -95,7 +111,9 @@
 	<item id="261">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7e3e.html#ionCTAAnchor"
-			feedback="A, is correct. Transformation An adjustment to a visual characteristic of a graphic, such as rotating the object, altering its scale, skewing or distorting its shape, or altering its color.">An adjustment to a visual characteristic of a graphic, such as rotating the object, altering its scale, skewing or distorting its shape, or altering its color. This process is called as.?</question>
+			feedback="A, is correct. Transformation An adjustment to a visual characteristic of a graphic, such as rotating the object, altering its scale, skewing or distorting its shape, or altering its color.">An adjustment to a visual characteristic of a graphic, such
+			as rotating the object, altering its scale, skewing or distorting its
+			shape, or altering its color. This process is called as.?</question>
 		<answer correct="y">Transformation</answer>
 		<answer>Vector graphic</answer>
 		<answer>Masking</answer>
@@ -104,14 +122,16 @@
 	<item id="262">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7e36.html"
-			feedback="True is correct. setChildIndex() method Changes the position of a child display object.">True or False: setChildIndex() method Changes the position of a child display object.</question>
+			feedback="True is correct. setChildIndex() method Changes the position of a child display object.">True or False: setChildIndex() method Changes the position
+			of a child display object.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="263">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7dca.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7dc6"
-			feedback="False is correct. You can use the distance() method of the Point class to find the distance between two points in a coordinate space.">The destination() method of the Point class to find the distance between two points in a coordinate space. true or fasle?
+			feedback="False is correct. You can use the distance() method of the Point class to find the distance between two points in a coordinate space.">The destination() method of the Point class to find the
+			distance between two points in a coordinate space. true or fasle?
 		</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
@@ -119,7 +139,8 @@
 	<item id="264">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7dc9.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7dc2"
-			feedback="B, is correct. You can also resize a Rectangle object by using the inflate() method, which includes two parameters, dx and dy. The dx parameter represents the number of pixels that the left and right sides of the rectangle moves from the center. The dy parameter represents the number of pixels that the top and bottom of the rectangle moves from the center">Which of the following method is used to resize the Rectangle Object.?</question>
+			feedback="B, is correct. You can also resize a Rectangle object by using the inflate() method, which includes two parameters, dx and dy. The dx parameter represents the number of pixels that the left and right sides of the rectangle moves from the center. The dy parameter represents the number of pixels that the top and bottom of the rectangle moves from the center">Which of the following method is used to resize the
+			Rectangle Object.?</question>
 		<answer>offset()</answer>
 		<answer correct="y">inflate()</answer>
 		<answer>offget()</answer>
@@ -128,7 +149,8 @@
 	<item id="265">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WSDBFD90D1-A0A5-40e2-BEEE-14ECBE82F83B.html"
-			feedback="B, is correct. The Panel and NavigatorContent classes are subclasses of the SkinnableContainer class.">The Panel and NavigatorContent classes are subclasses of the ___________ class? which of the following is correct one?</question>
+			feedback="B, is correct. The Panel and NavigatorContent classes are subclasses of the SkinnableContainer class.">The Panel and NavigatorContent classes are subclasses of the
+			___________ class? which of the following is correct one?</question>
 		<answer>SkinnableDataContainer</answer>
 		<answer correct="y">SkinnableContainer</answer>
 		<answer>Group</answer>
@@ -137,7 +159,8 @@
 	<item id="266">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WSF1E2E7DD-8FA6-408d-9652-4B5E57A85A5A.html"
-			feedback="C, is correct. The default layout class of the Group and SkinnableContainer container is BasicLayout.">The default layout class of the Group and SkinnableContainer container is?</question>
+			feedback="C, is correct. The default layout class of the Group and SkinnableContainer container is BasicLayout.">The default layout class of the Group and SkinnableContainer
+			container is?</question>
 		<answer>HorizontalLayout</answer>
 		<answer>VerticalLayout</answer>
 		<answer correct="y">BasicLayout</answer>
@@ -146,7 +169,8 @@
 	<item id="267">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS03d33b8076db57b9466e6a52123e854e5d5-8000.html"
-			feedback="B, is correct. The BorderContainer container provides a set of CSS styles and class properties to control the border and background of the container.">Which container will provides a set of CSS styles and class properties to control the border and background of the container?
+			feedback="B, is correct. The BorderContainer container provides a set of CSS styles and class properties to control the border and background of the container.">Which container will provides a set of CSS styles and class
+			properties to control the border and background of the container?
 		</question>
 		<answer>SkinnableContainer</answer>
 		<answer correct="y">BorderContainer</answer>
@@ -156,14 +180,16 @@
 	<item id="268">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WSb96f4baaef289fcf-2107ed10123b8e266e7-8000.html"
-			feedback="True is correct. You cannot use Spark containers other than NavigatorContent as a child of an MX navigator container. To use any other Spark container in a navigator container, wrap it in an MX container or in the Spark NavigatorContent container.">You cannot use Spark containers other than NavigatorContent as a child of an MX navigator container.</question>
+			feedback="True is correct. You cannot use Spark containers other than NavigatorContent as a child of an MX navigator container. To use any other Spark container in a navigator container, wrap it in an MX container or in the Spark NavigatorContent container.">You cannot use Spark containers other than NavigatorContent
+			as a child of an MX navigator container.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="269">
 		<question type="singleChoice"
 			link="http://help.adobe.com/ja_JP/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cfe.html#WS2db454920e96a9e51e63e3d11c0bf69084-7d02"
-			feedback="B, is correct. Flex generates a dragEnter event when the user moves the drag indicator over any component. A component must define a handler for a dragEnter event to be a drop target">Which event will Flex generates when the user moves the drag indicator over any component?</question>
+			feedback="B, is correct. Flex generates a dragEnter event when the user moves the drag indicator over any component. A component must define a handler for a dragEnter event to be a drop target">Which event will Flex generates when the user moves the drag
+			indicator over any component?</question>
 		<answer>dragMove</answer>
 		<answer correct="y">dragEnter</answer>
 		<answer>dragover</answer>
@@ -172,7 +198,8 @@
 	<item id="270">
 		<question type="multiChoice"
 			link="http://help.adobe.com/ja_JP/flex/using/WS2db454920e96a9e51e63e3d11c0bf60efb-7fdd.html#WS2db454920e96a9e51e63e3d11c0bf69084-7f50"
-			feedback="A,C, are correct. The DateValidator and CreditCardValidator can validate multiple fields by using a single validator. A CreditCardValidator examines one field that contains the credit card number and a second field that contains the credit card type. The DateValidator can examine a single field that contains a date, or multiple fields that together make up a date.">Which of the following validator can validate multiple fields by using a single validator?</question>
+			feedback="A,C, are correct. The DateValidator and CreditCardValidator can validate multiple fields by using a single validator. A CreditCardValidator examines one field that contains the credit card number and a second field that contains the credit card type. The DateValidator can examine a single field that contains a date, or multiple fields that together make up a date.">Which of the following validator can validate multiple
+			fields by using a single validator?</question>
 		<answer correct="y">DateValidator</answer>
 		<answer>NumberValidator</answer>
 		<answer correct="y">CreditCardValidator</answer>
@@ -181,7 +208,8 @@
 	<item id="271">
 		<question type="singleChoice"
 			link="http://help.adobe.com/ja_JP/flex/using/WS2db454920e96a9e51e63e3d11c0bf648c2-7ffd.html#WS2db454920e96a9e51e63e3d11c0bf648c2-7fef"
-			feedback="A, is correct. For United States ZIP codes, only numeric characters are valid. For Canadian postal codes, alphanumeric characters are allowed. Alphabetic characters must be in uppercase.">In ZipCodeFormatter class, For Canadian postal codes, ___________ characters are allowed?</question>
+			feedback="A, is correct. For United States ZIP codes, only numeric characters are valid. For Canadian postal codes, alphanumeric characters are allowed. Alphabetic characters must be in uppercase.">In ZipCodeFormatter class, For Canadian postal codes,
+			___________ characters are allowed?</question>
 		<answer correct="y">alphanumeric</answer>
 		<answer>betanumeric</answer>
 		<answer>gammanumeric</answer>
@@ -190,21 +218,26 @@
 	<item id="272">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ff2.html#WS2db454920e96a9e51e63e3d11c0bf69084-7e88"
-			feedback="True is correct. In ActionScript or an MXML tag, you cannot use hyphenated style property names, so you must use the camel-case version of the style property. For the style name in a style sheet, you cannot use a hyphenated name">True or False:In Cascading Stylesheet, the name of class selectors cannot inculde hyphenated style property names in Actionscript and an MXML tag.</question>
+			feedback="True is correct. In ActionScript or an MXML tag, you cannot use hyphenated style property names, so you must use the camel-case version of the style property. For the style name in a style sheet, you cannot use a hyphenated name">True or False:In Cascading Stylesheet, the name of class
+			selectors cannot inculde hyphenated style property names in
+			Actionscript and an MXML tag.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="273">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ff2.html#WS2db454920e96a9e51e63e3d11c0bf62883-7fed"
-			feedback="True is correct. When you assign styles to a type selector, all subclasses of that selector’s type (the class) are affected by the styles. For example, if you create a type selector for Group, the styles are also applied to VGroup and HGroup instances because those classes are subclasses of Group.">True or False:When you assign styles to a type selector, all subclasses of that selector’s type (the class) are affected by the styles.?</question>
+			feedback="True is correct. When you assign styles to a type selector, all subclasses of that selector’s type (the class) are affected by the styles. For example, if you create a type selector for Group, the styles are also applied to VGroup and HGroup instances because those classes are subclasses of Group.">True or False:When you assign styles to a type selector, all
+			subclasses of that selector’s type (the class) are affected by the
+			styles.?</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="274">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ff2.html#WSda78ed3a750d6b8f-7b5abe51121cfcf7996-7ffe"
-			feedback="B is correct. Styles are applied only to components that appear in the display list. Descendant selectors are only applied if the ancestors also appear in the display list.Descendant selectors work with all classes that implement the IStyleClient interface.">Descendant selectors work with all classes which implements the following interface.?</question>
+			feedback="B is correct. Styles are applied only to components that appear in the display list. Descendant selectors are only applied if the ancestors also appear in the display list.Descendant selectors work with all classes that implement the IStyleClient interface.">Descendant selectors work with all classes which implements
+			the following interface.?</question>
 		<answer>IViewStyleClient interface.</answer>
 		<answer correct="y">IStyleClient interface</answer>
 		<answer>IView interface</answer>
@@ -213,7 +246,8 @@
 	<item id="275">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf651fa-7ffa.html#WS2db454920e96a9e51e63e3d11c0bf69084-7c87"
-			feedback="D, is correct. A list component dispatches the following events as part of the cell editing process: the itemEditBeginning, itemEditBegin, and the itemEditEnd events. The list-based controls define default event listeners for all three of these events">A list component dispatches whic events as part of the cell editing process.</question>
+			feedback="D, is correct. A list component dispatches the following events as part of the cell editing process: the itemEditBeginning, itemEditBegin, and the itemEditEnd events. The list-based controls define default event listeners for all three of these events">A list component dispatches whic events as part of the cell
+			editing process.</question>
 		<answer>itemEditBeginning events</answer>
 		<answer>itemEditBegin events</answer>
 		<answer>itemEditEnd events</answer>
@@ -222,7 +256,8 @@
 	<item id="276">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf65518-7ff9.html"
-			feedback="C, is correct. All chart controls, except the PieChart class, are subclasses of the CartesianChart class. Cartesian charts are charts that typically represent a set of data points in rectangular-shaped, two-dimensional space. The PieChart class is a subclass of the PolarChart class, which represents data in circular space.">All chart controls are subclasses of the CartesianChart class,except one of the following chart class?</question>
+			feedback="C, is correct. All chart controls, except the PieChart class, are subclasses of the CartesianChart class. Cartesian charts are charts that typically represent a set of data points in rectangular-shaped, two-dimensional space. The PieChart class is a subclass of the PolarChart class, which represents data in circular space.">All chart controls are subclasses of the CartesianChart
+			class,except one of the following chart class?</question>
 		<answer>PlotChart</answer>
 		<answer>HLOCChart</answer>
 		<answer correct="y">PieChart</answer>
@@ -231,7 +266,8 @@
 	<item id="277">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf65518-7ff2.html"
-			feedback="B, is correct. A LinearAxis class maps numeric data to the axis. You use the &lt;mx:LinearAxis> child tag of the &lt;mx:horizontalAxis> or &lt;mx:verticalAxis> tags to customize the range of values displayed along the axis, and to set the increment between the axis labels of the tick marks.">Which of the following class maps numeric data to the axis?</question>
+			feedback="B, is correct. A LinearAxis class maps numeric data to the axis. You use the &lt;mx:LinearAxis> child tag of the &lt;mx:horizontalAxis> or &lt;mx:verticalAxis> tags to customize the range of values displayed along the axis, and to set the increment between the axis labels of the tick marks.">Which of the following class maps numeric data to the axis?
+		</question>
 		<answer>CategoryAxis</answer>
 		<answer correct="y">LinearAxis</answer>
 		<answer>LogAxis</answer>
@@ -240,7 +276,8 @@
 	<item id="278">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc0.html#WS2db454920e96a9e51e63e3d11c0bf64c3d-7ff4"
-			feedback="C, is correct. Bidirectional, or two-way, data binding occurs when two objects act as the source and the destination for each other. When you modify the source property of either object, the destination property of the other object is updated.">When two objects act as the source and the destination for each other. This process is called.?</question>
+			feedback="C, is correct. Bidirectional, or two-way, data binding occurs when two objects act as the source and the destination for each other. When you modify the source property of either object, the destination property of the other object is updated.">When two objects act as the source and the destination for
+			each other. This process is called.?</question>
 		<answer>Single-Way Binding</answer>
 		<answer>Binding</answer>
 		<answer correct="y">Two-Way Binding</answer>
@@ -249,17 +286,93 @@
 	<item id="279">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf63825-7ff3.html"
-			feedback="True is correct. Spark skins can be loaded and unloaded at run time, and their properties can be bound to the style properties of the host component.">Spark skins can be loaded and unloaded at compile time, and their properties can be bound to the style properties of the host component.</question>
+			feedback="True is correct. Spark skins can be loaded and unloaded at run time, and their properties can be bound to the style properties of the host component.">Spark skins can be loaded and unloaded at compile time, and
+			their properties can be bound to the style properties of the host
+			component.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="280">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/mx/effects/easing/Bounce.html?filter_flex=4.1&amp;filter_flashplayer=10.1&amp;filter_air=2"
-			feedback="D, is correct. The Bounce class defines three easing functions to implement bounce motion with Flex effect classes.easeOut(),easeIn() and easeInOut().">Which of the following are the easing function for Bounce class to implement bounce motion with flex effect classes?</question>
+			feedback="D, is correct. The Bounce class defines three easing functions to implement bounce motion with Flex effect classes.easeOut(),easeIn() and easeInOut().">Which of the following are the easing function for Bounce
+			class to implement bounce motion with flex effect classes?</question>
 		<answer>easeOut</answer>
 		<answer>easeIn</answer>
 		<answer>easeInOut</answer>
 		<answer correct="y">All the above</answer>
+	</item>
+	<item id="500">
+		<question type="tf"
+			link="http://help.adobe.com/en_US/LiveCycleDataServicesES/3.1/Developing/WSc3ff6d0ea77859461172e0811f00f7045b-7f83Update.html"
+			feedback="True. By default, the Data Management Service detects data changes made from Flex clients and the server push API and propagates those changes to other clients. You can change this default behavior for a specific destination by setting auto-sync-enabled to false in the destination configuration."><![CDATA[When using LiveCycle Data Services, the default value of autoSyncEnabled on the client side is true.]]></question>
+		<answer correct="y"><![CDATA[ True ]]></answer>
+		<answer correct=""><![CDATA[ False ]]></answer>
+	</item>
+	<item id="501">
+		<question type="singleChoice"
+			link="http://help.adobe.com/en_US/LiveCycleDataServicesES/3.1/Developing/WSc3ff6d0ea77859461172e0811f00f7045b-7f7bUpdate.html"
+			feedback="C is correct. The three types of paging supported are association property loading, client-to-server and server-to-data-source. Server-to-server paging is not a type of paging option."><![CDATA[Which of the following is not a data paging option supported in LiveCycle Data Services:]]></question>
+		<answer correct=""><![CDATA[ Association property loading ]]></answer>
+		<answer correct=""><![CDATA[ Client-to-server paging ]]></answer>
+		<answer correct="y"><![CDATA[ Server-to-server paging ]]></answer>
+		<answer correct=""><![CDATA[ Server-to-data-source paging ]]></answer>
+	</item>
+	<item id="502">
+		<question type="singleChoice"
+			link="http://help.adobe.com/en_US/LiveCycleDataServicesES/3.1/Developing/WSc3ff6d0ea77859461172e0811f00f7045b-7f7bUpdate.html"
+			feedback="D is correct. All of these statements are true in regards to why you would use data paging."><![CDATA[Data paging is implemented for which of the following reasons? Choose one:]]></question>
+		<answer correct=""><![CDATA[ To decrease query time ]]></answer>
+		<answer correct=""><![CDATA[ To improve performance with large sets of data ]]></answer>
+		<answer correct=""><![CDATA[ Reduce the amount of consumer memory ]]></answer>
+		<answer correct="y"><![CDATA[ All of the above ]]></answer>
+	</item>
+	<item id="503">
+		<question type="tf"
+			link="http://help.adobe.com/en_US/LiveCycleDataServicesES/3.1/Developing/WSc3ff6d0ea77859461172e0811f00f7045b-7f83Update.html"
+			feedback="True. Changing the value of the autoSyncEnabled property does not affect existing managed objects on that client. It only affects fill(), getItem() and createItem() method calls that you make after changing the value. "><![CDATA[True or False: When using LiveCycle Data Services you can have managed instances with autoSyncEnabled set to true and others with the autoSyncEnabled set to false from the same destination in the same client.]]></question>
+		<answer correct="y"><![CDATA[ True ]]></answer>
+		<answer correct=""><![CDATA[ False ]]></answer>
+	</item>
+	<item id="504">
+		<question type="singleChoice"
+			link="http://help.adobe.com/en_US/LiveCycleDataServicesES/3.1/Developing/WSc3ff6d0ea77859461172e0811f00f7045b-7f83Update.html#WSc3ff6d0ea77859461172e0811f00f6f23a-7ffeUpdate"
+			feedback="B is correct. The connected property on a DataService object will indicate the current status of whether it is connected or disconnected. The other choices are not valid properties of DataService."><![CDATA[When using the DataService object, which of the following properties would be used to detect if the server is online or offline?]]></question>
+		<answer correct=""><![CDATA[ isOnline ]]></answer>
+		<answer correct="y"><![CDATA[ connected ]]></answer>
+		<answer correct=""><![CDATA[ isConnected ]]></answer>
+		<answer correct=""><![CDATA[ online ]]></answer>
+	</item>
+	<item id="505">
+		<question type="singleChoice"
+			feedback="D is correct. It shows the proper syntax for sending a message."
+			link="http://livedocs.adobe.com/livecycle/8.2/programLC/programmer/lcds/messaging_3.html"><![CDATA[Given the sample code, what line of code could be added to sendMessage() to send the message to the destination? Choose one: private function createProducer():void { producer = new Producer(); producer.destination = "chat"; producer.addEventListener(MessageAckEvent.ACKNOWLEDGE, acknowledgeHandler); producer.addEventListener(MessageFaultEvent.FAULT, faultHandler); } private function sendMessage():void { var msg:AsyncMessage = new AsyncMessage(); msg.body = “My Message”; (add code here) }]]></question>
+		<answer><![CDATA[ producer.sendMessage(msg); ]]></answer>
+		<answer><![CDATA[ AsyncMessage.send(msg); ]]></answer>
+		<answer><![CDATA[ Producer.send(msg); ]]></answer>
+		<answer correct="y"><![CDATA[ producer.send(msg); ]]></answer>
+	</item>
+	<item id="506">
+		<question type="multiChoice"
+			link="http://www.adobe.com/devnet/livecycle/articles/lcdses2_mdd_quickstart_02.html"
+			feedback="B and D are correct. You should not have to edit the flex-config or data-management-config files to set up model-driven development. "><![CDATA[Which of the following is NOT a step required for model-driven development?]]></question>
+		<answer correct=""><![CDATA[Download and install the application modeling plugin]]></answer>
+		<answer correct="y"><![CDATA[ Edit the data-management-config.xml ]]></answer>
+		<answer correct=""><![CDATA[ Define an RDS server ]]></answer>
+		<answer correct="y"><![CDATA[ Edit the flex-config.xml ]]></answer>
+	</item>
+	<item id="507">
+		<question type="tf"
+			link="http://help.adobe.com/en_US/LiveCycleDataServicesES/3.1/Developing/WSc3ff6d0ea77859461172e0811f00f7045b-7ffcUpdate.html"
+			feedback="False. The Proxy Service is only used for the HTTPService and WebService RPC Components. The RemoteObject component uses the Remoting Service, which exposes plain old Java objects (POJOs) as service destinations that your client-side RemoteObject components can access on the server."><![CDATA[True or False: When using the three Flex RPC components (RemoteObject, HTTPService and WebService), you go through the Proxy Service on the server, which proxies your requests so you do not need a cross domain policy file.]]></question>
+		<answer correct=""><![CDATA[ True ]]></answer>
+		<answer correct="y"><![CDATA[ False ]]></answer>
+	</item>
+	<item id="508">
+		<question type="tf"
+			link="http://help.adobe.com/en_US/LiveCycleDataServicesES/3.1/Developing/WSc3ff6d0ea77859461172e0811f00f7045b-7fa2Update.html#WSc3ff6d0ea77859461172e0811f00f7045b-7fb2Update"
+			feedback="False. The benefit of defining separate Operation objects within a WebService component is to allow for specific result and fault handling at the Operation level."><![CDATA[True or False: When defining a WebService component that uses multiple operations in MXML, each of the Operation objects relies on the result and fault handlers defined on the WebService component, not individually defined handlers.]]></question>
+		<answer correct=""><![CDATA[ True ]]></answer>
+		<answer correct="y"><![CDATA[ False ]]></answer>
 	</item>
 </topics>
