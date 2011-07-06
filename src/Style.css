@@ -26,6 +26,7 @@ s|Application{
 s|LabelItemRenderer{
 	color:#313235;
 	fontFamily:CalibriMX;
+	selectionColor:#ff0000;
 	downColor:#ff0000;
 }
 s|RichEditableText{
