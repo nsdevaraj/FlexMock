@@ -606,7 +606,7 @@ Which option below shows the correct way to call this function a button's click 
 		<answer>None of these above</answer>
 	</item>
 	<item id="353">
-		<question type="singleChoice"
+		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/events/Event.html#propertySummary"
 			feedback="B and C are correct.The event target. This property contains the target node.The type of event. The type is case-sensitive."><![CDATA[Which two properties are declared in the flash.events.Event class and are declared in all event objects? Choose Two]]></question>
 		<answer>id</answer>

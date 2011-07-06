@@ -138,7 +138,7 @@ package com.adams.quiz.model.vo
 		override public function fill(item:Object):void{
 			questionitemId = item.id;
 			question = item.question.value;
-			miniquestion = question.substr(0,80);
+			miniquestion = question.substr(0,75);
 			link = item.question.link;
 			feedback = item.question.feedback;
 			type = item.question.type;
