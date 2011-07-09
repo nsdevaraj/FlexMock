@@ -1,7 +1,0 @@
-<menu id="1" label="FlexMock">
-	<chapter id="1" label="UI">ui</chapter>
-	<chapter id="2" label="Architecture and Design">architecturedesign</chapter>
-	<chapter id="3" label="Programming Actionscript">programmingactionscript</chapter>
-	<chapter id="4" label="Data Source and Servers">datasourceservers</chapter>
-	<chapter id="5" label="AIR">air</chapter>
-</menu>
