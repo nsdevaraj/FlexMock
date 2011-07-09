@@ -133,11 +133,11 @@ package com.adams.quiz.view.mediators
 		{
 			// Swipe was to the right
 			if (event.offsetX == 1 ) {
-				currentPosition++;
+				currentPosition--;
 				gotoQuestion(currentPosition);
 			}
 			else if (event.offsetX == -1 ) {
-				currentPosition--;
+				currentPosition++;
 				gotoQuestion(currentPosition);
 			}
 		}
