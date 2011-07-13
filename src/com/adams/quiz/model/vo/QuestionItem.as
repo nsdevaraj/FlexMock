@@ -145,12 +145,13 @@ package com.adams.quiz.model.vo
 			feedback = item.question.feedback;
 			type = item.question.type;
 			choiceArr =[];
+			var patch:String = '          ';
 			for each(var obj:Object in item.answer as ArrayCollection){
 				if(obj.hasOwnProperty('correct')){
-					choiceArr.push(obj.value+ '     ');
-					choices.addItem(obj.value+ '     ');
+					choiceArr.push(obj.value+patch);
+					choices.addItem(obj.value+patch);
 				}else{
-					choices.addItem(obj+ '     ');
+					choices.addItem(obj+patch);
 				}
 			}
 			menu = Utils.menuId;

@@ -4,11 +4,15 @@
 		xmlns:mediators="com.adams.quiz.view.mediators.*" 
 		xmlns:components="com.adams.swizdao.views.components.*">	 
 	<s:Group width="100%" height="100%">
-		<s:TextArea id="question" 
-					width="100%" maxHeight="250" editable="false" selectable="false" />
-		<s:TextArea id="choice" editable="false" 
-					bottom="70" styleName="header"
-					width="100%" selectable="false"/> 
+		<s:Scroller width="100%" height="100%" bottom="{footer.height+5}">
+			<s:VGroup width="100%" height="100%">
+				<s:TextArea id="question"  fontSize="20" contentBackgroundAlpha="0" borderVisible="true"
+							width="100%" heightInLines="{NaN}" editable="false" selectable="false" />
+				<s:TextArea id="choice" editable="false"  contentBackgroundAlpha="0" borderVisible="true"
+							bottom="70" styleName="header"
+							width="100%" selectable="false"/> 
+			</s:VGroup>
+		</s:Scroller>
 		<s:HGroup id="footer" width="100%" bottom="5" paddingRight="5" verticalAlign="middle">
 			<components:NativeButton id="back" label="back"/>
 			<s:NumericStepper  id="navigate" maxChars="2" textAlign="center" minimum="1" stepSize="1" />

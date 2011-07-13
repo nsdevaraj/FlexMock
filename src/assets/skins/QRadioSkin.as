@@ -35,6 +35,7 @@ package assets.skins
 			correctFeedback.selected=true;
 			correctFeedback.visible=false;
 			correctFeedback.x = 30;
+			width = width+30;
 			this.addChild(correctFeedback);
 		} 
 		
