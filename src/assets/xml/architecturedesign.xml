@@ -3,23 +3,26 @@
 		<question
 			feedback="True. ActionScript provides flow control and object manipulation features that are not available in MXML when creating the CustomComponents."
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-79fc.html">True or False:MXML provides flow control and object manipulation features While Creating custom components</question>
-		<answer correct="y">True</answer>
-		<answer>False</answer>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-79fc.html">
+			True or False:When Creating custom components, MXML provides flow control and object manipulation features </question>
+		<answer>True</answer>
+		<answer correct="y">False</answer>
 	</item>
 	<item id="95">
 		<question
 			feedback="False. The advantage of getters and setters is that they isolate the variable from direct public access"
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67eed-7fff.html">True or False: The getters and setters allows you to access the variable from direct public access</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67eed-7fff.html">
+			True or False: Is the getters and setters allows you to access the variable from direct public access</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="96">
 		<question
-			feedback="A is correct.This Metadata tag Omits the class element from the Flash Builder tag inspector. The syntax is as follows:[Exclude(name=&quot;label&quot;, kind=&quot;property&quot;)]."
+			feedback="A. This Metadata tag Omits the class element from the Flash Builder tag inspector. The syntax is as follows:[Exclude(name=&quot;label&quot;, kind=&quot;property&quot;)]."
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf680e1-7ffe.html">Which of the following meta tags Omits the class element from the Flash Builder tag inspector?</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf680e1-7ffe.html">
+			Which of the following meta tags Omits the class element from the Flash Builder tag inspector?</question>
 		<answer correct="y">[Exclude]</answer>
 		<answer>[ExcludeClass]</answer>
 		<answer>[Alternative]</answer>
@@ -29,7 +32,8 @@
 		<question
 			feedback="True. Flex calls the IMXMLObject.initialized() method after it initializes the properties of the component."
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf688f1-7ff1.html"><![CDATA[True or False: Flex calls the IMXMLObject.initialized() method after it initializes the properties of the component.]]></question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf688f1-7ff1.html">
+		<![CDATA[True or False: Is Flex calls the IMXMLObject.initialized() method after it initializes the properties of the component.]]></question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
@@ -37,15 +41,17 @@
 		<question
 			feedback="False. The bubbles and cancelable parameters of the Event class are optional and both default to false."
 			type="tf"
-			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/events/Event.html#bubbles"><![CDATA[True or False: The bubbles and cancelable parameters of the Event class are required and by default both the values are true.]]></question>
+			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/events/Event.html#bubbles">
+			<![CDATA[True or False: Is it the must, bubbles and cancelable parameters of the Event class are required and by default both the values are true.]]></question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="99">
 		<question
-			feedback="D is correct. The UIComponent class is the base class for all visual components, both interactive and noninteractive."
+			feedback="D. The UIComponent class is the base class for all visual components, both interactive and noninteractive."
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/fl/core/UIComponent.html">Which of the following is the base class for all visual components in the Flex architecture? Choose one.</question>
+			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/fl/core/UIComponent.html">
+			Which of the following is the base class for all visual components in the Flex architecture? Choose the best one.</question>
 		<answer>Sprite</answer>
 		<answer>Application</answer>
 		<answer>Component</answer>
@@ -53,17 +59,19 @@
 	</item>
 	<item id="100">
 		<question
-			feedback="A is correct. Use the [SWF] metadata tag to specify attributes of the application when you write the main application file in ActionScript. Typically, you set these attributes by using the &lt;s:Application> tag when you write the main application file in MXML."
+			feedback="A. Use the [SWF] metadata tag to specify attributes of the application when you write the main application file in ActionScript. Typically, you set these attributes by using the &lt;s:Application> tag when you write the main application file in MXML."
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf680e1-7ffe.html#WS2db454920e96a9e51e63e3d11c0bf69084-7a21"><![CDATA[[SWF] metadata tag used to specify attributes of the application when you write the main application file in ActionScript]]></question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf680e1-7ffe.html#WS2db454920e96a9e51e63e3d11c0bf69084-7a21">
+			<![CDATA[ Is the [SWF]metadata tag used to specify attributes of the application when you write the main application file in ActionScript]]></question>
 		<answer correct="y"><![CDATA[true]]></answer>
 		<answer><![CDATA[false]]></answer>
 	</item>
 	<item id="101">
 		<question
-			feedback="C is correct. The Model Encapsulates data and behaviors related to the data processed by the application"
+			feedback="C. The Model Encapsulates data and behaviors related to the data processed by the application"
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62258-7ffe.html">Concerning the Model, View, Controller design pattern, the Controller is responsible for: Choose one.</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62258-7ffe.html">
+			What is the responsibility of controller while concerning the Model, View, Controller(MVC) design pattern.</question>
 		<answer>Defining your application's user interface</answer>
 		<answer correct="y">Handling data interconnectivity in your application</answer>
 		<answer>Encapsulating data and behaviors related to the data processed by the application</answer>
@@ -71,9 +79,10 @@
 	</item>
 	<item id="102">
 		<question
-			feedback="B is correct. You are required to override the Event.clone() method in your subclass. The clone() method returns a cloned copy of the event object by setting the type property and any new properties in the clone. Typically, you define the clone() method to return an event instance created with the new operator."
+			feedback="B. You are required to override the Event.clone() method in your subclass. The clone() method returns a cloned copy of the event object by setting the type property and any new properties in the clone. Typically, you define the clone() method to return an event instance created with the new operator."
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffd.html">Which method of the Event class are you required to override when creating a subclass? Choose one.</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffd.html">
+			Which method of the Event class are you required to override when you creating your event that is subclass of Event Class.</question>
 		<answer>toString()</answer>
 		<answer correct="y">clone()</answer>
 		<answer>valueOf()</answer>
@@ -81,7 +90,7 @@
 	</item>
 	<item id="104">
 		<question
-			feedback="A is correct. The [Inspectable] metadata tag defines information about an attribute of your component that you expose in code hints and in the Property inspector area of Flash Builder. The [Inspectable] metadata tag is not required for either code hints or the Property inspector"
+			feedback="A. The [Inspectable] metadata tag defines information about an attribute of your component that you expose in code hints and in the Property inspector area of Flash Builder. The [Inspectable] metadata tag is not required for either code hints or the Property inspector"
 			type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf680e1-7ffe.html"><![CDATA[Which of the following meta tag defines information about an attribute of your component that you expose in code hints and in the Property inspector area of Flash Builder?]]></question>
 		<answer correct="y"><![CDATA[[InstanceType]]]></answer>
@@ -92,7 +101,8 @@
 	<item id="105">
 		<question feedback="A is correct. The other options will cause an error."
 			type="singleChoice"
-			link="http://help.adobe.com/fr_FR/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7d9f.html"><![CDATA[You have defined the following event handler inside the <mx:Script> tag on your MXML document:
+			link="http://help.adobe.com/fr_FR/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7d9f.html">
+			<![CDATA[Which of the following one have defined for event handler inside the <mx:Script> tag on your MXML document:
 public function handleCloseEvent(eventObj:Event):void {
 ...
 }
@@ -106,16 +116,17 @@ Which option below shows the correct way to call this function a button's click 
 		<question
 			feedback="True. You use the [Event] metadata tag to define events dispatched by a component so that the Flex compiler can recognize them as MXML tag attributes in an MXML file."
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffd.html">True or False: You can use the [Event] metadata tag to define
-			events dispatched by a component so that the Flex compiler can recognize them as MXML tag attributes in an MXML file.</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffd.html">
+			True or False: You can use the [Event] metadata tag to define events dispatched by a component so that the Flex compiler can recognize them as MXML tag attributes in an MXML file.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="107">
 		<question
-			feedback="D is correct. You use the ExternalInterface API to let your application call methods in the wrapper and to allow the wrapper to call functions in your application"
+			feedback="D. You use the ExternalInterface API to let your application call methods in the wrapper and to allow the wrapper to call functions in your application"
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf626ae-7ff8.html">Before you execute code that uses the ExternalInterface API, Which of the following property is used to should check whether the browser supports it</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf626ae-7ff8.html">
+			Before you execute code that uses the ExternalInterface API, Which of the following property is used to check whether the browser supports it</question>
 		<answer>marshallExceptions</answer>
 		<answer>objectID</answer>
 		<answer>prototype</answer>
@@ -123,9 +134,10 @@ Which option below shows the correct way to call this function a button's click 
 	</item>
 	<item id="108">
 		<question
-			feedback="A is correct. A library of custom classes created by you to use across applications that are in the same domain. Standard RSLs are stored in the browser's cache"
+			feedback="A. A library of custom classes created by you to use across applications that are in the same domain. Standard RSLs are stored in the browser's cache"
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf674ba-7fff.html">Which of the following type of RSL custom class is created to use across application that are in the domain</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf674ba-7fff.html">
+			Which of the following type of RSL custom class is created to use across application that are in the domain</question>
 		<answer correct="y">Standard RSLs</answer>
 		<answer>Framework RSLs</answer>
 		<answer>Cross-domain RSLs</answer>
@@ -135,7 +147,8 @@ Which option below shows the correct way to call this function a button's click 
 		<question
 			feedback="False.Dynamic linking is used by modules, runtime stylesheets, and RSLs."
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf674ba-7fff.html">True or False:The Flex compilers support static linking and dynamic linking. Static linking is used by modules, runtime stylesheets, and RSLs.</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf674ba-7fff.html">
+			True or False:Is Static linking used by modules, runtime stylesheets, and RSLs.</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
@@ -143,15 +156,17 @@ Which option below shows the correct way to call this function a button's click 
 		<question
 			feedback="True. The ModuleManager class provides a lower-level API for handling modules than the ModuleLoader class does."
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7997.html">True or False: ModuleManager class provides the highest-level API to load a MXML based Module.</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7997.html">
+			True or False:Are ModuleManager class provides the highest-level API to load a MXML based Module.</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="111">
 		<question
-			feedback="A and D are correct. The goal of the Model-View-Controller (MVC) architecture is that by creating components with a well-defined and limited scope in your application, you increase the reusability of the components and improve the maintainability of the overall system."
+			feedback="A and D. The goal of the Model-View-Controller (MVC) architecture is that by creating components with a well-defined and limited scope in your application, you increase the reusability of the components and improve the maintainability of the overall system."
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf688f1-7ff8.html">Which of the following are benefits of using a loose coupling approach to building Flex components?</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-79cd.html">
+			Which of the following are benefits of using a loose coupling approach to building Flex components?</question>
 		<answer correct="y">increase the reusability of the components</answer>
 		<answer>is written for a specific application</answer>
 		<answer>more dependent on the application's structure</answer>
@@ -161,15 +176,17 @@ Which option below shows the correct way to call this function a button's click 
 		<question
 			feedback="True. If you trigger an event that has no listeners, Flex ignores the event."
 			type="tf"
-			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7e4e.html">True or False: If you trigger an event that has no listeners registered, Flex will ignore that event.</question>
+			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7e4e.html">
+			True or False: If you trigger an event that has no listeners registered, Flex will ignore that event.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="113">
 		<question
-			feedback="A and C are correct. You design a loosely coupled component for reuse.With loosely coupled components, you typically define properties of the component to pass information to it. These properties, defined by using variables or setter and getter methods, specify the data type of the parameter value."
+			feedback="A and C. You design a loosely coupled component for reuse.With loosely coupled components, you typically define properties of the component to pass information to it. These properties, defined by using variables or setter and getter methods, specify the data type of the parameter value."
 			type="multiChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-79cd.html#WS2db454920e96a9e51e63e3d11c0bf69084-79c9">Which of the following are considerations for best practices when designing a custom component to use in a loosely coupled architecture? Choose two.</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-79cd.html#WS2db454920e96a9e51e63e3d11c0bf69084-79c9">
+			Which of the following are considerations for best practices when designing a custom component to use in a loosely coupled architecture? Choose two.</question>
 		<answer correct="y">use of getter setters</answer>
 		<answer>cut down on visual component use to save memory usage</answer>
 		<answer correct="y">components should dispatch an event that contains the return data</answer>
@@ -177,9 +194,10 @@ Which option below shows the correct way to call this function a button's click 
 	</item>
 	<item id="114">
 		<question
-			feedback="B is correct. The DisplayObject class is the base class for all objects that can be placed on the display list. The display list manages all objects displayed in the Flash runtimes."
+			feedback="B. The DisplayObject class is the base class for all objects that can be placed on the display list. The display list manages all objects displayed in the Flash runtimes."
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/display/DisplayObject.html">Which of the following is the base class for all objects that can be placed on the display list.</question>
+			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/display/DisplayObject.html">
+			Which of the following is the base class for all objects that can be placed on the display list.</question>
 		<answer>DisplayObjectContainer</answer>
 		<answer correct="y">DisplayObject</answer>
 		<answer>DisplayLayer</answer>
@@ -188,21 +206,24 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="115">
 		<question feedback="False. It is a boolean set to False by default."
 			type="tf"
-			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/events/Event.html#bubbles">True or False: By default bubbles property of an Event is set to True?</question>
+			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/events/Event.html#bubbles">
+			True or False: By default bubbles property of an Event is set to True?</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="116">
-		<question feedback="False. It is a boolean set to False by default."
+		<question feedback="Yes. DOM event model provides clear distinction between an event listener and a listener function: an event listener is an instance of a class that implements the EventListener interface, whereas a listener function is a method of that class named handleEvent()."
 			type="tf"
-			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/events/Event.html#bubbles">True or False: By default bubbles property of an Event is True ?</question>
-		<answer>True</answer>
-		<answer correct="y">False</answer>
+			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7e54.html">
+			<![CDATA[Is DOM event model defines clear distinction between event listener and listener function.]]>
+			</question>
+		<answer correct="y">True</answer>
+		<answer>False</answer>
 	</item>
 	<item id="117">
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7e54.html"
-			feedback="A and D are correct. The IEventDispatcher interface defines the addEventListener, removeEventListener, dispatchEvent, hasEventListener, and willTrigger methods. removeEvent and triggerEvent methods do not exist."><![CDATA[Which of the following methods defined in the IEventDispatcher interface? Choose two: ]]></question>
+			feedback="A and D. The IEventDispatcher interface defines the addEventListener, removeEventListener, dispatchEvent, hasEventListener, and willTrigger methods. removeEvent and triggerEvent methods do not exist."><![CDATA[Which of the following methods defined in the IEventDispatcher interface? Choose two: ]]></question>
 		<answer correct="y">removeEventListener</answer>
 		<answer>removeEvent</answer>
 		<answer>triggerEvent</answer>
@@ -212,15 +233,17 @@ Which option below shows the correct way to call this function a button's click 
 		<question
 			feedback="True. If useCapture is set to true, your listener will be active during the capture phase of the event flow. If useCapture is set to false, your listener will be active during the target and bubbling phases of the event flow"
 			type="tf"
-			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7e54.html">True or False: To activate your listener during the target and bubbling phase of the eventflow set your useCapture parameter to true.</question>
+			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7e54.html">
+			True or False: To activate your listener during the target and bubbling phase of the eventflow set your useCapture parameter to true.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="119">
 		<question
-			feedback="A is correct. A reference to the component instance that dispatches the event. This property is set by the dispatchEvent() method; you cannot change this to a different object. "
+			feedback="A. A reference to the component instance that dispatches the event. This property is set by the dispatchEvent() method; you cannot change this to a different object. "
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffe.html">The target property of the Event Class is set by?</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffe.html">
+			The target property of the Event Class is set by?</question>
 		<answer correct="y">dispatchEvent()</answer>
 		<answer>clone()</answer>
 		<answer>addEventListener()</answer>
@@ -230,29 +253,33 @@ Which option below shows the correct way to call this function a button's click 
 		<question
 			feedback="False. hasEventListener() examines only the object to which it belongs, whereas willTrigger() examines the entire event flow for the event specified by the type parameter."
 			type="tf"
-			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/events/IEventDispatcher.html#hasEventListener()">True or False: The hasEventListener() method examines the entire event flow for the event specified by the type. parameter</question>
+			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/events/IEventDispatcher.html#hasEventListener()">
+			True or False: The hasEventListener() method examines the entire event flow for the event specified by the type parameter</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="121">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf64c3d-7fff.html"
-			feedback="True. You can automatically use a static constant as the source for a data-binding expression. Flex performs the data binding once when the application starts. Because the data binding occurs only once at application start up, you omit the [Bindable] metadata tag for the static constant. You cannot use the [Bindable] metadata tag with a static variable. If you do, the compiler issues an error."><![CDATA[True or False: You can automatically use a static constant as the source for a data-binding expression without having to use the [Bindable] metadata tag.]]></question>
+			feedback="True. You can automatically use a static constant as the source for a data-binding expression. Flex performs the data binding once when the application starts. Because the data binding occurs only once at application start up, you omit the [Bindable] metadata tag for the static constant. You cannot use the [Bindable] metadata tag with a static variable. If you do, the compiler issues an error.">
+			<![CDATA[True or False: You can automatically use a static constant as the source for a data-binding expression without having to use the [Bindable] metadata tag.]]></question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="122">
-		<question type="tf"
+		<question type="tf"         
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf68268-7ffb.html"
-			feedback="False. When creating custom components in ActionScript 3, you can extend from the UIComponent class, or any of the Flex components, such as Button, ComboBox, or DataGrid."><![CDATA[True or False: In order to create a user-interface component in ActionScript 3, you must extend the UIComponent class.]]></question>
+			feedback="False. When creating custom components in ActionScript 3, you can extend from the UIComponent class, or any of the Flex components, such as Button, ComboBox, or DataGrid.">
+			<![CDATA[True or False: In order to create a user-interface component in ActionScript 3, you must extend the UIComponent class.]]></question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="123">
 		<question
-			feedback="B is correct. The executeBindings() method of the UIComponent class executes all the bindings for which a UIComponent object is the destination. All containers and controls, as well as the Repeater component, extend the UIComponent class."
+			feedback="B. The executeBindings() method of the UIComponent class executes all the bindings for which a UIComponent object is the destination. All containers and controls, as well as the Repeater component, extend the UIComponent class."
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf64c3d-7fff.html">Which of the following method of the UIComponent class executes all the bindings for which a UIComponent object is the destination.
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf64c3d-7fff.html">
+			Which of the following method of the UIComponent class executes all the bindings for which a UIComponent object is the destination.
 		</question>
 		<answer>executeChildBindings()</answer>
 		<answer correct="y">executeBindings()</answer>
@@ -263,15 +290,17 @@ Which option below shows the correct way to call this function a button's click 
 		<question
 			feedback="False. The Bidirectional data binding will not support the arguments property of the RemoteObject class."
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc0.html#WS2db454920e96a9e51e63e3d11c0bf64c3d-7ff4">True or False: BiDirectional databinding will support the arguments property of the RemoteObject class.</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc0.html#WS2db454920e96a9e51e63e3d11c0bf64c3d-7ff4">
+			True or False: BiDirectional databinding will support the arguments property of the RemoteObject class.</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="125">
 		<question
-			feedback="C is correct. The doValidation() method of your validator class, you typically call the base class's doValidation() method to perform the verification for a required field. If the user did not enter a value, the base class issues a validation error stating that the field is required."
+			feedback="C. The doValidation() method of your validator class, you typically call the base class's doValidation() method to perform the verification for a required field. If the user did not enter a value, the base class issues a validation error stating that the field is required."
 			type="singleChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf68c0f-7ffb.html">Which of the following method contains the custom validation Logic and perform the verificaion for a required field.</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf68c0f-7ffb.html">
+			Which of the following method contains the custom validation Logic and perform the verificaion for a required field.</question>
 		<answer>validate()</answer>
 		<answer>validateAll()</answer>
 		<answer correct="y">doValidation()</answer>
@@ -280,7 +309,8 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="126">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffd.html"
-			feedback="C is correct. The only required step in dispatching a custom event from a custom component is to use the dispatchEvent() method. A and B option is optional."><![CDATA[Which of the following is a required step when dispatching a custom event from a custom component? Choose one:]]></question>
+			feedback="C. The only required step in dispatching a custom event from a custom component is to use the dispatchEvent() method. A and B option is optional.">
+			<![CDATA[Which of the following is a required step when dispatching a custom event from a custom component? Choose one:]]></question>
 		<answer>Create a subclass from the flash.events.Event class</answer>
 		<answer>Use the [Event] metadata tag to make the event public so that the MXML compiler recognizes it</answer>
 		<answer correct="y">Dispatch the event using the dispatchEvent()</answer>
@@ -290,14 +320,16 @@ Which option below shows the correct way to call this function a button's click 
 		<question
 			feedback="False. The eventName argument specifies the name of the event. The eventType argument specifies the class name, including the package, that defines the event object."
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffd.html#WS2db454920e96a9e51e63e3d11c0bf69084-7a34">True or False: The eventName argument of the Event metadata tag specifies the name, including the package, of the event.</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffd.html#WS2db454920e96a9e51e63e3d11c0bf69084-7a34">
+			True or False:Is the eventName argument specifies class name and package of that class.</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="128">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf68c0f-7ffb.html"
-			feedback="A is correct. You use the Validator.validate() method to programmatically invoke a validator from within a Flex application. However, you should never override this method in your custom validator classes. You need to override only the doValidation() method."><![CDATA[Which of the following method must override while creating the Custom validators]]></question>
+			feedback="A. You use the Validator.validate() method to programmatically invoke a validator from within a Flex application. However, you should never override this method in your custom validator classes. You need to override only the doValidation() method.">
+			<![CDATA[Which of the following method must override while creating the Custom validators]]></question>
 		<answer>validate()</answer>
 		<answer>validateAll()</answer>
 		<answer correct="y">doValidation()</answer>
@@ -306,14 +338,17 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="129">
 		<question type="tf"
 			link="http://livedocs.adobe.com/flex/3/html/metadata_1.html"
-			feedback="True. Metadata tags do not get compiled into executable code, but provide information to control how portions of your code get compiled."><![CDATA[True or False: Metadata tags do not get compiled into executable code, but provide information to control how portions of your code get compiled.]]></question>
+			feedback="True. Metadata tags do not get compiled into executable code, but provide information to control how portions of your code get compiled.">
+			<![CDATA[True or False: Metadata tags do not get compiled into executable code, but provide information to control how portions of your code get compiled.]]></question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="130">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf680e1-7ffe.html#WS2db454920e96a9e51e63e3d11c0bf69084-7a24"
-			feedback="B is correct. In this example, the [Event] metadata tag specifies the event name and the class that defines the type of the event object dispatched by the event. After you identify the event to the Flex compiler, you can reference it in MXML"><![CDATA[Consider the following custom component instance in your MXML application. If the 'enableChanged' is a custom event you created, which metadata tag must the event class contain in order to be referrenced in the MXML? Choose one:><MyComp:ModalText enableChanged="handleEnableChangeEvent(event);"/>]]></question>
+			feedback="B. In this example, the [Event] metadata tag specifies the event name and the class that defines the type of the event object dispatched by the event. After you identify the event to the Flex compiler, you can reference it in MXML">
+			<![CDATA[Consider the following custom component instance in your MXML application. If the 'enableChanged' is a custom event you created, which metadata tag must the event class contain in order to be referrenced in the MXML? Choose one:>
+			<MyComp:ModalText enableChanged="handleEnableChangeEvent(event);"/>]]></question>
 		<answer>[Bindable]</answer>
 		<answer correct="y">[Event]</answer>
 		<answer>[Inspectable]</answer>
@@ -322,14 +357,15 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="131">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffd.html#WS2db454920e96a9e51e63e3d11c0bf69084-7a34"
-			feedback="True. When creating a custom event class, the [Event] metadata tag's property 'eventType' must contain the package in the class name."><![CDATA[When creating a custom event class, the [Event] metadata tag's property 'eventType' must contain the package in the class name.]]></question>
+			feedback="True. When creating a custom event class, the [Event] metadata tag's property 'eventType' must contain the package in the class name.">
+			<![CDATA[When creating a custom event class, the [Event] metadata tag's property 'eventType' must contain the package in the class name.]]></question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="132">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf680e1-7ffe.html"
-			feedback="A is correct. SkinPart metadata tag to define a property of a component that corresponds to a skin part. Users of the component do not set the skin part properties directly. The component's skin sets the skin part properties."><![CDATA[Which of the following metadata tag defines a property of component that corresponds to a skin part?]]></question>
+			feedback="A. SkinPart metadata tag to define a property of a component that corresponds to a skin part. Users of the component do not set the skin part properties directly. The component's skin sets the skin part properties."><![CDATA[Which of the following metadata tag defines a property of component that corresponds to a skin part?]]></question>
 		<answer correct="y">SkinPart</answer>
 		<answer>SkinState</answer>
 		<answer>Style</answer>
@@ -338,14 +374,15 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="133">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf68cf9-7ffd.html"
-			feedback="False. The root tag of an MXML component cannot contain an id property.The 'this' keyword refers to the Application object."><![CDATA[True or False: The root tag of an MXML component contain an id property.]]></question>
+			feedback="False. The root tag of an MXML component cannot contain an id property.The 'this' keyword refers to the Application object.">
+			<![CDATA[True or False: The root tag of an MXML component contain an id property.]]></question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="134">
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc5.html"
-			feedback="A,B is correct. You can use the [Bindable] metadata tag in three places:Before a public class definition,Before a public, protected, or private property defined as a variable,Before a public, protected, or private property defined by a getter or setter method."><![CDATA[Where You can use the [Bindable] metadat tag. Choose two]]></question>
+			feedback="A,B. You can use the [Bindable] metadata tag in three places:Before a public class definition,Before a public, protected, or private property defined as a variable,Before a public, protected, or private property defined by a getter or setter method."><![CDATA[Where You can use the [Bindable] metadata tag. Choose two]]></question>
 		<answer correct="y">Before a public class definition</answer>
 		<answer correct="y">Before a public, protected, or private property defined by a getter or setter method.</answer>
 		<answer>Only before the setter method</answer>
@@ -354,14 +391,16 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="135">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ff2.html"
-			feedback="False. The names of class selectors cannot include hyphens in Flex.If you use a hyphenated class selector name, such as my-class-selector, Flex ignores the style."><![CDATA[True or False: The names of class selectors can include hyphens in Flex.]]></question>
+			feedback="False. The names of class selectors cannot include hyphens in Flex.If you use a hyphenated class selector name, such as my-class-selector, Flex ignores the style.">
+			<![CDATA[True or False: Is it necessary to include hypens in class selectors in Flex.]]></question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
 	<item id="151">
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffd.html#WS2db454920e96a9e51e63e3d11c0bf69084-7a33"
-			feedback="A and C are correct.This method requires an argument of the Event type, which is the event object. The dispatchEvent() method initializes the target property of the event object with a reference to the component dispatching the event.You can create an event object and dispatch the event in a single statement like this.">Which of the following are the correct way to Dispatch Events for the myButton click event?</question>
+			feedback="A and C.This method requires an argument of the Event type, which is the event object. The dispatchEvent() method initializes the target property of the event object with a reference to the component dispatching the event.You can create an event object and dispatch the event in a single statement like this.">
+			Which of the following are the correct way to Dispatch Events for the myButton click event?</question>
 		<answer correct="y">myButton.dispatchEvent(new MouseEvent("click"));</answer>
 		<answer>myButton.dispatchEvent(new MouseEvent("Event.click")); </answer>
 		<answer correct="y">myButton.dispatchEvent(new MouseEvent(MouseEvent.CLICK));</answer>
@@ -370,7 +409,8 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="153">
 		<question type="singleChoice"
 			link="http://livedocs.adobe.com/flex/3/html/help.html?content=basic_as_2.html"
-			feedback="B is correct.Trigger events that are associated with the property when the property changes.">Which of the following statements is not correct</question>
+			feedback="B.Trigger events that are associated with the property when the property changes.">
+			Which of the following statements is not correct</question>
 		<answer>Inspect and validate any data written to the property on a write</answer>
 		<answer correct="y">Trigger events that are not associated with the property when the property changes</answer>
 		<answer>Calculate a return value on a read</answer>
@@ -379,7 +419,8 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="154">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7ce1.html"
-			feedback="C is correct.When dispatching an event, you must create a new Event object. The syntax for the Event object constructor is as follows:Event(event_type:String, bubbles:Boolean, cancelable:Boolean).">The syntax for the Event object constructor is ?</question>
+			feedback="C. When dispatching an event, you must create a new Event object. The syntax for the Event object constructor is as follows:Event(event_type:String, bubbles:Boolean, cancelable:Boolean).">
+			The syntax for the Event object constructor is ?</question>
 		<answer>Event(event_type:String, bubbles:Boolean, cancelable:String)</answer>
 		<answer>Event(event_type:String, bubbles:String, cancelable:Boolean)</answer>
 		<answer correct="y">Event(event_type:String, bubbles:Boolean, cancelable:Boolean)</answer>
@@ -388,7 +429,7 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="155">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7ce1.html"
-			feedback="B is correct.The bubbles and cancelable parameters are optional and both default to false.">The default Boolean variable of bubbles and cancelable parameters are ?</question>
+			feedback="B. The bubbles and cancelable parameters are optional and both default to false.">The default Boolean variable of bubbles and cancelable parameters are ?</question>
 		<answer>true</answer>
 		<answer correct="y">false</answer>
 		<answer>0</answer>
@@ -397,7 +438,8 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="157">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/display/DisplayObject.html"
-			feedback="A is correct.The DisplayObject class supports basic functionality like the x and y position of an object, as well as more advanced properties of the object such as its transformation matrix. ">Which of the class supports basic functionality like the x and y position of an object, as well as more advanced properties of the object such as its transformation matrix.?</question>
+			feedback="A. The DisplayObject class supports basic functionality like the x and y position of an object, as well as more advanced properties of the object such as its transformation matrix. ">
+			Which of the class supports basic functionality like the x and y position of an object, as well as more advanced properties of the object such as its transformation matrix.?</question>
 		<answer correct="y">Displayobject</answer>
 		<answer>DisplayContainer</answer>
 		<answer>DisplayObjectContainer</answer>
@@ -406,7 +448,8 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="158">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/display/DisplayObject.html"
-			feedback="C is correct.In addition to the broadcast events listed in the DisplayObject class's Events table, the DisplayObject class also inherits two broadcast events from the EventDispatcher class: activate and deactivate ">Which of the following events will be inherited by the DisplayObject class from the EventDispatcher class?</question>
+			feedback="C. In addition to the broadcast events listed in the DisplayObject class's Events table, the DisplayObject class also inherits two broadcast events from the EventDispatcher class: activate and deactivate ">
+			Which of the following events will be inherited by the DisplayObject class from the EventDispatcher class?</question>
 		<answer>activate and inactivate</answer>
 		<answer>activation and inactivation</answer>
 		<answer correct="y">activate and deactivate</answer>
@@ -415,7 +458,8 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="159">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cdb.html#WS2db454920e96a9e51e63e3d11c0bf64a29-7ffa"
-			feedback="B is correct.The stopImmediatePropagation() method also prevents the Event objects from moving on to the next node, but it does not allow any other event listeners on the current node to execute.">Which method prevents the Event object from moving on to the next node, but it does not allow any other event listeners on the current node to execute.?</question>
+			feedback="B.The stopImmediatePropagation() method also prevents the Event objects from moving on to the next node, but it does not allow any other event listeners on the current node to execute.">
+			Which method prevents the Event object from moving on to the next node, but it does not allow any other event listeners on the current node to execute.?</question>
 		<answer>stopImmediatePropagation()</answer>
 		<answer correct="y">stopPropagation()</answer>
 		<answer>progagationStop()</answer>
@@ -424,7 +468,8 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="160">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/ActionScript/3.0_ProgrammingAS3/WS5b3ccc516d4fbf351e63e3d118a9b90204-7dbc.html#WS5b3ccc516d4fbf351e63e3d118a9b8e851-7ffc"
-			feedback="C is correct.Convolution is Distorting pixels in an image by combining each pixel's value with the values of some or all of its neighboring pixels, using various ratios.">Distorting pixels in an image by combining each pixel's value with the values of some or all of its neighboring pixels, using various ratios is called?</question>
+			feedback="C. Convolution is Distorting pixels in an image by combining each pixel's value with the values of some or all of its neighboring pixels, using various ratios.">
+			Distorting pixels in an image by combining each pixel's value with the values of some or all of its neighboring pixels, using various ratios is called?</question>
 		<answer>Bevel</answer>
 		<answer>Displacement</answer>
 		<answer correct="y">Convolution</answer>
@@ -433,14 +478,16 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="179">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS460ee381960520ad-2811830c121e9107ecb-7fff.html#WS460ee381960520ad-2811830c121e9107ecb-7ffc"
-			feedback="False. All Flex visual components are subclasses of the UIComponent class. Therefore, visual components inherit the methods, properties, events, styles, and effects defined by the UIComponent class. "><![CDATA[True or false: All visual Spark components are subclasses of IVisualElement components.]]></question>
+			feedback="False. All Flex visual components are subclasses of the UIComponent class. Therefore, visual components inherit the methods, properties, events, styles, and effects defined by the UIComponent class. ">
+			<![CDATA[True or false: All visual Spark components are subclasses of IVisualElement components.]]></question>
 		<answer><![CDATA[True]]></answer>
 		<answer correct="y"><![CDATA[False]]></answer>
 	</item>
 	<item id="186">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf64277-7ff8.html"
-			feedback="C is correct. The ModuleLoader class triggers several events, including setup, ready, loading, unload, progress, error, and urlChanged. You can use these events to track the progress of the loading process, and find out when a module has been unloaded or when the ModuleLoader target URL has changed."><![CDATA[Which of the following is not an event of the ModuleLoader class?]]></question>
+			feedback="C. The ModuleLoader class triggers several events, including setup, ready, loading, unload, progress, error, and urlChanged. You can use these events to track the progress of the loading process, and find out when a module has been unloaded or when the ModuleLoader target URL has changed.">
+			<![CDATA[Which of the following is not an event of the ModuleLoader class?]]></question>
 		<answer><![CDATA[error]]></answer>
 		<answer><![CDATA[loading]]></answer>
 		<answer correct="y"><![CDATA[loaded]]></answer>
@@ -449,7 +496,8 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="224">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7e3c.html#WS2db454920e96a9e51e63e3d11c0bf62d75-7fee"
-			feedback="C is correct. The RslEvent.RSL_ERROR event is dispatched when a Runtime Shared Library (RSL) fails to load. RslEvent.RSL_FAILURE does not exist, RSL_LOADED is dispatched when the RSL download is complete, and RSL_PROGRESS is dispatched during the download. "><![CDATA[Which of the following download progress bar events will notify your application that a Runtime Shared Library (RSL) has failed to load? Choose one:]]></question>
+			feedback="C. The RslEvent.RSL_ERROR event is dispatched when a Runtime Shared Library (RSL) fails to load. RslEvent.RSL_FAILURE does not exist, RSL_LOADED is dispatched when the RSL download is complete, and RSL_PROGRESS is dispatched during the download. ">
+			<![CDATA[Which of the following download progress bar events will notify your application that a Runtime Shared Library (RSL) has failed to load? Choose one:]]></question>
 		<answer><![CDATA[RslEvent.RSL_LOADED]]></answer>
 		<answer><![CDATA[RslEvent.RSL_PROGRESS]]></answer>
 		<answer correct="y"><![CDATA[RslEvent.RSL_ERROR]]></answer>
@@ -457,8 +505,9 @@ Which option below shows the correct way to call this function a button's click 
 	</item>
 	<item id="301">
 		<question type="singleChoice"
-			link="http://livedocs.adobe.com/flex/3/html/16_Event_handling_6.html"
-			feedback="B is correct. Call this method from your dragEnter event handler if you accept the drag/drop data. Typically, you cast event.target to the data type of the drop target. "><![CDATA[Which method is used to approve the drag and drop action?]]></question>
+			link="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/mx/managers/DragManager.html"
+			feedback="B. Call this method from your dragEnter event handler if you accept the drag/drop data. Typically, you cast event.target to the data type of the drop target. ">
+			<![CDATA[Which method is used to approve the drag and drop action?]]></question>
 		<answer>doDrag()</answer>
 		<answer correct="y">acceptDragDrop()</answer>
 		<answer>showFeedback()</answer>
@@ -467,7 +516,8 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="303">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7d8d.html"
-			feedback="A is correct. The Value property dislays the current value for the range. "><![CDATA[What is the property to get the value from Numeric Stepper component?]]></question>
+			feedback="A. The Value property displays the current value for the range. ">
+			<![CDATA[What is the property to get the value from Numeric Stepper component?]]></question>
 		<answer correct="y">value</answer>
 		<answer>stepSize</answer>
 		<answer>maximum</answer>
@@ -476,7 +526,8 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="304">
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/flex/using/WSc2368ca491e3ff92-1483ec4a12136246e76-8000.html"
-			feedback="A and C are correct. The labelFunction property lets you define a function that returns a String for display by the control. By default, the labelFunction property takes precedence over the labelField property.The labelField property specifies the field of the data item to display in the control."><![CDATA[What are the ways to cutomize the label field in the list based controls?Choose two.]]></question>
+			feedback="A and C. The labelFunction property lets you define a function that returns a String for display by the control. By default, the labelFunction property takes precedence over the labelField property.The labelField property specifies the field of the data item to display in the control.">
+			<![CDATA[What are the ways to customize the label field in the list based controls?Choose any two.]]></question>
 		<answer correct="y">labelfield</answer>
 		<answer>dataProvider</answer>
 		<answer correct="y">labelfunction</answer>
@@ -485,7 +536,8 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="305">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc0.html#WS2db454920e96a9e51e63e3d11c0bf64c3d-7ff4"
-			feedback="C is correct. Define two objects that specify as the source a property and the destination properties must resolve to a bindable property or property chain at compile time"><![CDATA[Given the following MXML code, which option best represents where the Text control will be display in the application at run-time? Choose one:
+			feedback="C. Define two objects that specify as the source a property and the destination properties must resolve to a bindable property or property chain at compile time">
+			<![CDATA[Given the following MXML code, which option best represents where the Text control will be display in the application at run-time? Choose one:
    	private var msg:String = 'message';      	
 	<fx:Binding source="msg" twoWay="true" destination="txt.text" />			
 	<s:TextInput id="txt" text="originalmessage" />]]></question>
@@ -498,14 +550,16 @@ Which option below shows the correct way to call this function a button's click 
 		<question
 			feedback="True. Both the source and the destination properties must resolve to a bindable property or property chain at compile time, neither property value can include a binding expression.&#xD;&#xA;"
 			type="tf"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc0.html#WS2db454920e96a9e51e63e3d11c0bf64c3d-7ff4">True or False: While using twoway binding, both property will be affecting each other.</question>
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc0.html#WS2db454920e96a9e51e63e3d11c0bf64c3d-7ff4">
+			True or False: While using twoway binding, both property will be affecting each other.</question>
 		<answer correct="y">True</answer>
 		<answer>False</answer>
 	</item>
 	<item id="308">
 		<question type="singleChoice"
-			link="http://help.adobe.com/en_US/AS3LCR/Flash_10.0/flash/display/DisplayObject.html#blendMode"
-			feedback="D is correct. There is no heighten blend mode available, the rest are valid modes."><![CDATA[Which of the following is not a valid type of blend mode property?]]></question>
+			link="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/display/BlendMode.html"
+			feedback="D. There is no heighten blend mode available, the rest are valid modes.">
+			<![CDATA[Which of the following is not a valid type of blend mode property for Display Object?]]></question>
 		<answer>alpha</answer>
 		<answer>add</answer>
 		<answer>invert</answer>
@@ -513,8 +567,9 @@ Which option below shows the correct way to call this function a button's click 
 	</item>
 	<item id="309">
 		<question type="multiChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS03d33b8076db57b9-1c32bcb9124deadc3e9-8000.html"
-			feedback="A,C abd D are correct. We have three different types of item renderers. drop-in, inline, and custom components."><![CDATA[Which of the following are the types of Item renders.?]]></question>
+			link="http://livedocs.adobe.com/flex/3/html/help.html?content=cellrenderer_3.html"
+			feedback="A,C and D. There are three different types of item renderers. drop-in, inline, and custom components.">
+			<![CDATA[Which of the following are the types of Item renders.?]]></question>
 		<answer correct="y">Drop-in</answer>
 		<answer>Drop-out</answer>
 		<answer correct="y">inline</answer>
@@ -523,7 +578,8 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="348">
 		<question type="singleChoice"
 			link="http://livedocs.adobe.com/flex/3/html/help.html?content=createevents_3.html"
-			feedback="A is correct."><![CDATA[which one of the following is the correct form to constructor which implements super?]]></question>
+			feedback="A.">
+			<![CDATA[which one of the following is the correct form to constructor which implements super?]]></question>
 		<answer correct="y">public class EnableChangeEvent extends Event
 
 			{
@@ -608,7 +664,8 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="353">
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/flash/events/Event.html#propertySummary"
-			feedback="B and C are correct.The event target. This property contains the target node.The type of event. The type is case-sensitive."><![CDATA[Which two properties are declared in the flash.events.Event class and are declared in all event objects? Choose Two]]></question>
+			feedback="B and C.The event target. This property contains the target node.The type of event. The type is case-sensitive.">
+			<![CDATA[Which two properties are declared in the flash.events.Event class and are declared in all event objects? Choose Two]]></question>
 		<answer>id</answer>
 		<answer correct="y">type</answer>
 		<answer correct="y">target</answer>
@@ -618,7 +675,8 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="354">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fcd.html"
-			feedback="A is correct. Eyou use the extends keyword to indicate that a class inherits from another class."><![CDATA[You have a custom component named PopUpWindow that inherits from TitleWindow.Which syntax is used to create a class that extends from TitleWindow?]]></question>
+			feedback="A. you use the extends keyword to indicate that a class inherits from another class.">
+			<![CDATA[You have a custom component named PopUpWindow that inherits from TitleWindow.Which syntax is used to create a class that extends from TitleWindow?]]></question>
 		<answer correct="y">public class PopUpWindow extends TitleWindow</answer>
 		<answer>public class PopUpWindow becomes TitleWindow</answer>
 		<answer>public class PopUpWindow inherits TitleWindow</answer>
@@ -627,7 +685,8 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="361">
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7f07.html"
-			feedback="B and C are correct. Modules do not support multi-versioning and are more tightly bound to the host application. Modules and sub-applications are also different. The main difference is that modules typically share classes with their host application. This sharing of classes creates a dependency between the module and the main application. Sub-applications, on the other hand, typically have their own versions of the classes, so less dependency exists between them and the main application."><![CDATA[Which of the following options are true about the differences between modules and sub-applications? Choose two:]]></question>
+			feedback="B and C. Modules do not support multi-versioning and are more tightly bound to the host application. Modules and sub-applications are also different. The main difference is that modules typically share classes with their host application. This sharing of classes creates a dependency between the module and the main application. Sub-applications, on the other hand, typically have their own versions of the classes, so less dependency exists between them and the main application.">
+			<![CDATA[Which of the following options are true about the differences between modules and sub-applications? Choose two:]]></question>
 		<answer><![CDATA[Both are compiled SWF files]]></answer>
 		<answer correct="y"><![CDATA[Modules are more tightly bound to the host application]]></answer>
 		<answer correct="y"><![CDATA[Modules do not support multi-versioning]]></answer>
@@ -636,30 +695,32 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="378">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc0.html"
-			feedback="True. You can bind more than one source property to the same destination property. You can set up one of these bindings by using curly braces, but you must set up the others by using the &lt;fx:Binding> tag, or by using calls to the BindingUtils.bindProperty() method or to the BindingUtils.bindSetter() method. "><![CDATA[True or false? You can bind more than one source property to the same destination property of a component.]]></question>
+			feedback="True. You can bind more than one source property to the same destination property. You can set up one of these bindings by using curly braces, but you must set up the others by using the &lt;fx:Binding> tag, or by using calls to the BindingUtils.bindProperty() method or to the BindingUtils.bindSetter() method. ">
+			<![CDATA[True or false: You can bind more than one source property to the same destination property of a component.]]></question>
 		<answer correct="y"><![CDATA[True]]></answer>
 		<answer><![CDATA[False]]></answer>
 	</item>
 	<item id="379">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf684f9-7ff1.html#WS2db454920e96a9e51e63e3d11c0bf684f9-7fef"
-			feedback="True. If you do not identify an event in the class file with the [Event] metadata tag, the compiler generates an error when an MXML component attempts to register a listener for that event. Any component can register an event listener for the event in ActionScript using the addEventListener() method, even if you omit the [Event] metadata tag. "><![CDATA[True or false? If you create a custom event and do NOT use the Event meta data tag before the class, MXML components cannot listen for that event.But other ActionScript classes can still listen for that event]]></question>
+			feedback="True. If you do not identify an event in the class file with the [Event] metadata tag, the compiler generates an error when an MXML component attempts to register a listener for that event. Any component can register an event listener for the event in ActionScript using the addEventListener() method, even if you omit the [Event] metadata tag. ">
+			<![CDATA[True or false: If you create a custom event and do NOT use the Event meta data tag before the class, MXML components cannot listen for that event.But other ActionScript classes can still listen for that event]]></question>
 		<answer correct="y"><![CDATA[True]]></answer>
 		<answer><![CDATA[False]]></answer>
 	</item>
 	<item id="380">
-		<question type="singleChoice"
-			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7e3c.html#WS2db454920e96a9e51e63e3d11c0bf62d75-7fee"
-			feedback="C is correct. The RslEvent.RSL_ERROR event is dispatched when a Runtime Shared Library (RSL) fails to load. RslEvent.RSL_FAILURE does not exist, RSL_LOADED is dispatched when the RSL download is complete, and RSL_PROGRESS is dispatched during the download. "><![CDATA[Which of the following download progress bar events will notify your application that a Runtime Shared Library has failed to load? Choose one:]]></question>
-		<answer><![CDATA[RslEvent.RSL_LOADED]]></answer>
-		<answer><![CDATA[RslEvent.RSL_PROGRESS]]></answer>
-		<answer correct="y"><![CDATA[RslEvent.RSL_ERROR]]></answer>
-		<answer><![CDATA[RslEvent.RSL_FAILURE]]></answer>
+		<question type="tf"
+			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf684f9-7ff1.html#WS2db454920e96a9e51e63e3d11c0bf684f9-7fef"
+			feedback="True. Component can register an event listener for the event in ActionScript using the addEventListener() method, even if you omit the [Event] metadata tag. ">
+			<![CDATA[True or False: Are we omit the [Event] meta tag when the component resigster the eventlistner for that event in ActionScript.]]></question>
+		<answer correct="y"><![CDATA[True]]></answer>
+		<answer><![CDATA[False]]></answer>
 	</item>
 	<item id="398">
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/flex/using/WSC8DB0C28-F7A6-48ff-9899-7957415A0A49.html#WSF11B6088-034E-458c-836B-6B53BEF88CC7"
-			feedback="A and C are correct. Dynamic parts are instantiated when needed. There can be more than one instance of a dynamic part. Dynamic parts are defined in the Declarations block of a skin so that one or more instances of the part can be instantiated and used by the skin. The Slider class DataTip, for example, is a dynamic skin part. In the VSliderSkin and HSliderSkin, the dataTip skin part is defined in a Declarations block."><![CDATA[Which are the examples of dynamic skin parts as opposed to static skin parts? Choose two:]]></question>
+			feedback="A and C. Dynamic parts are instantiated when needed. There can be more than one instance of a dynamic part. Dynamic parts are defined in the Declarations block of a skin so that one or more instances of the part can be instantiated and used by the skin. The Slider class DataTip, for example, is a dynamic skin part. In the VSliderSkin and HSliderSkin, the dataTip skin part is defined in a Declarations block.">
+			<![CDATA[Which are the examples of dynamic skin parts as opposed to static skin parts? Choose two:]]></question>
 		<answer correct="y"><![CDATA[Slider class's DataTip]]></answer>
 		<answer><![CDATA[VScrollBar class's thumb]]></answer>
 		<answer correct="y"><![CDATA[ButtonBar class's firstButton]]></answer>
@@ -668,7 +729,8 @@ Which option below shows the correct way to call this function a button's click 
 	<item id="399">
 		<question type="multiChoice"
 			link="http://help.adobe.com/en_US/flex/using/WSDBFD90D1-A0A5-40e2-BEEE-14ECBE82F83B.html"
-			feedback="B is correct. BorderContainer is not skinnable Spark containers. NavigatorContent and TitleWindow containers can be skinned. "><![CDATA[Which of the following Spark containers is NOT skinnable? ]]></question>
+			feedback="B. BorderContainer is not skinnable Spark containers. NavigatorContent and TitleWindow containers can be skinned.">
+			<![CDATA[Which of the following Spark containers is NOT skinnable? ]]></question>
 		<answer><![CDATA[TitleWindow]]></answer>
 		<answer correct="y"><![CDATA[DataGroup]]></answer>
 		<answer><![CDATA[NavigatorContent]]></answer>
