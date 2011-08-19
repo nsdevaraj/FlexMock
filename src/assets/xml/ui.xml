@@ -37,6 +37,7 @@
 		<answer><![CDATA[getStyleDeclaration();]]></answer>
 		<answer>None of the above</answer>
 	</item>
+
 	<item id="5">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf63825-7ff9.html"
@@ -79,8 +80,8 @@
 		<question type="singleChoice"
 			feedback="C is the answer. The OLAPDataGrid control lets you aggregate large amounts of data for easy display and interpretation. The control supports a two-dimensional grid layout, where the columns and rows of the control can display a single level of information, or you can create hierarchical rows and columns to display more complex data."
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7b38.html">
-			<![CDATA[ Which of the following control supports a two-dimensional grid layout, where the columns and rows of the control can display a single level of information?]]></question>
-		<answer><![CDATA[ DataGrid control]]></answer>
+			<![CDATA[Which of the following control supports a two-dimensional grid layout, where the columns and rows of the control can display a single level of information?]]></question>
+		<answer><![CDATA[DataGrid control]]></answer>
 		<answer><![CDATA[AdvancedDataGrid control]]></answer>
 		<answer correct="y"><![CDATA[OLAPDataGrid control]]></answer>
 		<answer><![CDATA[Tree control]]></answer>
@@ -178,11 +179,11 @@
 		<question type="singleChoice"
 			feedback="A and D are correct. To clear the value of a property in a view state, set the property to the value @Clear()."
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf63611-7ffa.html#WS2db454920e96a9e51e63e3d11c0bf63611-7ff8">
-			<![CDATA[ Which methods will allow you to clear the value of a property in a view state.]]></question>
-		<answer correct="y"><![CDATA[ @clear()]]></answer>
-		<answer><![CDATA[ clear()]]></answer>
+			<![CDATA[Which methods will allow you to clear the value of a property in a view state.]]></question>
+		<answer correct="y"><![CDATA[@clear()]]></answer>
+		<answer><![CDATA[clear()]]></answer>
 		<answer><![CDATA[clearStyle()]]></answer>
-		<answer><![CDATA[ itemDestructionPolicy]]></answer>
+		<answer><![CDATA[itemDestructionPolicy]]></answer>
 	</item>
 	<item id="21">
 		<question
@@ -607,7 +608,7 @@
 		<question type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf66ce9-7ff2.html"
 			feedback="False. A DataGridColumn only holds information about a column; it is not the parent of the item renderers in the column.">
-			<![CDATA[ True or False: When using an item renderer in a DataGrid control, the DataGridColumn becomes the parent of the item renderers in that column.]]></question>
+			<![CDATA[True or False: When using an item renderer in a DataGrid control, the DataGridColumn becomes the parent of the item renderers in that column.]]></question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>	
@@ -665,7 +666,7 @@
 	<item id="70">
 		<question type="singleChoice"
 			link="http://help.adobe.com/ru_RU/flex/using/WS2db454920e96a9e51e63e3d11c0bf633a0-7fff.html"
-			feedback="D. The Layout Manager causes each component to run its updateDisplayList() method to lay out the component's children; for this reason, this pass is also referred to as the update pass."><![CDATA[ Which of the following container displays one child at a time?]]></question>
+			feedback="D. The Layout Manager causes each component to run its updateDisplayList() method to lay out the component's children; for this reason, this pass is also referred to as the update pass."><![CDATA[Which of the following container displays one child at a time?]]></question>
 		<answer>MX ViewStack</answer>
 		<answer>Accordion</answer>
 		<answer>TabNavigator</answer>
@@ -808,7 +809,7 @@
 			feedback="D. ShadowFilter is not valid. There is a ShaderFilter, and a DropShadowFilter, but no ShadowFilter."
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7c48.html">
 			<![CDATA[Which of the following is a type of filter in the flash.filters package? Choose one:]]></question>
-		<answer><![CDATA[ DropShadowFilter]]></answer>
+		<answer><![CDATA[DropShadowFilter]]></answer>
 		<answer><![CDATA[GlowFilter]]></answer>
 		<answer><![CDATA[BlurFilter]]></answer>
 		<answer correct="y"><![CDATA[All the above]]></answer>
@@ -1251,7 +1252,7 @@
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ff2.html#WSda78ed3a750d6b8f-7b5abe51121cfcf7996-7fff"
 			feedback="B. Flex supports using an id selector. Flex applies styles to a component whose id matches the id selector in the CSS. To define an id selector, specify the id of the component with a pound sign (#) followed by the id string. The id selector can be qualified by the type or by itself.">
 			<![CDATA[Which of the following options shows the correct use of an ID selector in a CSS style sheet? Choose two:]]></question>
-		<answer><![CDATA[ s|Button { fontSize:16; }]]></answer>
+		<answer><![CDATA[s|Button { fontSize:16; }]]></answer>
 		<answer correct="y"><![CDATA[#myButton3 {fontSize:16;}]]></answer>
 		<answer><![CDATA[.myButton { fontSize:16; }]]></answer>
 		<answer><![CDATA[s|VGroup s|Button {fontSize:16;}]]></answer>
@@ -1302,4 +1303,309 @@
 		<answer><![CDATA[Horizontal and Vertical scrollbars are added]]></answer>
 		<answer><![CDATA[Horizontal Scrollbars are added]]></answer>
 	</item>
+<item id="402">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WSF1E2E7DD-8FA6-408d-9652-4B5E57A85A5A.html" feedback="B is correct. The Spark Group and Spark SkinnableContainer containers take as children any components that implement the IVisualElement interface.">
+  <![CDATA[Which of the following interfaces must inherited by the Children of the Spark Group and Spark SkinnableContainer ? Choose one:]]></question>
+  <answer>IEventDispatcher</answer>
+  <answer correct="y">IVisualElement</answer>
+  <answer>IGraphicElement</answer>
+  <answer>ILayoutElement</answer>
+</item>
+<item id="403">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS0141D24B-6AEB-4721-BA04-9BF15F86350F.html" feedback="B is correct. spark.components.List with a HorizontalLayout. The new Spark List can take either a horizontal, vertical, or tile layout, or you can create your own custom layout. The Spark architecture was developed to remove component functionality from UI presentation, therefore, you can create any layout as you want.">
+  <![CDATA[Which of the following is the Spark list equivalent of the mx.controls.HorizontalList? Choose one:]]></question>
+  <answer correct=""><![CDATA[spark.components.HorizontalList]]></answer>
+  <answer correct="y"><![CDATA[spark.components.List with a HorizontalLayout]]></answer>
+  <answer correct=""><![CDATA[spark.controls.HorizontalList]]></answer>
+  <answer correct=""><![CDATA[None of the above]]></answer>
+</item>
+<item id="404">
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WSF1E2E7DD-8FA6-408d-9652-4B5E57A85A5A.html#WS8733DA6F-CFF3-46b3-868A-DDB7604556F5" feedback="False. The Group can be a child of the Scroller control to support scroll bars. Create a skin for the SkinnableContainer to add scroll bars.">
+  <![CDATA[True or False?The Group cannot be the child of the scroller control to support scroll bars.]]></question>
+  <answer correct=""><![CDATA[True]]></answer>
+  <answer correct="y"><![CDATA[False]]></answer>
+</item>
+<item id="405">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf63611-7ffa.html" feedback="A and B are correct. includeIn and visible.submitState properties are used to ensure the button shows in the UI in the submitState.">
+  <![CDATA[Which of the following could be added to the button to ensure the button shows in the submitState? Choose Two: <s:states> <s:State name="normal" /> <s:State name="submitState" /> </s:states> <s:TextInput id="firstTextInput" excludeFrom="submitState" /> <s:Group id="loginForm" > <s:Button label="submit" bottom="10" right="10" /> </s:Group>]]></question>
+  <answer correct="y"><![CDATA[includeIn="submitState"]]></answer>
+  <answer correct="y"><![CDATA[visible.submitState="true"]]></answer>
+  <answer correct=""><![CDATA[showIn="submitState"]]></answer>
+  <answer correct=""><![CDATA[submitState.visible="true"]]></answer>
+</item>
+<item id="406">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7df9.html" feedback="D is correct. The ConstraintColumns and ConstraintRows are set up in a grid of equal sized squares. Two cells on the top and two on the bottom for the second row. The Button takes up the bottom right cell.">
+  <![CDATA[Considering the following MXML, where will the Button be positioned? Choose one: <s:layout> <s:VerticalLayout/> </s:layout> <mx:Canvas id="myCanvas" backgroundColor="0x6699FF"> <mx:constraintColumns> <mx:ConstraintColumn id="col1" width="100"/> <mx:ConstraintColumn id="col2" width="100"/> </mx:constraintColumns> <mx:constraintRows> <mx:ConstraintRow id="row1" height="100"/> <mx:ConstraintRow id="row2" height="100"/> </mx:constraintRows> <s:Button label="Button 3" top="row2:0" bottom="row2:0" left="col2:0" right="col2:0"/> </mx:Canvas>]]></question>
+  <answer correct=""><![CDATA[Top left]]></answer>
+  <answer correct=""><![CDATA[Top right]]></answer>
+  <answer correct=""><![CDATA[Bottom left]]></answer>
+  <answer correct="y"><![CDATA[Bottom right]]></answer>
+</item>
+<item id="407">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS03d33b8076db57b9-23c04461124bbeca597-8000.html#WS94F31173-40D5-4ddd-B7B3-17D02BD57EAF" feedback="D is correct. You can use an item renderer function to examine each data item to determine which item renderer to use. The DataGroup.itemRendererFunction and SkinnableDataContainer.itemRendererFunction property takes a function with the following signature: function itemRendererFunction(item:Object):ClassFactory">
+  <![CDATA[Which of the following class used to return from the itemrenderer function of DataGroup and SkinnableDataContainer?]]></question>
+  <answer correct=""><![CDATA[DisplayObject]]></answer>
+  <answer correct=""><![CDATA[Object]]></answer>
+  <answer correct=""><![CDATA[String]]></answer>
+  <answer correct="y"><![CDATA[ClassFactory]]></answer>
+</item>
+<item id="408">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/spark/layouts/supportClasses/LayoutBase.html" feedback="B is correct. The LayoutBase class defines the base class for all Spark layouts. To create a custom layout that works with the Spark containers, you must extend LayoutBase or one of its subclasses.">
+  <![CDATA[Which of the following class is extended to create a custom layout that works with the Spark containers?]]></question>
+  <answer correct=""><![CDATA[DisplayObject]]></answer>
+  <answer correct="y"><![CDATA[LayoutBase]]></answer>
+  <answer correct=""><![CDATA[IVisualElement]]></answer>
+  <answer correct=""><![CDATA[DisplayContainer]]></answer>
+</item>
+<item id="409">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/FlashPlatform/beta/reference/actionscript/3/spark/layouts/supportClasses/LayoutBase.html#methodSummary" feedback="C and D are correct.  To create a custom layout that works with the Spark containers, you must extend LayoutBase or one of its subclasses.At minimum, subclasses of the layoutbase must implement the updateDisplayList() method, which positions and sizes the target GroupBase's elements, and the measure() method, which calculates the default size of the target.">
+  <![CDATA[Which of the following methods of LayoutBase must be overridden in order to create a custom layout? Choose two:]]></question>
+  <answer correct=""><![CDATA[getElementBounds()]]></answer>
+  <answer correct=""><![CDATA[elementAdded()]]></answer>
+  <answer correct="y"><![CDATA[updateDisplayList()]]></answer>
+  <answer correct="y"><![CDATA[measure()]]></answer>
+</item>
+<item id="410">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7e8b.html#WS2db454920e96a9e51e63e3d11c0bf69084-7e85" feedback="D is correct. Flex includes a global selector that you can use to apply styles to all controls. Properties defined by a global selector apply to every control unless that control explicitly overrides it. Because the global selector is like a type selector, you do not preface its definition with a period in CSS.">
+  <![CDATA[Which of the following is the correct way to declare a global selector in an external style sheet that you can apply styles to all controls? Choose one:]]></question>
+  <answer correct=""><![CDATA[.global { fontSize:22; }]]></answer>
+  <answer correct=""><![CDATA[Global { fontSize:22; }]]></answer>
+  <answer correct=""><![CDATA[s|global { fontSize:22; }]]></answer>
+  <answer correct="y"><![CDATA[global { fontSize:22; }]]></answer>
+</item>
+<item id="411">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62b90-7fff.html#WS2FCF2174-EFDB-4d01-8D29-5A964D794ADA" feedback="C is correct. ContainerCreationPolicy.AUTO?The container delays creating children until they are needed. ContainerCreationPolicy.ALL?All container children are created and initialized before the container is initialized. ContainerCreationPolicy.NONE?Requires the container to explicitly create every child instance.">
+  <![CDATA[Which of the following creation policies for a navigation container, that it delays creating children until they are needed? Choose one:]]></question>
+  <answer correct=""><![CDATA[ContainerCreationPolicy.ALL]]></answer>
+  <answer correct=""><![CDATA[ContainerCreationPolicy.NONE]]></answer>
+  <answer correct="y"><![CDATA[ContainerCreationPolicy.AUTO]]></answer>
+  <answer correct=""><![CDATA[None of the above]]></answer>
+</item>
+<item id="412">
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62b90-7fff.html#WS2FCF2174-EFDB-4d01-8D29-5A964D794ADA" feedback="True. The Spark Group and SkinnableContainer containers can hold children that implement the IVisualElement interface. These components include all subclasses of the UIComponent class, and any subclasses of the GraphicElement class. Many of the classes in the spark.primitives package, such as Rect and Ellipse, are subclasses of the GraphicElement class. Therefore, you can use those classes as children of a Spark container to add graphics to the container. ">
+  <![CDATA[True or False: The Spark Group and SkinnableContainer containers can hold children that implement the IVisualElemen interface.]]></question>
+  <answer correct="y"><![CDATA[True]]></answer>
+  <answer correct=""><![CDATA[False]]></answer>
+</item>
+<item id="413">
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62b90-7fff.html#WS2FCF2174-EFDB-4d01-8D29-5A964D794ADA" feedback="True. The Spark SkinnableDataContainer and Spark DataGroup containers can hold children that implement the IUIComponent interface, and hold data items such as a String, Number, or Object. You must define an item renderer to control the display of the data item.">
+  <![CDATA[True or False: It is possible, that the Spark SkinnableDataContainer and Spark DataGroup containers can hold children that implement the IUIComponent interface, and hold data items such as a String, Number, or Object.]]></question>
+  <answer correct="y"><![CDATA[True]]></answer>
+  <answer correct=""><![CDATA[False]]></answer>
+</item>
+<item id="414">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62b90-7fff.html#WS2FCF2174-EFDB-4d01-8D29-5A964D794ADA" feedback="B and D are correct. Most, but not all, Spark containers are skinnable. The Spark Group and DataGroup containers are not skinnable. These containers provide a lightweight mechanism that you use to perform layout. They do not support skinning to ensure that they add minimal overhead to your application. If you need to modify the visual appearance, use a skinnable Spark container instead. TabNavigator is an MX component and a Spark Panel can be skinned.">
+  <![CDATA[Which of the among the following containers do not support Spark skinning? Choose any two:]]></question>
+  <answer correct=""><![CDATA[Panel]]></answer>
+  <answer correct="y"><![CDATA[Group]]></answer>
+  <answer correct=""><![CDATA[TabNavigator]]></answer>
+  <answer correct="y"><![CDATA[DataGroup]]></answer>
+</item>
+<item id="415">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf633a0-7fff.html" feedback="C is correct. Alignment pass does not exist as a phase of the LayoutManagers three-stage process to determine the size and position of each component in an application. The three-stage process is Commitment, Measurement, and Layout pass.">
+  <![CDATA[Which one of the following is not a phase of the LayoutManager class's three-stage process to determine the size and position of each component in an application? Choose one:]]></question>
+  <answer correct=""><![CDATA[Commitment pass]]></answer>
+  <answer correct=""><![CDATA[Layout pass]]></answer>
+  <answer correct="y"><![CDATA[Alignment pass]]></answer>
+  <answer correct=""><![CDATA[Measurement pass]]></answer>
+</item>
+<item>
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WSF1E2E7DD-8FA6-408d-9652-4B5E57A85A5A.html" feedback="True. All SkinnableContainer skins must implement the view states defined by the SkinnableContainer. Because the SkinnableContainer class supports the normal and disabled view states, the skin must also support them.">
+  <![CDATA[True or false:A custom skin that inherits from the SkinnableContainer class must implement the normal and disabled view states.]]></question>
+  <answer correct="y"><![CDATA[True]]></answer>
+  <answer correct=""><![CDATA[False]]></answer>
+</item>
+<item id="416">
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WSF1E2E7DD-8FA6-408d-9652-4B5E57A85A5A.html" feedback="True. The only required part of the SkinnableContainer skin is contentGroup. All SkinnableContainer skins must define a skin part named contentGroup. All the containers children are added to the contentGroup container of the skin.">
+  <![CDATA[True or False: The only required part of the SkinnableContainer skin is contentGroup.]]></question>
+  <answer correct="y"><![CDATA[True]]></answer>
+  <answer correct=""><![CDATA[False]]></answer>
+</item>
+<item id="417">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WSc2368ca491e3ff92-1483ec4a12136246e76-8000.html#WS03d33b8076db57b9-6c0c29cf12154aeebb3-8000" feedback="B is correct. The labelFunction property lets you define a function that returns a String for display by the control. By default, the labelFunction property takes precedence over the labelField property and will return the item.lastName as the label for the List control.">
+  <![CDATA[Consider the following code. Which option below shows the correct field of the data object that will return as the label for the List control? Choose one: // script block above in code public function myLabelFunc(item:Object):String { return item.lastName; } <s:List id="myList" labelField="firstName" labelFunction="myLabelFunc"> <mx:ArrayCollection> <fx:Object firstName="Bill" lastName="Smith" companyID="11233"/> <fx:Object firstName="Dave" lastName="Jones" companyID="13455"/> <fx:Object firstName="Mary" lastName="Davis" companyID="11543"/> <fx:Object firstName="Debbie" lastName="Cooper" companyID="14266"/> </mx:ArrayCollection> </s:List>]]></question>
+  <answer correct=""><![CDATA[item.firstName]]></answer>
+  <answer correct="y"><![CDATA[item.lastName]]></answer>
+  <answer correct=""><![CDATA[companyID]]></answer>
+  <answer correct=""><![CDATA[This code will throw a runtime error]]></answer>
+</item>
+<item id="418">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WS03d33b8076db57b9-23c04461124bbeca597-8000.html" feedback="A and C are correct. To completely control the background color of an item renderer, set the ItemRenderer.autoDrawBackground property to false. When you set that property to false, your item renderer is responsible for displaying the background colors for all user interactions. Drawing with a Rect object is one way to color the background. Using the contentBackgroundColor is the default way to color the item renderer, not a truly custom option.">
+  <![CDATA[Which among the following options are needed to completely control the background color of an item renderer, if you want to override the default color scheme? Choose Two:]]></question>
+  <answer correct="y"><![CDATA[Drawing a custom background with a Rect object]]></answer>
+  <answer correct=""><![CDATA[Setting autoDrawBackground="true" on the custom item renderer]]></answer>
+  <answer correct="y"><![CDATA[Setting autoDrawBackground="false" on the custom item renderer]]></answer>
+  <answer correct=""><![CDATA[Setting the contentBackgroundColor of the List control the item renderer belongs to]]></answer>
+</item>
+<item id="419">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ff2.html#WS2db454920e96a9e51e63e3d11c0bf62883-7fed" feedback="D is correct. You cannot use type selectors in an MXML component. The resulting code will produce a warning, but Button one's label will ignore the type selector, and Button two's label will be white because its styleName property is set to a class selector in the style declaration.">
+  <![CDATA[Consider the following sample code from a custom MXML component. How the Button label colors are affected by the CSS selectors ? Choose one: <fx:Style> @namespace s "library://ns.adobe.com/flex/spark"; @namespace mx "library://ns.adobe.com/flex/mx"; s|Button { color: #FFFFFF; } .myLabel { color: #FFFFFF; } </fx:Style> <s:Button label="Button One!" x="0" y="0"/>	 <s:Button label="Button Two" styleName="myLabel" x="0" y="29"/>]]></question>
+  <answer correct=""><![CDATA[Both Button labels will be white]]></answer>
+  <answer correct=""><![CDATA[Both Button labels will be black]]></answer>
+  <answer correct=""><![CDATA[Button one's label will be white and Button two's label black]]></answer>
+  <answer correct="y"><![CDATA[Button one's label will be black and Button one's label white]]></answer>
+</item>
+<item id="420">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ff2.html#WSda78ed3a750d6b8f-7b5abe51121cfcf7996-7fff" feedback="C and D are correct. Flex supports using an id selector. Flex applies styles to a component whose id matches the id selector in the CSS. To define an id selector, specify the id of the component with a pound sign (#) followed by the id string. The id selector can be qualified by the type or by itself.">
+  <![CDATA[Which among the following options shows the correct use of an ID selector in a CSS style sheet? Choose any  two:]]></question>
+  <answer correct=""><![CDATA[s|Button { fontSize:16; }]]></answer>
+  <answer correct=""><![CDATA[.myButton { fontSize:16; }]]></answer>
+  <answer correct="y"><![CDATA[s|Button#myButton3 {fontSize:16;}]]></answer>
+  <answer correct="y"><![CDATA[#myButton3 {fontSize:16;}]]></answer>
+</item>
+<item id="421">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WSc2368ca491e3ff92-1483ec4a12136246e76-8000.html" feedback="B and D are correct. Using virtual layouts and defining typical objects will ensure less overhead when Flex creates item renderers for a Spark List-based control. With virtual layout enabled, when a child is moved off the visible area of the container, its item renderer is recycled. By defining the typical item, the container does not have to size each child as it is drawn on the screen.">
+  <![CDATA[Which among the following are used to reduce the overhead involved in creating item renderers for a Spark List-based control? Choose two:]]></question>
+  <answer correct=""><![CDATA[Use an inline item renderer]]></answer>
+  <answer correct="y"><![CDATA[Use a virtual layout for the item renderer]]></answer>
+  <answer correct=""><![CDATA[Use an item renderer function]]></answer>
+  <answer correct="y"><![CDATA[Define a typical object for the item renderer]]></answer>
+</item>
+<item id="422">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7f7e.html#WS2db454920e96a9e51e63e3d11c0bf62883-7fd8" feedback="D is correct. All of the above options will set the buttons color property to black. When setting color style properties with the setStyle() method, you can use the hexadecimal format or the VGA color name,">
+  <![CDATA[Consider the following sample code. Which option below will set the button's color property to black? Choose one: // Script block above in the MXML file. protected function changeColor():void { // Add code to change color here... } // Button below in the MXML file. <s:Button id="btn" color="0xFFFFFF" label="Test Button" click="changeColor()" />]]></question>
+  <answer correct=""><![CDATA[btn.setStyle("color", 000);]]></answer>
+  <answer correct=""><![CDATA[btn.setStyle("color", "000");]]></answer>
+  <answer correct=""><![CDATA[btn.setStyle("color", "black");]]></answer>
+  <answer correct="y"><![CDATA[All of the above.]]></answer>
+</item>
+<item id="423">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf60efb-7fdd.html#WS2db454920e96a9e51e63e3d11c0bf69084-7f4b" feedback="C and D are correct. The trigger and triggerEvent properties of the ZipCodeValidator are not needed if the goal is to trigger validation when the TextInput control fires a valueCommit event. By omitting the trigger and triggerEvent properties, Flex triggers the validator when the TextInput control dispatches the valueCommit event. Flex controls dispatch the valueCommit event when its values changes by user interaction or programmatically.">
+  <![CDATA[Which among the following properties of the ZipCodeValidator are not needed to trigger validation when the TextInput fires a valueCommit event? Choose two: <fx:Declarations> <mx:ZipCodeValidator id="zipV" source="{myZip}" property="text" trigger="{mySubmit}" triggerEvent="click"/> </fx:Declarations> <s:TextInput id="myZip"/> <s:Button id="mySubmit" label="Submit"/>]]></question>
+  <answer correct=""><![CDATA[source="{myZip}"]]></answer>
+  <answer correct=""><![CDATA[property="text"]]></answer>
+  <answer correct="y"><![CDATA[trigger="{mySubmit}"]]></answer>
+  <answer correct="y"><![CDATA[triggerEvent="click"]]></answer>
+</item>
+<item id="424">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ff2.html#WS2db454920e96a9e51e63e3d11c0bf62883-7fee" feedback="C is correct. You can apply multiple class selectors by separating them with a space in the styleName property. The order of preference that the styles is applied is the order in which they appear in the space-delimited list, not the order in which they are defined in the CSS block or external style sheet.">
+  <![CDATA[Consider the following sample code . Which style will affect the Button below? Choose one: <fx:Style> .myFontStyle { fontSize: 22; } .myOtherFontStyle { color: #9933FF; } </fx:Style> <s:Button id="myButton" styleName="myFontStyle myOtherFontStyle" label="Click Me"/>]]></question>
+  <answer correct=""><![CDATA[.myFontStyle]]></answer>
+  <answer correct=""><![CDATA[.myOtherFontStyle]]></answer>
+  <answer correct="y"><![CDATA[Both styles will be applied to the button]]></answer>
+  <answer correct=""><![CDATA[Neither style will be applied to the button]]></answer>
+</item>
+<item id="425">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf62883-7ff2.html#WS2db454920e96a9e51e63e3d11c0bf62883-7fed" feedback="D is correct. When you use type selectors, you are required to specify which namespace each type appears in with the @namespace directive. If it were included in the sample, the button label would have been blue since that is the last style set in the type selector.">
+  <![CDATA[Consider the following sample code. What is the result of compiling this code? Choose one: <fx:Style> s|Button { color: red; color: blue; } </fx:Style> <s:VGroup> <s:Button id="myButton" label="Click Me"/> </s:VGroup>]]></question>
+  <answer correct=""><![CDATA[The button label is red]]></answer>
+  <answer correct=""><![CDATA[The button label is blue]]></answer>
+  <answer correct=""><![CDATA[An error occurs because two color properties are listed in the style definition]]></answer>
+  <answer correct="y"><![CDATA[An error occurs because there is no namespace in the style definition]]></answer>
+</item>
+<item id="426">
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WS842193BB-33E4-4bdc-9FD8-D76515B11FAE.html" feedback="False. The default layout of a Spark panel is BasicLayout, but you can define a layout tag with a VerticalLayout or HorizontalLayout for it to change it to lay out the children accordingly. ">
+  <![CDATA[True or False: The default layout for a Spark Panel is VerticalLayout.]]></question>
+  <answer correct=""><![CDATA[True]]></answer>
+  <answer correct="y"><![CDATA[False]]></answer>
+</item>
+<item id="427">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS8DF44A60-B4B0-491f-A359-1B193DEB18D6.html#WSC5AF600B-9793-4dfd-AD9D-B9FC098869A8" feedback="C is correct. Since the clipAndEnableScrolling property is set to true, the image will be clipped to the size of the container. Scrollbars are not added automatically.">
+  <![CDATA[Given the following snippet of code, which statement best describes how the image would be displayed? <s:Group clipAndEnableScrolling="true" width="100" height="100"> <mx:Image width="200" height="200" source="@Embed(source='logo.png')"/> </s:Group>]]></question>
+  <answer correct=""><![CDATA[Vertical Scrollbars are added]]></answer>
+  <answer correct=""><![CDATA[Horizontal and Vertical scrollbars are added]]></answer>
+  <answer correct="y"><![CDATA[The logo image is half displayed and no scrollbars are added]]></answer>
+  <answer correct=""><![CDATA[Horizontal Scrollbars are added]]></answer>
+</item>
+<item id="428">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf5f39f-7ff7.html" feedback="B is correct. States are not defined within the declarations section, they are defined within the main MXML content. The other three items are defined in the declarations section.">
+  <![CDATA[Which of the following is typically NOT defined in the <fx:Declarations> section?]]></question>
+  <answer correct=""><![CDATA[Effects]]></answer>
+  <answer correct="y"><![CDATA[States]]></answer>
+  <answer correct=""><![CDATA[Validators]]></answer>
+  <answer correct=""><![CDATA[RPC Services (HttpService etc)]]></answer>
+</item>
+<item id="429">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WSc2368ca491e3ff92-59bf082612135c9e688-7fff.html" feedback="D is correct. The prompt property can be used to specify the text to be displayed. By default, the prompt area is empty when the control first loads. Selecting a data item in the drop-down list also sets the prompt to the data item. ">
+  <![CDATA[Which of the following is used to show the selected value in a Spark DropDownList component?]]></question>
+  <answer correct=""><![CDATA[selection]]></answer>
+  <answer correct=""><![CDATA[show]]></answer>
+  <answer correct=""><![CDATA[selected]]></answer>
+  <answer correct="y"><![CDATA[prompt]]></answer>
+</item>
+<item id="430">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WSc2368ca491e3ff92-59bf082612135c9e688-7fff.html" feedback="D is correct. When requireSelection property is set to true, this control ignores the prompt property. Instead, it sets the prompt area and the selectedIndex property to the first data item in the control.">
+  <![CDATA[What is the result of the following code snippet? <s:DropDownList width="140" prompt="California" requireSelection="true"> <mx:ArrayCollection> <fx:String>Alabama</fx:String> <fx:String>Alaska</fx:String> <fx:String>Arizona</fx:String> <fx:String>Arkansas</fx:String> <fx:String>California</fx:String> </mx:ArrayCollection> </s:DropDownList>]]></question>
+  <answer correct=""><![CDATA[This code will not compile since prompt is not a valid property on a Spark DropDownList]]></answer>
+  <answer correct=""><![CDATA[California shows as the selected item]]></answer>
+  <answer correct=""><![CDATA[By default, nothing is shown as selected since the selectedIndex property is not specifically set]]></answer>
+  <answer correct="y"><![CDATA[Alabama is selected since it's the first item in the list and requireSelection is true]]></answer>
+</item>
+<item id="431">
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WS70f0d54f063b9b081aac8d1d1247252e4a0-8000.html" feedback="False. The reverse is true. ComboBox extends DropDownListBase and has the TextInput component implemented as the prompt.">
+  <![CDATA[True or False: The Spark ComboBox does not extend DropDownListBase and has the TextInput component implemented as the prompt.]]></question>
+  <answer correct=""><![CDATA[True]]></answer>
+  <answer correct="y"><![CDATA[False]]></answer>
+</item>
+<item id="432">
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WSF1E2E7DD-8FA6-408d-9652-4B5E57A85A5A.html" feedback="True. You can override the layout specified in the skin simply by setting the layout property to a new layout."><![CDATA[True or False: Setting the layout property to a new layout of the SkinnableContainer overrides the layout specified in the skin.]]></question>
+  <answer correct="y"><![CDATA[True]]></answer>
+  <answer correct=""><![CDATA[False]]></answer>
+</item>
+<item id="433">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WSF1E2E7DD-8FA6-408d-9652-4B5E57A85A5A.html" feedback="A and B are correct. You can use a Scroller with a Group component but must define the scroll capability in the Skin of the SkinnableContainer. The Group component is not skinnable and designed for minimal overhead.">
+  <![CDATA[Which among the following are true in regards to using Groups and SkinnableContainer components? Choose any two:]]></question>
+  <answer correct="y"><![CDATA[Group can be a child of the Scroller control to support scroll bars but you must create a skin for the SkinnableContainer to add scroll bars]]></answer>
+  <answer correct="y"><![CDATA[SkinnableContainer can be skinned. The Group container is designed for simplicity and minimal overhead, and cannot be skinned]]></answer>
+  <answer correct=""><![CDATA[The default layout class of the Group is BasicLayout, however SkinnableContainer has a verticalLayout by default]]></answer>
+  <answer correct=""><![CDATA[The default layout class of the SkinnableContainer is BasicLayout, however the Spark Group has a verticalLayout by default]]></answer>
+</item>
+<item id="434">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WS0141D24B-6AEB-4721-BA04-9BF15F86350F.html" feedback="B and D are correct. The paddingTop/paddingBottom/paddingLeft/paddingRight setting of 10 defines the space between the container boundaries and the buttons, and the gap property defines the space between the children themselves.">
+  <![CDATA[Which of the following two statements are true in regards to the following code snippet? Choose two: <s:Panel> <s:layout> <s:HorizontalLayout paddingLeft="10" paddingRight="10" paddingTop="10" paddingBottom="10" gap="5"/> </s:layout> <s:Button label="Button 1"/> <s:Button label="Button 2"/> <s:Button label="Button 3"/> <s:Button label="Button 4"/> </s:Panel>]]></question>
+  <answer correct=""><![CDATA[The buttons will have 5 pixels of space around them from the top, left, right and bottom]]></answer>
+  <answer correct="y"><![CDATA[The buttons will be placed 10 pixels from the top, bottom, right, and left of the container bounds]]></answer>
+  <answer correct=""><![CDATA[The buttons will be placed using the BasicLayout since that is the Spark Panel default]]></answer>
+  <answer correct="y"><![CDATA[The buttons will be placed 5 pixels apart horizontally]]></answer>
+</item>
+<item id="435">
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WSC8DB0C28-F7A6-48ff-9899-7957415A0A49.html" feedback="False. Adding the [HostComponent] metadata is optional, but it lets Flex perform compile-time checking for skin states and required skin parts. Without this metadata, no compile-time checking can be done so it is recommended that it be included.">
+  <![CDATA[True or False: When creating a custom Skin, the host component metadata tag is required.]]></question>
+  <answer correct=""><![CDATA[True]]></answer>
+  <answer correct="y"><![CDATA[False]]></answer>
+</item>
+<item id="436">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS8DF44A60-B4B0-491f-A359-1B193DEB18D6.html#WSC5AF600B-9793-4dfd-AD9D-B9FC098869A8" feedback="B is correct. Since the minimum default width and height of the HGroup is 0 and no sizing is set, the HGroup container will only be as big as the child it contains and therefore not appear to be centered on the Panel even though the alignment properties are set as such. Setting the width and height of the HGroup to 100% to match the panel size will show the button centered horizontally and vertically.">
+  <![CDATA[Given the following code snippet, which of the following statements is true regarding the button placement appearance? <s:Panel width="100%" height="100%"> <s:HGroup horizontalAlign="center" verticalAlign="middle"> <s:Button label="My Button"/> </s:HGroup> </s:Panel>]]></question>
+  <answer correct=""><![CDATA[The button will appear in the center of the panel with space around it horizontally and vertically to the default container size]]></answer>
+  <answer correct="y"><![CDATA[The button will appear in the top left corner of the panel]]></answer>
+  <answer correct=""><![CDATA[The button will appear aligned with the right side of the panel]]></answer>
+  <answer correct=""><![CDATA[The button will appear in the middle horizontally and align with the top of the panel]]></answer>
+</item>
+<item id="437">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WSC8DB0C28-F7A6-48ff-9899-7957415A0A49.html" feedback="B is correct. Since the minimum default width and height of the HGroup is 0 and no sizing is set, the HGroup container will only be as big as the child it contains and therefore not appear to be centered on the Panel even though the alignment properties are set as such. Setting the width and height of the HGroup to 100% to match the panel size will show the button centered horizontally and vertically.">
+  <![CDATA[Which of the following statements shows the proper way to set a skin class in ActionScript?]]></question>
+  <answer correct=""><![CDATA[myButton.setStyle("skinClass", MyButtonSkin.mxml);]]></answer>
+  <answer correct="y"><![CDATA[myButton.setStyle(skinClass, Class(MyButtonSkin));]]></answer>
+  <answer correct=""><![CDATA[myButton.setStyle("skinClass", Class("MyButtonSkin"));]]></answer>
+  <answer correct=""><![CDATA[myButton.setStyle("skinClass", Class(MyButtonSkin));]]></answer>
+</item>
+<item id="438">
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WSC8DB0C28-F7A6-48ff-9899-7957415A0A49.html" feedback="True, if you create a custom theme for your application, or if you do not need support for global Spark styles in your custom skin class, you can use Skin rather than SparkSkin as your custom skin�s root tag. The SparkSkin class adds support for the colorization styles (such as chromeColor and symbolColor) and supports excluding specific skin parts from colorization, or for specifying symbols to colorize.">
+  <![CDATA[True or False: When creating a custom Skin, you should extend from the SparkSkin class rather than Skin when your require support for the colorization styles (such as chromeColor and symbolColor)?]]></question>
+  <answer correct="y"><![CDATA[True]]></answer>
+  <answer correct=""><![CDATA[False]]></answer>
+</item>
+<item id="439">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS8DF44A60-B4B0-491f-A359-1B193DEB18D6.html#WSC5AF600B-9793-4dfd-AD9D-B9FC098869A8" feedback="B is correct. The horizontal scrollbar is not shown due to the height of the scroller versus the height of the content, therefore the scrollbar is not added and horizontalScrollPosition is irrelevant.">
+  <![CDATA[Given the following code snippet, which of the following statements is true regarding the verticalScrollPosition setting: <s:Scroller width="290" height="400"> <s:Group verticalScrollPosition="400"> <mx:Image width="300" height="370" source="@Embed(source='logo.png')"/> </s:Group> </s:Scroller>]]></question>
+  <answer correct=""><![CDATA[The bottom right of the image is shown]]></answer>
+  <answer correct="y"><![CDATA[The horizontal scrollbar is not shown, therefore it is not needed and horizontalScrollPosition is irrelevant]]></answer>
+  <answer correct=""><![CDATA[Since the vertical scrollbar position is far right of the image width, it has to be scrolled left to see any part of the image]]></answer>
+  <answer correct=""><![CDATA[The top left of the image is shown]]></answer>
+</item>
+<item id="440">
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WSC8DB0C28-F7A6-48ff-9899-7957415A0A49.html" feedback="False. Static parts are instantiated automatically by the skin. There can be only one instance of a static part. For example, the VScrollBar class has four static parts: track, thumb, incrementButton, and decrementButton but there can only be one instance of each of them.">
+  <![CDATA[True or False: Multiple instances of static skin parts can be in a custom Skin class?]]></question>
+  <answer correct=""><![CDATA[True]]></answer>
+  <answer correct="y"><![CDATA[False]]></answer>
+</item>
+<item id="441">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WSC8DB0C28-F7A6-48ff-9899-7957415A0A49.html" feedback="D is correct. An object of type IFactory is a 'factory object' which Flex uses to generate multiple instances of another class, each with identical properties.">
+  <![CDATA[Which one of the following type is used when defining a dynamic skin part?]]></question>
+  <answer correct=""><![CDATA[ISkinPart]]></answer>
+  <answer correct=""><![CDATA[ISkinFactory]]></answer>
+  <answer correct=""><![CDATA[IDynamic]]></answer>
+  <answer correct="y"><![CDATA[IFactory]]></answer>
+</item>
 </topics>

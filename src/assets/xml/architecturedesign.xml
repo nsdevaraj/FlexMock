@@ -4,7 +4,7 @@
 			feedback="True. ActionScript provides flow control and object manipulation features that are not available in MXML when creating the CustomComponents."
 			type="tf"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-79fc.html">
-			True or False:When Creating custom components, MXML provides flow control and object manipulation features </question>
+			True or False:When Creating custom components, MXML provides flow control and object manipulation features</question>
 		<answer>True</answer>
 		<answer correct="y">False</answer>
 	</item>
@@ -62,7 +62,7 @@
 			feedback="A. Use the [SWF] metadata tag to specify attributes of the application when you write the main application file in ActionScript. Typically, you set these attributes by using the &lt;s:Application> tag when you write the main application file in MXML."
 			type="singleChoice"
 			link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf680e1-7ffe.html#WS2db454920e96a9e51e63e3d11c0bf69084-7a21">
-			<![CDATA[ Is the [SWF]metadata tag used to specify attributes of the application when you write the main application file in ActionScript]]></question>
+			<![CDATA[Is the [SWF]metadata tag used to specify attributes of the application when you write the main application file in ActionScript]]></question>
 		<answer correct="y"><![CDATA[true]]></answer>
 		<answer><![CDATA[false]]></answer>
 	</item>
@@ -736,4 +736,156 @@ Which option below shows the correct way to call this function a button's click 
 		<answer><![CDATA[NavigatorContent]]></answer>
 		<answer><![CDATA[None of the above]]></answer>
 	</item>
+<item id="400">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc0.html#WS2db454920e96a9e51e63e3d11c0bf64c3d-7ff4" feedback="D is correct. The proper way to initiate a bidirectional binding of the text property, for example, is to use the following syntax @{input2.text}">
+  <![CDATA[Which of the following options shows the correct way to initiate a bidirectional binding on the text property? Choose one: <s:TextInput id="input1" text="{input2.text}"/> <s:TextInput id="input2" text="{input1.text}"/>]]></question>
+  <answer correct=""><![CDATA[<s:TextInput id="input1" text="{@input2.text}"/>]]></answer>
+  <answer correct=""><![CDATA[<s:TextInput id="input1" text="@{input2.text}@"/>]]></answer>
+  <answer correct=""><![CDATA[<s:TextInput id="input1" text="@input2.text"/>]]></answer>
+  <answer correct="y"><![CDATA[<s:TextInput id="input1" text="@{input2.text}"/>]]></answer>
+</item>
+<item id="401">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc0.html#WS2db454920e96a9e51e63e3d11c0bf64c3d-7ff4" feedback="D is correct. Bidirectional data bindable is supported in most places in an application. However, thats not the case with style properties, effect properties, the request property of the HttpService, RemoteObject, and WebService classes, and aruments property of the RemoteObject class.">
+  <![CDATA[Which of the following property in Flex that cannot make use of a bidirectional binding? Choose one:]]></question>
+  <answer correct=""><![CDATA[Style properties]]></answer>
+  <answer correct=""><![CDATA[Effect properties]]></answer>
+  <answer correct=""><![CDATA[request property of an HTTPService component]]></answer>
+  <answer correct="y"><![CDATA[All of the above]]></answer>
+</item>
+<item id="402">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffd.html" feedback="B is correct. When you define a custom event, you can dispatch an event object of the Event type, or you can create a subclass of the Event class to dispatch an event object of a different type. You typically create a subclass of the Event class when your event requires you to add information to the event object, such as a new property to hold information that the event listener requires.">
+  <![CDATA[Among the following, what is the reason to create a custom event class? Choose one:]]></question>
+  <answer correct=""><![CDATA[You should always create custom events for custom UI components]]></answer>
+  <answer correct="y"><![CDATA[When the event requires more information for the event listener]]></answer>
+  <answer correct=""><![CDATA[To streamline the event code when extra information is not needed]]></answer>
+  <answer correct=""><![CDATA[None of the above]]></answer>
+</item>
+<item id="403">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf67fe7-7ffd.html" feedback="D is correct. When subclassing events, you are required to override the Event.clone() method. The clone() method returns a cloned copy of the event object by setting the type property and any new properties in the clone. Typically, you define the clone() method to return an event instance created with the new operator.">
+  <![CDATA[The event method which is used to override, When subclassing the Events? Choose one:]]></question>
+  <answer correct=""><![CDATA[Event.preventDefault()]]></answer>
+  <answer correct=""><![CDATA[Event.stopPropagation()]]></answer>
+  <answer correct=""><![CDATA[Event.formatToString()]]></answer>
+  <answer correct="y"><![CDATA[Event.clone()]]></answer>
+</item>
+<item id="404">
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7ce1.html" feedback="False. If you create a custom ActionScript class that dispatches its own events but does not extend UIComponent, you can extend the flash.events.EventDispatcher class to get access to the addEventListener(), removeEventListener(), and dispatchEvent() methods.">
+  <![CDATA[True or false? The addEventListener(), removeEventListener(), and dispatchEvent() methods cannot be used when you create a custom ActionScript class that dispatches its own events but does not extend UIComponent.]]></question>
+  <answer correct=""><![CDATA[True]]></answer>
+  <answer correct="y"><![CDATA[False]]></answer>
+</item>
+<item id="405">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WSb96f4baaef289fcf-2107ed10123b8e266e7-8000.html" feedback="C is correct. You cannot use Spark containers other than NavigatorContent as a child of an MX navigator container. To use any other Spark container in a navigator container, wrap it in an MX container or in the Spark NavigatorContent container.">
+  <![CDATA[The following code causes a compile-time error. Which of the following options should you choose to fix the error? Choose one: <mx:ViewStack> <s:VGroup> <mx:Button label="Button one" /> <mx:Button label="Button two" /> </s:VGroup> <mx:HBox> <mx:Button label="Button three" /> <mx:Button label="Button four" /> </mx:HBox> </mx:ViewStack>]]></question>
+  <answer correct=""><![CDATA[Swap the HBox container for a HGroup]]></answer>
+  <answer correct=""><![CDATA[Use Spark Button controls instead of Halo Button controls in the ViewStack's child containers]]></answer>
+  <answer correct="y"><![CDATA[Use a NavigatorContent container with a vertical layout instead of a VGroup container]]></answer>
+  <answer correct=""><![CDATA[Use a Spark ViewStack instead of a Halo ViewStack]]></answer>
+</item>
+<item id="406">
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WSb96f4baaef289fcf-2107ed10123b8e266e7-8000.html" feedback="True. A NavigatorContent must be the child of an MX navigator container. ">
+  <![CDATA[True or False? A NavigatorContent must be the child of an MX navigator container.]]></question>
+  <answer correct="y"><![CDATA[True]]></answer>
+  <answer correct=""><![CDATA[False]]></answer>
+</item>
+<item id="407">
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WS460ee381960520ad-2811830c121e9107ecb-7fff.html#WS460ee381960520ad-2811830c121e9107ecb-7ffc" feedback="False. All Spark skinnable components are subclasses of the SkinnableComponent class. Therefore, skinnable components inherit the methods, properties, events, styles, and effects defined by the SkinnableComponent class.">
+  <![CDATA[True or false? All visual Spark components are subclasses of IVisualElement component class.]]></question>
+  <answer correct=""><![CDATA[True]]></answer>
+  <answer correct="y"><![CDATA[False]]></answer>
+</item>
+<item id="408">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WS460ee381960520ad-2811830c121e9107ecb-7fff.html#WS460ee381960520ad4060ff1b121e93530df-8000" feedback="A and C are correct. To create a skinnable Spark component, you optionally override one or more of the following methods of the SkinnableComponent class: attachSkin(), detachSkin(), partAdded(), partRemoved(), getCurrentSkinState(). updateDisplayList() and createChildren() are methods of the UIComponent class.">
+  <![CDATA[To create a skinnable spark componnent, which of the following methods of the SkinnableComponent class are optionally overridden ?Choose two:]]></question>
+  <answer correct="y"><![CDATA[getCurrentSkinState()]]></answer>
+  <answer correct=""><![CDATA[updateDisplayList()]]></answer>
+  <answer correct="y"><![CDATA[partAdded()]]></answer>
+  <answer correct=""><![CDATA[createChildren()]]></answer>
+</item>
+<item id="409">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf64277-7ff8.html" feedback="C is correct. The ModuleLoader class triggers several events, including setup, ready, loading, unload, progress, error, and urlChanged. You can use these events to track the progress of the loading process, and find out when a module has been unloaded or when the ModuleLoader target URL has changed.">
+  <![CDATA[Which of the following is not trigerred by the ModuleLoader class? Choose one:]]></question>
+  <answer correct=""><![CDATA[error]]></answer>
+  <answer correct=""><![CDATA[loading]]></answer>
+  <answer correct="y"><![CDATA[loaded]]></answer>
+  <answer correct=""><![CDATA[ready]]></answer>
+</item>
+<item id="410">
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7cc0.html" feedback="True. You can bind more than one source property to the same destination property. You can set up one of these bindings by using curly braces, but you must set up the others by using the &lt;fx:Binding> tag, or by using calls to the BindingUtils.bindProperty() method or to the BindingUtils.bindSetter() method. ">
+  <![CDATA[True or false?You can bind more than one source property to the same destination property of a component?]]></question>
+  <answer correct="y"><![CDATA[True]]></answer>
+  <answer correct=""><![CDATA[False]]></answer>
+</item>
+
+<item id="411">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/mxml/declarations.html" 
+  feedback="C is correct. You use the &lt;fx:Declarations&gt; tag to declare non-default, non-visual properties of the current class. For example, you define effects, validators, and formatters in the body of the &lt;fx:Declarations&gt; tag.">
+  <![CDATA[Which of the following tag is used to declare non-default, non-visual properties of the current class?]]></question>
+  <answer correct=""><![CDATA[fx:Binding]]></answer>
+  <answer correct=""><![CDATA[fx:Component]]></answer>
+  <answer correct="y"><![CDATA[fx:Declaration]]></answer>
+  <answer correct=""><![CDATA[fx:Definition]]></answer>
+</item>
+<item  id="412">
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf684f9-7ff1.html#WS2db454920e96a9e51e63e3d11c0bf684f9-7fef" feedback="True. If you do not identify an event in the class file with the [Event] metadata tag, the compiler generates an error when an MXML component attempts to register a listener for that event. Any component can register an event listener for the event in ActionScript using the addEventListener() method, even if you omit the [Event] metadata tag. ">
+  <![CDATA[True or false?You create a custom event and do not use the Event meta data tag before the class, other ActionScript classes can still listen for that event, but MXML components cannot.]]></question>
+  <answer correct="y"><![CDATA[True]]></answer>
+  <answer correct=""><![CDATA[False]]></answer>
+</item>
+<item  id="413">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7e3c.html#WS2db454920e96a9e51e63e3d11c0bf62d75-7ff0" feedback="B and C are correct. To disable the default download progress bar, set the usePreloader property of the Application container to false. To configure the Application container to use the MX class, DownloadProgressBar, use the preloader property as mx.preloaders.DownloadProgressBar.">
+  <![CDATA[To disable and to configure the download progress bar of your Flex application, which of the following properties of the Application tag need to be set? Choose two:]]></question>
+  <answer correct=""><![CDATA[usePreloader="true"]]></answer>
+  <answer correct="y"><![CDATA[usePreloader="false"]]></answer>
+  <answer correct="y"><![CDATA[preloader="package.MyCustomPreloader"]]></answer>
+  <answer correct=""><![CDATA[preloader="false"]]></answer>
+</item>
+<item  id="414">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7e3c.html#WS2db454920e96a9e51e63e3d11c0bf62d75-7fee" feedback="C is correct. The RslEvent.RSL_ERROR event is dispatched when a Runtime Shared Library (RSL) fails to load. RslEvent.RSL_FAILURE does not exist, RSL_LOADED is dispatched when the RSL download is complete, and RSL_PROGRESS is dispatched during the download. ">
+  <![CDATA[Which of the following download progress bar events will notify your application that a Runtime Shared Library (RSL) has failed to load? Choose one:]]></question>
+  <answer correct=""><![CDATA[RslEvent.RSL_LOADED]]></answer>
+  <answer correct=""><![CDATA[RslEvent.RSL_PROGRESS]]></answer>
+  <answer correct="y"><![CDATA[RslEvent.RSL_ERROR]]></answer>
+  <answer correct=""><![CDATA[RslEvent.RSL_FAILURE]]></answer>
+</item>
+<item  id="415">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7f07.html" feedback="B and C are correct. Modules do not support multi-versioning and are more tightly bound to the host application. Modules and sub-applications are also different. The main difference is that modules typically share classes with their host application. This sharing of classes creates a dependency between the module and the main application. Sub-applications, on the other hand, typically have their own versions of the classes, so less dependency exists between them and the main application.">
+  <![CDATA[Which of the following statements are true, which matches the differences between modules and sub-applications? Choose two:]]></question>
+  <answer correct=""><![CDATA[Both are compiled SWF files]]></answer>
+  <answer correct="y"><![CDATA[Modules are more tightly bound to the host application]]></answer>
+  <answer correct="y"><![CDATA[Modules do not support multi-versioning]]></answer>
+  <answer correct=""><![CDATA[Both can be recompiled without having to recompile the main application]]></answer>
+</item>
+<item  id="416">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf680e1-7ffe.html#WS2db454920e96a9e51e63e3d11c0bf69084-7a25" feedback="A is correct. Use the RemoteClass metadata tag to register the class with Flex so that Flex preserves type information when a class instance is serialized by using Action Message Format. You insert the RemoteClass metadata tag before an ActionScript class definition. ">
+  <![CDATA[Which of the following metadata tags is used to register a class with Flex so that Flex preserves type information when a class instance is serialized by using Action Message Format? Choose one:]]></question>
+  <answer correct="y"><![CDATA[RemoteClass]]></answer>
+  <answer correct=""><![CDATA[Inspectable]]></answer>
+  <answer correct=""><![CDATA[Transient]]></answer>
+  <answer correct=""><![CDATA[DefaultProperty]]></answer>
+</item>
+<item  id="417">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WSC8DB0C28-F7A6-48ff-9899-7957415A0A49.html#WSF11B6088-034E-458c-836B-6B53BEF88CC7" feedback="A and C are correct. Dynamic parts are instantiated when needed. There can be more than one instance of a dynamic part. Dynamic parts are defined in the Declarations block of a skin so that one or more instances of the part can be instantiated and used by the skin. The Slider class DataTip, for example, is a dynamic skin part. In the VSliderSkin and HSliderSkin, the dataTip skin part is defined in a Declarations block.">
+  <![CDATA[Which of the following are examples of dynamic skin parts as opposed to static skin parts? Choose two:]]></question>
+  <answer correct="y"><![CDATA[Slider class's DataTip]]></answer>
+  <answer correct=""><![CDATA[VScrollBar class's thumb]]></answer>
+  <answer correct="y"><![CDATA[ButtonBar class's firstButton]]></answer>
+  <answer correct=""><![CDATA[HScrollBar class's track]]></answer>
+</item>
+<item  id="418">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf680e1-7ffe.html#WSed21e2b297da693f-7174730a121df394f95-7fff" feedback="B is correct. Some components create multiple instances of a skin part. For example, the Spark ButtonBar control can create any number of buttons. Dynamic skin parts can be created multiple times by a component. The data type of a dynamic skin part property is always IFactory, but the metadata tag can optionally define the data type of the skin part by using the type property. ">
+  <![CDATA[Which among the following is the data type of a dynamic skin part property? Choose one:]]></question>
+  <answer correct=""><![CDATA[IDeferredInstance]]></answer>
+  <answer correct="y"><![CDATA[IFactory]]></answer>
+  <answer correct=""><![CDATA[IDataRenderer]]></answer>
+  <answer correct=""><![CDATA[IFlexAsset]]></answer>
+</item>
+<item  id="419">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WSDBFD90D1-A0A5-40e2-BEEE-14ECBE82F83B.html" feedback="B and C are correct. Group and DataGroup are not skinnable Spark containers. NavigatorContent and TitleWindow containers can be skinned. ">
+  <![CDATA[Which of the following Spark containers are not skinnable? Choose any two:]]></question>
+  <answer correct=""><![CDATA[TitleWindow]]></answer>
+  <answer correct="y"><![CDATA[DataGroup]]></answer>
+  <answer correct="y"><![CDATA[ Group]]></answer>
+  <answer correct=""><![CDATA[NavigatorContent]]></answer>
+</item>
 </topics>

@@ -360,4 +360,168 @@
 		<answer><![CDATA[getFiles()]]></answer>
 		<answer><![CDATA[getDirectories()]]></answer>
 	</item>
+<item id="391">
+  <question type="singleChoice" link="http://www.adobe.com/devnet/air/flex/quickstart/interacting_with_native_process_03.html" feedback="A is correct. The native installer is created using the AIR Developer tool (adt). More information about the types of operations the adt can perform are listed here: http://kb2.adobe.com/cps/404/kb404054.html">
+  <![CDATA[Which command line tool is used to package a native installer for an AIR application? Choose one:]]></question>
+  <answer correct="y"><![CDATA[adt tool]]></answer>
+  <answer correct=""><![CDATA[adb tool]]></answer>
+  <answer correct=""><![CDATA[adl tool]]></answer>
+  <answer correct=""><![CDATA[apk tool]]></answer>
+</item>
+<item id="392">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/air/reference/html/flash/display/NativeWindow.html" feedback="C is correct. DISPLAY_STATE_CHANGING is used to determine if a NativeWindow was minimized, maximized. It contains the old state and new state and can be used to compare against the constant: NativeWindowDisplayState.MINIMIZED.">
+  <![CDATA[Which of the following events is thrown by a NativeWindow object when it is being minimized?]]></question>
+  <answer correct=""><![CDATA[Event.DEACTIVATE]]></answer>
+  <answer correct=""><![CDATA[Event.MINIMIZING]]></answer>
+  <answer correct="y"><![CDATA[Event.DISPLAY_STATE_CHANGING]]></answer>
+  <answer correct=""><![CDATA[Event.MINIMIZE]]></answer>
+</item>
+<item id="393">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/mx/controls/FlexNativeMenu.html" 
+feedback="B and D are correct. 
+The FlexNativeMenuEvent.ITEM_CLICK is dispatched when a certain item in the menu has been clicked. The FlexNativeMenuEvent.MENU_SHOW would be used to determine when a given menu is opened. ">
+<![CDATA[Which of the following events might be handled when using a FlexNativeMenu object? Select two:]]></question>
+  <answer correct=""><![CDATA[FlexNativeMenuEvent.SHOW]]></answer>
+  <answer correct="y"><![CDATA[FlexNativeMenuEvent.ITEM_CLICK]]></answer>
+  <answer correct=""><![CDATA[FlexNativeMenuEvent.CLICK]]></answer>
+  <answer correct="y"><![CDATA[FlexNativeMenuEvent.MENU_SHOW]]></answer>
+</item>
+<item id="394">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/air/html/dev/WS5b3ccc516d4fbf351e63e3d118666ade46-7dbb.html" 
+feedback="C and D are correct. 
+moveToTrash() and deleteFile() are valid methods (as well as moveToTrashAsync() and deleteFileAsync(). There is no open() method on a File, you would use a FileStream object for that. move() is also not valid, however moveTo() and moveToAsync() are. ">
+<![CDATA[Which of the following are valid methods that can be called from a File object? Select two:]]></question>
+  <answer correct=""><![CDATA[open()]]></answer>
+  <answer correct=""><![CDATA[move()]]></answer>
+  <answer correct="y"><![CDATA[moveToTrash()]]></answer>
+  <answer correct="y"><![CDATA[deleteFile()]]></answer>
+</item>
+<item id="395">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/air/reference/html/flash/filesystem/File.html" 
+feedback="B is correct. getRootDirectories() is a static method, getDirectoryListing() is an instance method and the other two are not actual methods.">
+<![CDATA[Which of the following methods are only available as a static method on the File object in AIR?]]></question>
+  <answer correct=""><![CDATA[getDirectoryListing()]]></answer>
+  <answer correct="y"><![CDATA[getRootDirectories()]]></answer>
+  <answer correct=""><![CDATA[getFiles()]]></answer>
+  <answer correct=""><![CDATA[getDirectories()]]></answer>
+</item>
+<item id="396">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/air/build/WS5b3ccc516d4fbf351e63e3d118666ade46-7f66.html" 
+feedback="D is correct. The order of options must be typed on the command line as the last option shows else a usage error will occur. ">
+<![CDATA[Which of the following commands would package all files and subdirectories into an AIR application in the current working directory?]]></question>
+  <answer correct=""><![CDATA[adt �package pkcs12 -storetype -keystore ../cert.p12 myApp.xml myApp.air]]></answer>
+  <answer correct=""><![CDATA[adt �package -storetype -keystore pkcs12 ../cert.p12 myApp.air myApp.xml icons myApp.swf]]></answer>
+  <answer correct=""><![CDATA[adt �package -storetype pkcs12 -keystore ../cert.p12 myApp.xml myApp.air]]></answer>
+  <answer correct="y"><![CDATA[adt �package -storetype pkcs12 -keystore ../cert.p12 myApp.air myApp.xml myApp.swf icons]]></answer>
+</item>
+<item id="397">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118666ade46-7d49.html" 
+feedback="C is correct. You call the open() method on the SQLConnection object and pass it the file reference to create a database. ">
+<![CDATA[Complete the following code fragment to create a database: var conn:SQLConnection = new SQLConnection(); var folder:File = File.applicationStorageDirectory; 
+var dbFile:File = folder.resolvePath("DBSample.db");]]></question>
+  <answer correct=""><![CDATA[dbFile.open();]]></answer>
+  <answer correct=""><![CDATA[folder.open(dbFile);]]></answer>
+  <answer correct="y"><![CDATA[conn.open(dbFile);]]></answer>
+  <answer correct=""><![CDATA[conn.open();]]></answer>
+</item>
+<item id="398">
+  <question type="singleChoice" link="http://livedocs.adobe.com/flex/3/html/help.html?content=Filesystem_03.html#1028416"
+   feedback="D is correct. Use app-storage:/ to specify a path relative to the application store directory. 
+   For each installed application, AIR defines a unique application store directory, which is a useful place to store data specific to that application.">
+<![CDATA[Which of the following url schemes would you use to store a user's preferences file (AIR Test/prefs.xml) that is specific to your AIR application? Choose one:]]></question>
+  <answer><![CDATA[app:/prefs.xml]]></answer>
+  <answer><![CDATA[file:///c:/Program%20Files/AIR Test/prefs.xml]]></answer>
+  <answer><![CDATA[app-data:/prefs.xml]]></answer>
+  <answer correct="y"><![CDATA[app-storage:/settings/prefs.xml]]></answer>
+</item>
+<item id="399">
+  <question type="singleChoice" link="http://livedocs.adobe.com/flex/3/html/DragAndDrop_1.html" feedback="D is correct. 
+A PNG image, serialized object, and a URL are all supported transfer formats for the drag-and-drop API.">
+<![CDATA[Which one of the following options is NOT a supported the transfer format for the drag-and-drop API? Choose one:]]></question>
+  <answer>PNG image</answer>
+  <answer>Serialized object</answer>
+  <answer>URL</answer>
+  <answer correct="y">None of the above</answer>
+</item>
+<item id="400">
+  <question type="singleChoice" link="http://livedocs.adobe.com/flex/3/html/help.html?content=WorkingWithWindows_2.html" 
+feedback="C is correct. Lightweight windows have no chrome and do not appear on the Windows task bar or the Mac OS X window menu. 
+In addition, lightweight windows do not have the System (Alt+Space) menu on Windows. 
+Lightweight windows are suitable for notification bubbles and controls such as combo-boxes that open a short-lived display area. 
+When the lightweight type is used, systemChrome must be set to none.">
+<![CDATA[Which of the following AIR window types does NOT appear on the Windows task bar or the Mac OS X window menu, and requires the systemChrome property to be set to 'none'? Choose one:]]></question>
+  <answer>Normal</answer>
+  <answer>Utility</answer>
+  <answer correct="y">Lightweight</answer>
+  <answer>None of the above</answer>
+</item>
+<item id="401">
+  <question type="tf" link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118666ade46-7e5f.html#WS5b3ccc516d4fbf351e63e3d118666ade46-7e4e" 
+feedback="False. Removing an AIR application removes all files in the application directory. However, it does not remove files that the application may have written to outside of the application directory.">
+<![CDATA[True or False: Removing an AIR application will remove all files associated with that application including those written outside of the application directory.]]></question>
+  <answer correct=""><![CDATA[True]]></answer>
+  <answer correct="y"><![CDATA[False]]></answer>
+</item>
+<item id="402">
+  <question type="singleChoice" link="http://livedocs.adobe.com/flex/3/html/help.html?content=security_2.html"
+ feedback="D is correct. On Mac O/S you simply delete the application from the installed location to uninstall it. "><![CDATA[How do you uninstall an AIR application from Mac OS?]]></question>
+  <answer correct=""><![CDATA[Using the Add/Remove Programs to remove the application]]></answer>
+  <answer correct=""><![CDATA[Use the Adobe AIR Uninstaller application in the Applications directory]]></answer>
+  <answer correct=""><![CDATA[Using adt from the command line with the -uninstall flag></answer>
+  <answer correct="y"><![CDATA[Delete the app file from the install location]]></answer>
+</item>
+<item id="402">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118666ade46-7e5b.html" feedback="D is correct. The file:/// alias specifically maps to the users hard drive root. The app:// is not a valid location, app:/ represents an alias to the application directory and file:// is not valid. ">
+  <![CDATA[Which of the following aliases would match this description: "An alias that represents the root of the user's hard disk. A file accessed from this path is assigned an application sandbox if the file exists in the application directory, else a non-application sandbox exists."]]></question>
+  <answer correct=""><![CDATA[app://]]></answer>
+  <answer correct=""><![CDATA[app:/]]></answer>
+  <answer correct=""><![CDATA[file://]]></answer>
+  <answer correct="y"><![CDATA[file:///]]></answer>
+</item>
+<item id="403">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf64595-7fee.html" 
+feedback="A and C are correct. When a Flex application runs in AIR, you can control whether the application uses the Flex drag manager or the AIR drag manager. 
+In AIR, the dragEnter event triggers many times when you drag an item over any component, even if the component is not a valid drop target. The operating system handles the behavior of the cursor and the drag image.">
+<![CDATA[Which of the following options are true statements about using the AIR drag manager as opposed to the Flex drag manager? Choose two:]]></question>
+  <answer correct="y"><![CDATA[dragEnter event triggers many times even if the component is not a valid drop target]]></answer>
+  <answer correct=""><![CDATA[dragEnter event triggers many times only when you drag an item over a valid drop target]]></answer>
+  <answer correct="y"><![CDATA[Custom drop animations cannot used]]></answer>
+  <answer correct=""><![CDATA[DragProxy class animates the drag image based on the results of the drop]]></answer>
+</item>
+<item id="404">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WSacd9bdd0c5c09f4a-690d4877120e8b878b0-7fea.html#WSacd9bdd0c5c09f4a-690d4877120e8b878b0-7fd9" 
+feedback="B and C are correct. 
+FlexNativeMenuEvent.ITEM_CLICK is dispatched when a user selects an enabled menu item of type normal or check. This event is not dispatched when a user selects a menu item that opens a submenu or a disabled menu item. 
+FlexNativeMenuEvent.MENU_SHOW is dispatched when the entire menu or a submenu opens, including a top-level menu of an application or window menu.">
+<![CDATA[Which of the following events are defined by the FlexNativeMenu class and allow for user interaction when building menus for native windows in AIR? Choose two:]]></question>
+  <answer correct=""><![CDATA[menuClick]]></answer>
+  <answer correct="y"><![CDATA[itemClick]]></answer>
+  <answer correct="y"><![CDATA[menuShow]]></answer>
+  <answer correct=""><![CDATA[showItem]]></answer>
+</item>
+<item id="405">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118666ade46-7e09.html#WS5b3ccc516d4fbf351e63e3d118676a452d-7fe7" feedback="C is correct. The AIR window types combine chrome and visibility attributes of the native operating system to create three functional types of window. Use the constants defined in the NativeWindowType class to reference the type names in code. AIR provides the following window types: Normal, Utility, and Lightweight.">
+  <![CDATA[Which of the following options is NOT a valid window type for building an AIR application? Choose one:]]></question>
+  <answer correct=""><![CDATA[Normal]]></answer>
+  <answer correct=""><![CDATA[Utility]]></answer>
+  <answer correct="y"><![CDATA[SystemChrome]]></answer>
+  <answer correct=""><![CDATA[Lightweight]]></answer>
+</item>
+<item id="406">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118666ade46-7d18.html" feedback="B is correct. You would call execute on the SQLStatement object to complete the transaction. The other objects do not have an execute method.">
+  <![CDATA[Complete the following code snippet: var conn:SQLConnection = new SQLConnection(); // The database file is in the application storage directory 
+var folder:File = File.applicationStorageDirectory; var dbFile:File = folder.resolvePath("DBSample.db"); // open the database conn.open(dbFile, OpenMode.UPDATE); // start a transaction conn.begin(); // add the customer record to the database var insertCustomer:SQLStatement = new SQLStatement(); insertCustomer.sqlConnection = conn; insertCustomer.text = "INSERT INTO customers (firstName, lastName) " + "VALUES ('Bob', 'Jones')";]]></question>
+  <answer correct=""><![CDATA[conn.execute();]]></answer>
+  <answer correct="y"><![CDATA[insertCustomer.execute();]]></answer>
+  <answer correct=""><![CDATA[dbFile.execute();]]></answer>
+  <answer correct=""><![CDATA[folder.execute();]]></answer>
+</item>
+<item id="407">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118666ade46-7d42.html" feedback="B and D are correct. You can specify parameters by using the name, with the syntax shown in answer d, or unnamed but via the index, as shown in b.">
+  <![CDATA[Which of the following two statements are valid ways to specify a parameter on a SQLStatement object? Choose two:]]></question>
+  <answer correct=""><![CDATA[addItemStmt.parameters["name"] = "Item name";]]></answer>
+  <answer correct="y"><![CDATA[addItemStmt.parameters[0] = "Item name";]]></answer>
+  <answer correct=""><![CDATA[addItemStmt.parameters[:name] = "Item name";]]></answer>
+  <answer correct="y"><![CDATA[addItemStmt.parameters[":name"] = "Item name";]]></answer>
+</item>
 </topics>

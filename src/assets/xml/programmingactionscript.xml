@@ -1202,4 +1202,200 @@ How do you access the name attribute of the myBooks instance by using E4X?]]></q
 		<answer correct="y"><![CDATA[True]]></answer>
 		<answer><![CDATA[False]]></answer>
 	</item>
+<item id="403">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/ActionScript/3.0_ProgrammingAS3/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fcd.html" feedback="C is correct. The protected keyword indicates that a property is visible not only within the class that defines it, but also to all subclasses. Unlike the protected keyword in the Java programming language, the protected keyword in ActionScript 3.0 does not make a property visible to all other classes in the same package. In ActionScript 3.0, only subclasses can access a property declared with the protected keyword. Moreover, a protected property is visible to a subclass whether the subclass is in the same package as the base class or in a different package.">
+  <![CDATA[Which access control specifier makes a property visible to the class it belongs to, and subclasses only? Choose one:]]></question>
+  <answer correct=""><![CDATA[public]]></answer>
+  <answer correct=""><![CDATA[private]]></answer>
+  <answer correct="y"><![CDATA[protected]]></answer>
+  <answer correct=""><![CDATA[final]]></answer>
+</item>
+<item id="404">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/ActionScript/3.0_ProgrammingAS3/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fcd.html" feedback="B is correct. If a property is declared with private keyword, it is visible only in the class that defines it, which means that it is not inherited by any subclasses. This behavior is different from previous versions of ActionScript, where the private keyword behaved more like the ActionScript 3.0 protected keyword.">
+  <![CDATA[Which access control specifier makes a property visible only to the class that declares it? Choose one:]]></question>
+  <answer correct=""><![CDATA[public]]></answer>
+  <answer correct="y"><![CDATA[private]]></answer>
+  <answer correct=""><![CDATA[protected]]></answer>
+  <answer correct=""><![CDATA[final]]></answer>
+</item>
+
+<item id="405">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/ActionScript/3.0_ProgrammingAS3/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f41.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f21" 
+feedback="C is correct. The method declarations inside an interface definition cannot have any access control specifiers. To fix the errors in this sample, remove the protected access control modifiers on the method definitions.">
+<![CDATA[Consider the following example code. What needs to change to avoid a compile-time error? Choose one: package { public interface IExternalizable { protected function writeExternal(output:IDataOutput):void; protected function readExternal(input:IDataInput):void; } }]]></question>
+  <answer correct=""><![CDATA[Change the protected access control modifiers to public]]></answer>
+  <answer correct=""><![CDATA[Change the protected access control modifiers to internal]]></answer>
+  <answer correct="y"><![CDATA[Do not use access control modifiers for interface method declarations]]></answer>
+  <answer correct=""><![CDATA[Nothing needs to change, this code will not produce a compile-time error]]></answer>
+</item>
+<item id="406">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/ActionScript/3.0_ProgrammingAS3/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f41.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f20" feedback="B is correct. You also have some flexibility with default parameter values. An interface definition can include function declarations with default parameter values. A method that implements such a function declaration must have a default parameter value that is a member of the same data type as the value specified in the interface definition, but the actual value does not have to match. For example, the sample code defines an interface that contains a method with a default parameter value of 3. The class definition implements the IGamma interface but uses a different default parameter value.">
+  <![CDATA[Consider the following code example. What is the output of this code after it is run? Choose one: interface IGamma { function doSomething(param:int = 3):void; } class Gamma implements IGamma { public function doSomething(param:int = 4):void { trace(param); } } var g:Gamma = new Gamma(); g.doSomething();]]></question>
+  <answer correct=""><![CDATA[The output shows the number 3]]></answer>
+  <answer correct="y"><![CDATA[The output shows the number 4]]></answer>
+  <answer correct=""><![CDATA[This code causes an error because the default parameter in the class doesnt match the interface]></answer>
+  <answer correct=""><![CDATA[This code causes an error because default parameters arent allowed in interface methods]]></answer>
+</item>
+
+
+<item id="407">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/ActionScript/3.0_ProgrammingAS3/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f32.html" feedback="A is correct. The internal class property attribute makes a property visible to references inside the same package.">
+  <![CDATA[Which of the following class property attributes makes a property visible to references inside the same package? Choose one:]]></question>
+  <answer correct="y"><![CDATA[internal]]></answer>
+  <answer correct=""><![CDATA[private]]></answer>
+  <answer correct=""><![CDATA[public]]></answer>
+  <answer correct=""><![CDATA[static]]></answer>
+</item>
+
+<item id="408">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/ActionScript/3.0_ProgrammingAS3/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f32.html" feedback="B is correct. The private class property attribute makes a property visible to references in the same class only.">
+  <![CDATA[Which of the following class property attributes makes a property visible to references inside the same class? Choose one:]]></question>
+  <answer correct=""><![CDATA[internal]]></answer>
+  <answer correct="y"><![CDATA[private]]></answer>
+  <answer correct=""><![CDATA[public]]></answer>
+  <answer correct=""><![CDATA[protected]]></answer>
+</item>
+<item id="409">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/ActionScript/3.0_ProgrammingAS3/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f32.html" feedback="D is correct. The static class property attribute specifies that a property belongs to the class, as opposed to instances of the class.">
+  <![CDATA[Which of the following class property attributes specifies that a property belongs to the class, as opposed to instances of the class? Choose one:]]></question>
+  <answer correct=""><![CDATA[internal]]></answer>
+  <answer correct=""><![CDATA[public]]></answer>
+  <answer correct=""><![CDATA[protected]]></answer>
+  <answer correct="y"><![CDATA[static]]></answer>
+</item>
+<item id="410">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7b6b.html#WS2db454920e96a9e51e63e3d11c0bf668d2-7ffe" feedback="B and D are correct. If you use a raw data object, such as an Array, as the value of an MX control�s data provider, Flex automatically wraps the object in a collection wrapper (either an ArrayCollection or XMLListCollection). For Spark controls, you cannot use a raw object as the value of the control�s data provider. You must specify an object that implements the IList interface. Classes that implement IList include ArrayCollection, ArrayList, and XMLListCollection.">
+  <![CDATA[Which of the following options are NOT suitable as a dataProvider for a Spark List control? Choose two:]]></question>
+  <answer correct=""><![CDATA[ArrayCollection]]></answer>
+  <answer correct="y"><![CDATA[Array]]></answer>
+  <answer correct=""><![CDATA[ArrayList]]></answer>
+  <answer correct="y"><![CDATA[Object]]></answer>
+</item>
+<item id="411">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7b6b.html#WS2db454920e96a9e51e63e3d11c0bf668d2-7ff9" feedback="D is correct. The code will not compile because the Spark ComboBox cannot take a raw data object for its dataProvider property. To fix this code, you would either use a Halo ComboBox control, or change the Array to an ArrayList or ArrayCollection. For Spark controls, you cannot use a raw object as the value of the control�s data provider. You must specify an object that implements the IList interface. Classes that implement IList include ArrayCollection, ArrayList, and XMLListCollection. ">
+  <![CDATA[Consider the following sample code. What is shown in the output window at compile time? Choose one: // FX script tag in a Flex Application	 protected function init():void { trace(myCB.dataProvider[0].label); } // end script tag <s:ComboBox id="myCB"> <fx:Array id="stateArray"> <fx:Object label="AL" data="Montgomery"/> <fx:Object label="AK" data="Juneau"/> <fx:Object label="AR" data="Little Rock"/> </fx:Array> </s:ComboBox>]]></question>
+  <answer correct=""><![CDATA[The console window shows AL]]></answer>
+  <answer correct=""><![CDATA[The console window shows AR]]></answer>
+  <answer correct=""><![CDATA[The console window is empty when the application is run]]></answer>
+  <answer correct="y"><![CDATA[This code throws an erorr and won't compile]]></answer>
+</item>
+<item id="412">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf668d2-7ff2.html#WS2db454920e96a9e51e63e3d11c0bf69084-7b66" feedback="D is correct. You use a filter function to limit the data view in the collection to a subset of the source data object. The function must take a single Object parameter, which corresponds to a collection item, and must return a Boolean value specifying whether to include the item in the view. As with sorting, when you specify or change the filter function, you must call the refresh() method on the collection to show the filtered results.">
+  <![CDATA[Which of the options below is the correct format of the filter function when filtering data in a Collection? Choose one:]]></question>
+  <answer correct=""><![CDATA[Parameters must be Objects and the function returns a string]]></answer>
+  <answer correct=""><![CDATA[Parameters must be Objects and the function returns a boolean]]></answer>
+  <answer correct=""><![CDATA[Parameter must be one Object and return a string]]></answer>
+  <answer correct="y"><![CDATA[Parameter must be one Object and return a boolean]]></answer>
+</item>
+<item id="413">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7e3a.html" feedback="D is correct. The FlexGlobals.topLevelApplication is the new syntax that can be used from anywhere in the application to refer to a method or property in the root application. ">
+  <![CDATA[In Flex 4, which property can be used to refer to the main application object's properties and methods from anywhere in the application?]]></question>
+  <answer correct=""><![CDATA[mx.core.UIComponent.Application.application]]></answer>
+  <answer correct=""><![CDATA[FlexComponents.topLevelApplication]]></answer>
+  <answer correct=""><![CDATA[mx.core.UIComponent.parentApplication]]></answer>
+  <answer correct="y"><![CDATA[FlexGlobals.topLevelApplication]]></answer>
+</item>
+<item id="414">
+  <question type="multiChoice" feedback="B is correct. A constant value can only be assigned once, and it must occur either in the declaration or inside the class constructor. Also, this will only compile in standard compile mode, strict mode requires it to be set upon initialization." link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f9b.html">
+  <![CDATA[Which one of the following shows the result of the following code sample? Choose two: class A { public const MINIMUM:int = 0; public const MAXIMUM:int; public function X() { MAXIMUM = 10; } } var a:A = new A(); trace(a.MAXIMUM);]]></question>
+  <answer correct="y"><![CDATA[The trace output produces 0.]]></answer>
+  <answer><![CDATA[The last line throws a run-time error.]]></answer>
+  <answer correct="y"><![CDATA[The code compiles only in standard compiler mode.]]></answer>
+  <answer><![CDATA[The code compiles only in strict mode.]]></answer>
+</item>
+<item id="415">
+  <question feedback="True. You should try to avoid using 'new Array' syntax and use the braces instead, except in the situation where you are allocating an array of a prespecified size, such as new Array(3)." type="tf" link="http://opensource.adobe.com/wiki/display/flexsdk/Coding+Conventions">
+  <![CDATA[True or False: You have to use the Array literals of [] rather than new Array() when constructing an array?]]></question>
+  <answer correct="y">True</answer>
+  <answer>False</answer>
+</item>
+<item id="416">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7ee5.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7edf" feedback="C is correct. The shift() method removes an element from the beginning of the array, which means that it always removes the element at index number 0. The pop() method removes an element from the end of the array. push() places an item on the end of an array.">
+  <![CDATA[Which of the following method calls would be used to remove and return the first element of an array?]]></question>
+  <answer correct=""><![CDATA[push()]]></answer>
+  <answer correct=""><![CDATA[pop()]]></answer>
+  <answer correct="y"><![CDATA[shift()]]></answer>
+  <answer correct=""><![CDATA[getItemAt(0)]]></answer>
+</item>
+<item id="417">
+  <question feedback="A is correct. With e4x, you can use the (*) wildcard symbol with the (@) symbol to access all attributes of an XML or XMLList object as in this example." type="singleChoice" link="http://livedocs.adobe.com/flex/3/html/help.html?content=13_Working_with_XML_08.html">
+  <![CDATA[Given the following ActionScript 3 code, what will be the output of the trace statement? Choose one: var employee:XML = <employee id="1232" code="492"> <lastName>Hu</lastName> <firstName>John</firstName> </employee>; trace (employee.@*.toXMLString());]]></question>
+  <answer correct="y">1232 492</answer>
+  <answer>1232</answer>
+  <answer>Hu</answer>
+  <answer>John</answer>
+</item>
+<item id="418">
+  <question type="singleChoice" feedback="C is correct. '3.95' would be the resulting output from the trace statement as the traced asked for the price of a menuName node with 'burger' as it's text." link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7e72.html">
+  <![CDATA[Given the following ActionScript 3 code, what will be the output of the trace statement? Choose one: var myXML:XML = <order> <item id='1'> <menuName>burger</menuName> <price>3.95</price> </item> <item id='2'> <menuName>milkshake</menuName> <price>1.50</price> </item> </order>	 trace(myXML.item.(menuName=="burger").price);]]></question>
+  <answer>burger</answer>
+  <answer>milkshake</answer>
+  <answer correct="y">3.95</answer>
+  <answer>1.50</answer>
+</item>
+<item id="419">
+  <question feedback="D is correct. xml.firstname and xml.@id added the new node and attribute to the XML document succesfully, and the trace statement output the child nodes with the XML." type="singleChoice" link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7e68.html">
+  <![CDATA[Given the following ActionScript 3 code, what would be the output of the trace statement? Choose one: var xml:XML = <employee> <lastname>Jones</lastname> </employee> xml.firstname = "Cindy"; xml.@id = "448"; trace(xml.children());]]></question>
+  <answer><![CDATA[<lastname></lastname><firstname></firstname>]]></answer>
+  <answer><![CDATA[Jones Cindy]]></answer>
+  <answer><![CDATA[2]]></answer>
+  <answer correct="y"><![CDATA[<lastname>Jones</lastname><firstname>Cindy</firstname>]]></answer>
+</item>
+<item id="420">
+  <question feedback="C is correct. Your custom validator class must contain an override of the protected Validator.doValidation() method that takes a single argument, value, of type Object, and returns an Array of ValidationResult objects. You return one ValidationResult object for each field that the validator examines and that fails the validation." type="singleChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf68c0f-7ffb.html">If you have created a custom Validator class for your project, then which protected method of the Validator class must be overrided? Choose one:</question>
+  <answer>handleResults()</answer>
+  <answer>validate()</answer>
+  <answer correct="y">doValidation()</answer>
+  <answer>validateAll()</answer>
+</item>
+<item id="421">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/mx/collections/Sort.html" feedback="A and D are correct. To sort this ArrayCollection on the last name first, and then first name, you would call col.sort = sort; and col.refresh(); on the ArrayCollection to do the actual sorting.">
+  <![CDATA[Which of the following are needed in order to sort the ArrayCollection on the last name first, and first name second? Choose two. var col:ICollectionView = new ArrayCollection(); col.addItem({first:"Anders", last:"Dickerson"}); var sort:Sort = new Sort(); sort.fields = [new SortField("last",true), new SortField("first",true)]; ...add code here...]]></question>
+  <answer correct="y">col.sort = sort;</answer>
+  <answer>col.sort();</answer>
+  <answer>col.sort = sort.fields;</answer>
+  <answer correct="y">col.refresh();</answer>
+</item>
+<item id="422">
+  <question feedback="False. You have to specify an array element as the source of a data binding expression by using the square bracket syntax, [], data binding is only triggered when the application starts and when the array or a reference to the array is updated; data binding is not triggered when the individual array element is updated. However, the data binding expression myAC.getItemAt(0) is triggered when an array element changes." type="tf" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf64c3d-7ff3.html">
+  <![CDATA[True or False:You specify an array element itself as the source of a data binding expression by using the square bracket syntax, ie: text="{myAC[0]}", data binding is triggered when the individual array element is updated.]]></question>
+  <answer>True</answer>
+  <answer correct="y">False</answer>
+</item>
+<item id="423">
+  <question type="singleChoice" feedback="D is correct. Getter and setter functions also make it possible to override properties that are inherited from a superclass, something that is not possible when you use regular class member variables. The advantage of this approach is that it allows you to avoid the traditional accessor functions with unwieldy names, such as getPropertyName() and setPropertyName().Get and set functions allow you to keep your class properties private to the class, but allow users of your class to access those properties as if they were accessing a class variable instead of calling a class method." link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f36.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7fcb">
+  <![CDATA[Which of the following statements are true in regards to the ActionScript accessors? Choose One:]]></question>
+  <answer><![CDATA[Allow users of your class to access those properties as if they were accessing a class variable instead of calling a class method]]></answer>
+  <answer><![CDATA[Avoid issues with using traditional accessor function naming (getXX)]]></answer>
+  <answer><![CDATA[Make it possible to override properties that are inherited from a superclass]]></answer>
+  <answer correct="y"><![CDATA[All of the above]]></answer>
+</item>
+<item id="424">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fcd.html" feedback="A is correct. The code will cause a run-time error, it will, however, compile in standard mode. Static properties are not inherited by subclasses. This means that static properties cannot be accessed through an instance of a subclass. A static property can be accessed only through the class object on which it is defined.">
+  <![CDATA[Which among the following is the result of running the ActionScript 3 code below? Choose one: package { import flash.display.MovieClip; public class StaticExample extends MovieClip { public function StaticExample() { var myWidget:Widget = new Widget(); trace(myWidget.test); } } } class Base { public static var test:String = "static"; } class Widget extends Base { }]]></question>
+  <answer correct="y">this code will cause a run-time error</answer>
+  <answer>the word "static" will be printed to the console</answer>
+  <answer>the word "null" will be printed to the console</answer>
+  <answer>this code will not compile in standard mode</answer>
+</item>
+<item id="425">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7b6b.html#WS2db454920e96a9e51e63e3d11c0bf668d2-7ffe" feedback="A and B are correct. ArrayList is a standard collection for working with Arrays. They implement the IList interface. You can use this class instead of the ArrayCollection class if you do not need to sort, filter, or use cursors in your collection.">
+  <![CDATA[Which of among the following options can use an ArrayList instead of an ArrayCollection as a data provider for a component? Choose any two:]]></question>
+  <answer correct="y"><![CDATA[ArrayLists are more lightweight than ArrayCollections]]></answer>
+  <answer correct="y"><![CDATA[Use ArrayLists when you don't need to support sorting, filtering, or cursors]]></answer>
+  <answer correct=""><![CDATA[ArrayLists provide more features than ArrayCollections like sorting, filtering, and cursors]]></answer>
+  <answer correct=""><![CDATA[ArrayLists provides find, seek, and bookmarking capabilities]]></answer>
+</item>
+<item id="426">
+  <question type="tf" link="http://help.adobe.com/en_US/flex/using/WS2db454920e96a9e51e63e3d11c0bf69084-7b6b.html#WS2db454920e96a9e51e63e3d11c0bf668d2-7ff9" feedback="False. When the data is static, you can use a raw data object, such as an Array object, directly as a data provider for an MX control. For Spark list-based controls, you cannot use a raw object as the value of the controls data provider. You must specify an object that implements the IList interface. Classes that implement IList include ArrayCollection, ArrayList, and XMLListCollection.">
+  <![CDATA[True or False? You can use a raw object as the value of an MX control's or Spark list-based control's dataProvider property.]]></question>
+  <answer correct=""><![CDATA[True]]></answer>
+  <answer correct="y"><![CDATA[False]]></answer>
+</item>
+<item id="427">
+  <question type="tf" link="http://help.adobe.com/en_US/as3/learn/WS5b3ccc516d4fbf351e63e3d118a9b90204-7fcd.html" feedback="False. The names of the parameters in the override method do not have to match the names of the parameters in the base class, as long as the number of parameters and the data type of each parameter matches.">
+  <![CDATA[True or False? When overriding a method, the names of the parameters must match the names of the parameters in the base class?]]></question>
+  <answer correct=""><![CDATA[True]]></answer>
+  <answer correct="y"><![CDATA[False]]></answer>
+</item>
 </topics>

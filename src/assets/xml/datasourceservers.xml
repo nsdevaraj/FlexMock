@@ -1,4 +1,4 @@
-<topics>
+﻿<topics>
 	<item id="250">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f10.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f0b"
@@ -303,78 +303,127 @@
 			link="http://help.adobe.com/en_US/LiveCycleDataServicesES/3.1/Developing/WSc3ff6d0ea77859461172e0811f00f7045b-7f83Update.html"
 			feedback="True. By default, the Data Management Service detects data changes made from Flex clients and the server push API and propagates those changes to other clients. You can change this default behavior for a specific destination by setting auto-sync-enabled to false in the destination configuration.">
 			<![CDATA[When using LiveCycle Data Services, the default value of autoSyncEnabled on the client side is true.]]></question>
-		<answer correct="y"><![CDATA[ True ]]></answer>
-		<answer><![CDATA[ False ]]></answer>
+		<answer correct="y"><![CDATA[True]]></answer>
+		<answer><![CDATA[False]]></answer>
 	</item>
 	<item id="501">
 	  <question type="singleChoice"
               link="http://help.adobe.com/en_US/LiveCycleDataServicesES/3.1/Developing/WSc3ff6d0ea77859461172e0811f00f7045b-7f7bUpdate.html"
               feedback="C. The three types of paging supported which are association property loading, client-to-server and server-to-data-source. Server-to-server paging is not a type of paging option.">
               <![CDATA[In Data Services liveCycle which the following one is not support data paging]]></question>
-      <answer correct=""><![CDATA[ Association property loading ]]></answer>
-      <answer correct=""><![CDATA[ Client-to-server paging ]]></answer>
-      <answer correct="y"><![CDATA[ Server-to-server paging ]]></answer>
-      <answer correct=""><![CDATA[ Server-to-data-source paging ]]></answer>
+      <answer correct=""><![CDATA[Association property loading]]></answer>
+      <answer correct=""><![CDATA[Client-to-server paging]]></answer>
+      <answer correct="y"><![CDATA[Server-to-server paging]]></answer>
+      <answer correct=""><![CDATA[Server-to-data-source paging]]></answer>
     </item>
 	<item id="502">
 		<question type="singleChoice"
 			link="http://help.adobe.com/en_US/LiveCycleDataServicesES/3.1/Developing/WSc3ff6d0ea77859461172e0811f00f7045b-7f7bUpdate.html"
 			feedback="D. All of these statements are true in regards to why you would use data paging.">
 			<![CDATA[Main reason to implement the Data paging is?]]></question>
-		<answer><![CDATA[ To decrease query time ]]></answer>
-		<answer><![CDATA[ To improve performance with large sets of data ]]></answer>
-		<answer><![CDATA[ Reduce the amount of consumer memory ]]></answer>
-		<answer correct="y"><![CDATA[ All of the above ]]></answer>
+		<answer><![CDATA[To decrease query time]]></answer>
+		<answer><![CDATA[To improve performance with large sets of data]]></answer>
+		<answer><![CDATA[Reduce the amount of consumer memory]]></answer>
+		<answer correct="y"><![CDATA[All of the above]]></answer>
 	</item>
 	<item id="503">
 		<question type="tf"
 			link="http://help.adobe.com/en_US/LiveCycleDataServicesES/3.1/Developing/WSc3ff6d0ea77859461172e0811f00f7045b-7f83Update.html"
 			feedback="True. Changing the value of the autoSyncEnabled property does not affect existing managed objects on that client. It only affects fill(), getItem() and createItem() method calls that you make after changing the value. ">
-			<![CDATA[True or False: If the LiveCycle Data Services are used, then we had a managed instances which sets autoSyncEnabled to true 
-			and others  set autoSyncEnabled to false from the same destination in the same client.]]></question>
-		<answer correct="y"><![CDATA[ True ]]></answer>
-		<answer><![CDATA[ False ]]></answer>
+			<![CDATA[True or False: If the LiveCycle Data Services are used, then we had a managed instances which sets autoSyncEnabled to true and others  set autoSyncEnabled to false from the same destination in the same client.]]></question>
+		<answer correct="y"><![CDATA[True]]></answer>
+		<answer><![CDATA[False]]></answer>
 	</item>
 	<item id="504">
 		<question type="singleChoice"
                 link="http://help.adobe.com/en_US/LiveCycleDataServicesES/3.1/Developing/WSc3ff6d0ea77859461172e0811f00f7045b-7f83Update.html#WSc3ff6d0ea77859461172e0811f00f6f23a-7ffeUpdate"
    				feedback="B is correct. The connected property on a DataService object will indicate the current status as connected or disconnected. The other choices are not valid properties of DataService."><![CDATA[Which among the following properties would be used to detect if the server is online or offline while using the DataService object?]]></question>
-  		<answer correct=""><![CDATA[ isOnline ]]></answer>
-  		<answer correct="y"><![CDATA[ connected ]]></answer>
-  		<answer correct=""><![CDATA[ isConnected ]]></answer>
-  		<answer correct=""><![CDATA[ online ]]></answer>
+  		<answer correct=""><![CDATA[isOnline]]></answer>
+  		<answer correct="y"><![CDATA[connected]]></answer>
+  		<answer correct=""><![CDATA[isConnected]]></answer>
+  		<answer correct=""><![CDATA[online]]></answer>
  	</item>
 	<item id="505">
   		<question type="singleChoice"
    				feedback="D. Check the proper syntax for sending a message."
   				link="http://livedocs.adobe.com/livecycle/8.2/programLC/programmer/lcds/messaging_3.html">
    		<![CDATA[Given the sample code, what line of code could be added in sendMessage() method for sending message to the destination? Choose one: private function createProducer():void { producer = new Producer(); producer.destination = "chat"; producer.addEventListener(MessageAckEvent.ACKNOWLEDGE, acknowledgeHandler); producer.addEventListener(MessageFaultEvent.FAULT, faultHandler); } private function sendMessage():void { var msg:AsyncMessage = new AsyncMessage(); msg.body = “My Message”; (add code here) }]]></question>
- 		 <answer><![CDATA[ producer.sendMessage(msg); ]]></answer>
-  		<answer><![CDATA[ AsyncMessage.send(msg); ]]></answer>
-  		<answer><![CDATA[ Producer.send(msg); ]]></answer>
-  		<answer correct="y"><![CDATA[ producer.send(msg); ]]></answer>
+ 		 <answer><![CDATA[producer.sendMessage(msg);]]></answer>
+  		<answer><![CDATA[AsyncMessage.send(msg);]]></answer>
+  		<answer><![CDATA[Producer.send(msg);]]></answer>
+  		<answer correct="y"><![CDATA[producer.send(msg);]]></answer>
  	</item>
  	<item id="506">
   		<question type="multiChoice"
    			link="http://www.adobe.com/devnet/livecycle/articles/lcdses2_mdd_quickstart_02.html"
    			feedback="B and D. To set up model-driven development,the flex-config or data-management-config files should not be edited."><![CDATA[Which of the following should not br edited for model-driven development?]]></question>
   		<answer correct=""><![CDATA[Download and install the application modeling plugin]]></answer>
- 		<answer correct="y"><![CDATA[ Edit the data-management-config.xml ]]></answer>
-  		<answer correct=""><![CDATA[ Define an RDS server ]]></answer>
-  		<answer correct="y"><![CDATA[ Edit the flex-config.xml ]]></answer>
+ 		<answer correct="y"><![CDATA[Edit the data-management-config.xml]]></answer>
+  		<answer correct=""><![CDATA[Define an RDS server]]></answer>
+  		<answer correct="y"><![CDATA[Edit the flex-config.xml]]></answer>
  </item>
  <item id="507">
   <question type="tf"
    link="http://help.adobe.com/en_US/LiveCycleDataServicesES/3.1/Developing/WSc3ff6d0ea77859461172e0811f00f7045b-7ffcUpdate.html"
    feedback="False. The HTTPService and WebService RPC Components are used by the Proxy Service but the RemoteObject component uses the Remoting Service, which exposes plain old Java objects (POJOs) as service destinations that your client-side RemoteObject components can access on the server."><![CDATA[True or False: If the RemoteObject, HTTPService and WebService coponents are used by the Proxy Services?]]></question>
-  <answer correct=""><![CDATA[ True ]]></answer>
-  <answer correct="y"><![CDATA[ False ]]></answer>
+  <answer correct=""><![CDATA[True]]></answer>
+  <answer correct="y"><![CDATA[False]]></answer>
  </item>
  <item id="508">
   <question type="tf"
    link="http://help.adobe.com/en_US/LiveCycleDataServicesES/3.1/Developing/WSc3ff6d0ea77859461172e0811f00f7045b-7fa2Update.html#WSc3ff6d0ea77859461172e0811f00f7045b-7fb2Update"
    feedback="True.WSDL(Web Services Description Language) is a standard format for describing the messages that a web service understands, the format of its responses to those messages, the protocols that the web service supports, and where to send messages. "><![CDATA[True or False: If the WSDL(Web Services Description Language) is a standard format used for describing the messages that a web service understands, the format of its responses to those messages, the protocols that the web service supports, and where to send messages.]]></question>
-  <answer correct=""><![CDATA[ False ]]></answer>
-  <answer correct="y"><![CDATA[ True ]]></answer>
+  <answer correct=""><![CDATA[False]]></answer>
+  <answer correct="y"><![CDATA[True]]></answer>
  </item>
+<item id="509">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7cf8.html" feedback="C is correct.  If the user selects multiple files using the FileReferenceList.browse() method, Flash Player creates an array of selected files called FileReferenceList.fileList."><![CDATA[Which property on the FileReferenceList component will hold an array of files when the user selects multiple files from their local file system after the FileReferenceList.browse() method is called? Select one:]]></question>
+  <answer correct=""><![CDATA[fileArray]]></answer>
+  <answer correct=""><![CDATA[files]]></answer>
+  <answer correct="y"><![CDATA[fileList]]></answer>
+  <answer correct=""><![CDATA[fileSet]]></answer>
+</item>
+<item id="510">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7cf8.html" feedback="C is correct. The save() method opens a dialog box and prompts the user to choose a single file location on the local file system. It then saves data to the specified location."><![CDATA[Which of the following methods is used on the FileReference object to store a file on the local file system? Choose one:]]></question>
+  <answer correct=""><![CDATA[load()]]></answer>
+  <answer correct=""><![CDATA[download()]]></answer>
+  <answer correct="y"><![CDATA[save()]]></answer>
+  <answer correct=""><![CDATA[saveFile()]]></answer>
+</item>
+<item id="511">
+  <question type="tf" link="http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7cf8.html" feedback="True. You must first call the FileReference.browse() method to let the user select a file to load. This restriction does not apply to content running in Adobe AIR in the application security sandbox.">
+  <![CDATA[True or False: When using the FileReference component outside of an AIR application you must always call the browse() method first before calling load().]]></question>
+  <answer correct="y"><![CDATA[True]]></answer>
+  <answer correct=""><![CDATA[False]]></answer>
+</item>
+<item id="512">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/Flex/4.0/AccessingData/WSbde04e3d3e6474c4-668f02f4120d422cf08-7fef.html#WSbde04e3d3e6474c4-7ec252e8124ee8bd5e8-8000" feedback="C is correct. Data management allows you to synchronize updates to data on the server. Changes to data made in the client application are not updated on the server until you call the service.commit method. If autoCommit is true, then updates to server data are not cached, but are made immediately.">
+  <![CDATA[Which of the following options is the simplest way to ensure that data is not cached on the client side when working with Data Management? Choose one:]]></question>
+  <answer correct=""><![CDATA[Setting deleteItemOnRemoveFromFill on the service to true]]></answer>
+  <answer correct=""><![CDATA[Setting deleteItemOnRemoveFromFill on the service to false]]></answer>
+  <answer correct="y"><![CDATA[Setting autoCommit on the service to true]]></answer>
+  <answer correct=""><![CDATA[Setting autoCommit on the service to false]]></answer>
+</item>
+<item id="513">
+  <question type="multiChoice" link="http://help.adobe.com/en_US/Flex/4.0/AccessingData/WSbde04e3d3e6474c4-56c6d6d11210238e6e8-8000.html#WSbde04e3d3e6474c4-2ced3c791210307ae27-8000" feedback="A and B are correct. When you call service operations for a managed data type, the changes are reflected in the client application. However, you can specify that data on the server is not updated until you call the DataManagers commit method. When data management is enabled for a service, the service has an autoCommit flag. By default, autoCommit is false. If autoCommit is true, then updates are sent to the server immediately and you cannot call revertChanges to discard changes.">
+  <![CDATA[Which of the following are true statements concerning the code sample below? Choose two: bookService.getDataManager(bookService.DATA_MANAGER__BOOK).autoCommit = true;]]></question>
+  <answer correct="y"><![CDATA[Updates to this service are sent to the server immediately]]></answer>
+  <answer correct="y"><![CDATA[You cannot call revertChanges() to discard changes]]></answer>
+  <answer correct=""><![CDATA[You can call the service’s revertChanges()]]></answer>
+  <answer correct=""><![CDATA[Updates to the service are cached]]></answer>
+</item>
+<item id="514">
+  <question type="singleChoice" link="http://help.adobe.com/en_US/Flex/4.0/AccessingData/WS2db454920e96a9e51e63e3d11c0bf69084-7fde.html#WS2db454920e96a9e51e63e3d11c0bf66651-7fce" feedback="C is correct. If argument tags inside an arguments tag have the same name, service calls fail if the remote method is not expecting an array as the only input source. There is no warning about this when the application is compiled.">
+  <![CDATA[What happens when you attempt to use the RemoteObject in the code below? Choose one: <fx:Declarations> <mx:RemoteObject id="ro" destination="roDest"> <mx:method name="setData"> <mx:arguments> <arg1>1</arg1> <arg1>2</arg1> </mx:arguments> </mx:method> </mx:RemoteObject> </fx:Declarations>]]></question>
+  <answer correct=""><![CDATA[An error is thrown because the argument names are the same]]></answer>
+  <answer correct=""><![CDATA[This code will not compile because the arguments are unbound]]></answer>
+  <answer correct="y"><![CDATA[Service calls fail if the remote method is not expecting an array]]></answer>
+  <answer correct=""><![CDATA[The remote method call will know to separate the arguements due to their order]]></answer>
+</item>
+<item id="515">
+  <question type="tf" link="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/net/URLRequest.html?filter_air=2#authenticate" feedback="True. The FileReference.upload(), FileReference.download(), and HTMLLoader.load() methods do not support the URLRequest.authenticate property">
+  <![CDATA[True or False? The FileReference.upload(), FileReference.download(), and HTMLLoader.load() methods do not support the URLRequest.authenticate property?]]></question>
+  <answer correct="y"><![CDATA[True]]></answer>
+  <answer correct=""><![CDATA[False]]></answer>
+</item>
 </topics>
